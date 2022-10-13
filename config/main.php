@@ -12,7 +12,11 @@ return [
     'homeUrl'=>'/restapi',
     'controllerNamespace' => 'restapi\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'modules' => [
+        'v1' => [
+            'class' => 'restapi\modules\v1\Module',
+        ],
+    ],
     'components' => [
         'request' => [
             'baseUrl'=>'/restapi',
@@ -42,15 +46,24 @@ return [
         'urlManager' => [
             'baseUrl'=>'/restapi',
             'enablePrettyUrl' => true,
-            'enableStrictParsing' => true,
+            'enableStrictParsing' => true, //s
             'showScriptName' => false,
             'rules' => [
                 'auth'=>'auth/login',
                 'reg'=>'auth/reg',
-
+                'v1'=>'v1/default',
                 [
-                    'class' => 'yii\rest\UrlRule', 
+                    'class' => 'yii\rest\UrlRule',
                     'controller' => ['post'],
+                ],
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'controller' => [
+                        'v1/default',
+                        'v1/product-category',
+                        'v1/products',
+                    ],
+
                 ],
             ],
         ],

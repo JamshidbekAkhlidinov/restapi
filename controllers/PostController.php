@@ -7,7 +7,7 @@ use yii\data\ActiveDataProvider;
 
 class PostController extends MyController {
 
-    public $modelClass = News::class;
+    //public $modelClass = News::class;
 
     public function actionIndex(){
         
@@ -48,16 +48,7 @@ class PostController extends MyController {
         ];
     }
 
-    protected function verbs()
-    {
-        return [
-            'index' => ['GET', 'HEAD'],
-            'view' => ['GET', 'HEAD'],
-            'create' => ['POST'],
-            'update' => ['PUT', 'PATCH'],
-            'delete' => ['DELETE'],
-        ];
-    }
+
 
     public function actionUpdate($id){
 
