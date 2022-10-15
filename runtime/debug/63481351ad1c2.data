@@ -1,0 +1,582 @@
+a:14:{s:6:"config";s:1539:"a:5:{s:10:"phpVersion";s:5:"8.1.5";s:10:"yiiVersion";s:6:"2.0.46";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.46";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:5:"8.1.5";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:5:{s:23:"yiisoft/yii2-bootstrap5";a:4:{s:4:"name";s:23:"yiisoft/yii2-bootstrap5";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap5";s:64:"D:\OpenServerDev\domains\yii2\vendor/yiisoft/yii2-bootstrap5/src";}s:9:"bootstrap";s:40:"yii\bootstrap5\i18n\TranslationBootstrap";}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.21.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:59:"D:\OpenServerDev\domains\yii2\vendor/yiisoft/yii2-debug/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:59:"D:\OpenServerDev\domains\yii2\vendor/yiisoft/yii2-faker/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:57:"D:\OpenServerDev\domains\yii2\vendor/yiisoft/yii2-gii/src";}}s:26:"yiisoft/yii2-symfonymailer";a:3:{s:4:"name";s:26:"yiisoft/yii2-symfonymailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:18:"@yii/symfonymailer";s:67:"D:\OpenServerDev\domains\yii2\vendor/yiisoft/yii2-symfonymailer/src";}}}}";s:3:"log";s:8691:"a:1:{s:8:"messages";a:24:{i:0;a:6:{i:0;s:68:"Bootstrap with yii\bootstrap5\i18n\TranslationBootstrap::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1665667921.699829;i:4;a:0:{}i:5;i:2591512;}i:1;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1665667921.700704;i:4;a:0:{}i:5;i:2701976;}i:2;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1665667921.700715;i:4;a:0:{}i:5;i:2702776;}i:3;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1665667921.708651;i:4;a:0:{}i:5;i:3739896;}i:4;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1665667921.71242;i:4;a:0:{}i:5;i:4238648;}i:5;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1665667921.712755;i:4;a:0:{}i:5;i:4263464;}i:18;a:6:{i:0;s:37:"Route requested: 'v1/products/update'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1665667921.715192;i:4;a:0:{}i:5;i:4493240;}i:19;a:6:{i:0;s:18:"Loading module: v1";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1665667921.715197;i:4;a:0:{}i:5;i:4494864;}i:20;a:6:{i:0;s:32:"Route to run: v1/products/update";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1665667921.717103;i:4;a:0:{}i:5;i:4709032;}i:21;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.729785;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6121984;}i:22;a:6:{i:0;s:63:"Opening DB connection: mysql:host=localhost;dbname=yii2advanced";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1665667921.729816;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6189960;}i:27;a:6:{i:0;s:764:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'user' AND `kcu`.`TABLE_NAME` = 'user'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.743572;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6267816;}i:30;a:6:{i:0;s:76:"SELECT * FROM `user` WHERE `access_token`='uCPfJ5WIPk-OJzaxnVvrGh30Sqh77cKC'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.746709;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6536808;}i:33;a:6:{i:0;s:55:"User '2' logged in from 127.0.0.1. Session not enabled.";i:1;i:4;i:2;s:19:"yii\web\User::login";i:3;d:1665667921.749583;i:4;a:0:{}i:5;i:6926480;}i:34;a:6:{i:0;s:65:"Rate limit skipped: "user" does not implement RateLimitInterface.";i:1;i:4;i:2;s:37:"yii\filters\RateLimiter::beforeAction";i:3;d:1665667921.74961;i:4;a:0:{}i:5;i:6925280;}i:35;a:6:{i:0;s:81:"Running action: restapi\modules\v1\controllers\ProductsController::actionUpdate()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1665667921.749646;i:4;a:0:{}i:5;i:6926016;}i:36;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `products`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.74997;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6976872;}i:39;a:6:{i:0;s:772:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'products' AND `kcu`.`TABLE_NAME` = 'products'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.750931;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6986520;}i:42;a:6:{i:0;s:40:"SELECT * FROM `products` WHERE `id`='22'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.751722;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6989048;}i:45;a:6:{i:0;s:164:"Failed to set unsafe attribute '----------------------------110496790014867076037627
+Content-Disposition:_form-data;_name' in 'restapi\modules\v1\models\Products'.";i:1;i:8;i:2;s:33:"yii\base\Model::onUnsafeAttribute";i:3;d:1665667921.753514;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:89;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}}i:5;i:7181728;}i:46;a:6:{i:0;s:79:"SELECT EXISTS(SELECT * FROM `product_category` WHERE `product_category`.`id`=1)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.754405;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:106;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7256072;}i:49;a:6:{i:0;s:45:"SELECT * FROM `product_category` WHERE `id`=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.755678;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7384432;}i:52;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `product_category`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.755888;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7395232;}i:55;a:6:{i:0;s:788:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'product_category' AND `kcu`.`TABLE_NAME` = 'product_category'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.757829;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7403328;}}}";s:9:"profiling";s:12522:"a:3:{s:6:"memory";i:7524056;s:4:"time";d:0.07080698013305664;s:8:"messages";a:22:{i:23;a:6:{i:0;s:63:"Opening DB connection: mysql:host=localhost;dbname=yii2advanced";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1665667921.729826;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6191088;}i:24;a:6:{i:0;s:63:"Opening DB connection: mysql:host=localhost;dbname=yii2advanced";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1665667921.74151;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6234704;}i:25;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.741548;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6234808;}i:26;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.742912;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6247112;}i:28;a:6:{i:0;s:764:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'user' AND `kcu`.`TABLE_NAME` = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.743594;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6268856;}i:29;a:6:{i:0;s:764:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'user' AND `kcu`.`TABLE_NAME` = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.744373;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6271032;}i:31;a:6:{i:0;s:76:"SELECT * FROM `user` WHERE `access_token`='uCPfJ5WIPk-OJzaxnVvrGh30Sqh77cKC'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.746726;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6538096;}i:32;a:6:{i:0;s:76:"SELECT * FROM `user` WHERE `access_token`='uCPfJ5WIPk-OJzaxnVvrGh30Sqh77cKC'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.746907;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6540848;}i:37;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `products`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.749983;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6978104;}i:38;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `products`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.75084;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6986904;}i:40;a:6:{i:0;s:772:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'products' AND `kcu`.`TABLE_NAME` = 'products'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.750944;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6987560;}i:41;a:6:{i:0;s:772:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'products' AND `kcu`.`TABLE_NAME` = 'products'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.751634;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6990600;}i:43;a:6:{i:0;s:40:"SELECT * FROM `products` WHERE `id`='22'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.751732;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6990336;}i:44;a:6:{i:0;s:40:"SELECT * FROM `products` WHERE `id`='22'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.751866;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6992304;}i:47;a:6:{i:0;s:79:"SELECT EXISTS(SELECT * FROM `product_category` WHERE `product_category`.`id`=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.754422;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:106;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7257360;}i:48;a:6:{i:0;s:79:"SELECT EXISTS(SELECT * FROM `product_category` WHERE `product_category`.`id`=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.754601;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:106;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7258736;}i:50;a:6:{i:0;s:45:"SELECT * FROM `product_category` WHERE `id`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.755694;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7385720;}i:51;a:6:{i:0;s:45:"SELECT * FROM `product_category` WHERE `id`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.755835;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7387440;}i:53;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `product_category`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.7559;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7396464;}i:54;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `product_category`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.757567;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7401728;}i:56;a:6:{i:0;s:788:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'product_category' AND `kcu`.`TABLE_NAME` = 'product_category'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.757879;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7404368;}i:57;a:6:{i:0;s:788:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'product_category' AND `kcu`.`TABLE_NAME` = 'product_category'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.758802;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7406544;}}}";s:2:"db";s:11733:"a:1:{s:8:"messages";a:20:{i:25;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.741548;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6234808;}i:26;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.742912;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6247112;}i:28;a:6:{i:0;s:764:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'user' AND `kcu`.`TABLE_NAME` = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.743594;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6268856;}i:29;a:6:{i:0;s:764:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'user' AND `kcu`.`TABLE_NAME` = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.744373;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6271032;}i:31;a:6:{i:0;s:76:"SELECT * FROM `user` WHERE `access_token`='uCPfJ5WIPk-OJzaxnVvrGh30Sqh77cKC'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.746726;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6538096;}i:32;a:6:{i:0;s:76:"SELECT * FROM `user` WHERE `access_token`='uCPfJ5WIPk-OJzaxnVvrGh30Sqh77cKC'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.746907;i:4;a:1:{i:0;a:5:{s:4:"file";s:52:"D:\OpenServerDev\domains\yii2\common\models\User.php";s:4:"line";i:76;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6540848;}i:37;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `products`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.749983;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6978104;}i:38;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `products`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.75084;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6986904;}i:40;a:6:{i:0;s:772:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'products' AND `kcu`.`TABLE_NAME` = 'products'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.750944;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6987560;}i:41;a:6:{i:0;s:772:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'products' AND `kcu`.`TABLE_NAME` = 'products'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.751634;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6990600;}i:43;a:6:{i:0;s:40:"SELECT * FROM `products` WHERE `id`='22'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.751732;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6990336;}i:44;a:6:{i:0;s:40:"SELECT * FROM `products` WHERE `id`='22'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.751866;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:6992304;}i:47;a:6:{i:0;s:79:"SELECT EXISTS(SELECT * FROM `product_category` WHERE `product_category`.`id`=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.754422;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:106;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7257360;}i:48;a:6:{i:0;s:79:"SELECT EXISTS(SELECT * FROM `product_category` WHERE `product_category`.`id`=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.754601;i:4;a:1:{i:0;a:5:{s:4:"file";s:83:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php";s:4:"line";i:106;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7258736;}i:50;a:6:{i:0;s:45:"SELECT * FROM `product_category` WHERE `id`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.755694;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7385720;}i:51;a:6:{i:0;s:45:"SELECT * FROM `product_category` WHERE `id`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.755835;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7387440;}i:53;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `product_category`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.7559;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7396464;}i:54;a:6:{i:0;s:41:"SHOW FULL COLUMNS FROM `product_category`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.757567;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7401728;}i:56;a:6:{i:0;s:788:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'product_category' AND `kcu`.`TABLE_NAME` = 'product_category'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.757879;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7404368;}i:57;a:6:{i:0;s:788:"SELECT
+    `kcu`.`CONSTRAINT_NAME` AS `constraint_name`,
+    `kcu`.`COLUMN_NAME` AS `column_name`,
+    `kcu`.`REFERENCED_TABLE_NAME` AS `referenced_table_name`,
+    `kcu`.`REFERENCED_COLUMN_NAME` AS `referenced_column_name`
+FROM `information_schema`.`REFERENTIAL_CONSTRAINTS` AS `rc`
+JOIN `information_schema`.`KEY_COLUMN_USAGE` AS `kcu` ON
+    (
+        `kcu`.`CONSTRAINT_CATALOG` = `rc`.`CONSTRAINT_CATALOG` OR
+        (`kcu`.`CONSTRAINT_CATALOG` IS NULL AND `rc`.`CONSTRAINT_CATALOG` IS NULL)
+    ) AND
+    `kcu`.`CONSTRAINT_SCHEMA` = `rc`.`CONSTRAINT_SCHEMA` AND
+    `kcu`.`CONSTRAINT_NAME` = `rc`.`CONSTRAINT_NAME`
+WHERE `rc`.`CONSTRAINT_SCHEMA` = database() AND `kcu`.`TABLE_SCHEMA` = database()
+AND `rc`.`TABLE_NAME` = 'product_category' AND `kcu`.`TABLE_NAME` = 'product_category'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1665667921.758802;i:4;a:1:{i:0;a:5:{s:4:"file";s:68:"D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php";s:4:"line";i:15;s:8:"function";s:5:"__get";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:7406544;}}}";s:5:"event";s:5211:"a:29:{i:0;a:5:{s:4:"time";d:1665667921.714908;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1665667921.717186;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1665667921.717193;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"restapi\modules\v1\Module";}i:3;a:5:{s:4:"time";d:1665667921.726848;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:4;a:5:{s:4:"time";d:1665667921.741498;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:5;a:5:{s:4:"time";d:1665667921.74722;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"common\models\User";}i:6;a:5:{s:4:"time";d:1665667921.74725;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"common\models\User";}i:7;a:5:{s:4:"time";d:1665667921.747329;s:4:"name";s:11:"beforeLogin";s:5:"class";s:17:"yii\web\UserEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\User";}i:8;a:5:{s:4:"time";d:1665667921.749596;s:4:"name";s:10:"afterLogin";s:5:"class";s:17:"yii\web\UserEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:12:"yii\web\User";}i:9;a:5:{s:4:"time";d:1665667921.749633;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:49:"restapi\modules\v1\controllers\ProductsController";}i:10;a:5:{s:4:"time";d:1665667921.749935;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:11;a:5:{s:4:"time";d:1665667921.751896;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"restapi\modules\v1\models\Products";}i:12;a:5:{s:4:"time";d:1665667921.751918;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"restapi\modules\v1\models\Products";}i:13;a:5:{s:4:"time";d:1665667921.753866;s:4:"name";s:14:"beforeValidate";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"restapi\modules\v1\models\Products";}i:14;a:5:{s:4:"time";d:1665667921.754077;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:15;a:5:{s:4:"time";d:1665667921.7541;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:16;a:5:{s:4:"time";d:1665667921.754623;s:4:"name";s:13:"afterValidate";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"restapi\modules\v1\models\Products";}i:17;a:5:{s:4:"time";d:1665667921.754681;s:4:"name";s:12:"beforeUpdate";s:5:"class";s:19:"yii\base\ModelEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"restapi\modules\v1\models\Products";}i:18;a:5:{s:4:"time";d:1665667921.754788;s:4:"name";s:11:"afterUpdate";s:5:"class";s:21:"yii\db\AfterSaveEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:34:"restapi\modules\v1\models\Products";}i:19;a:5:{s:4:"time";d:1665667921.754812;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:49:"restapi\modules\v1\controllers\ProductsController";}i:20;a:5:{s:4:"time";d:1665667921.755118;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:21;a:5:{s:4:"time";d:1665667921.755864;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:30:"backend\models\ProductCategory";}i:22;a:5:{s:4:"time";d:1665667921.758852;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:30:"backend\models\ProductCategory";}i:23;a:5:{s:4:"time";d:1665667921.759383;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:25:"restapi\modules\v1\Module";}i:24;a:5:{s:4:"time";d:1665667921.759391;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:25;a:5:{s:4:"time";d:1665667921.759399;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:26;a:5:{s:4:"time";d:1665667921.759405;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:27;a:5:{s:4:"time";d:1665667921.760052;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:28;a:5:{s:4:"time";d:1665667921.760096;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1665667921.690505;s:3:"end";d:1665667921.761463;s:6:"memory";i:7524056;}";s:4:"dump";s:6:"a:0:{}";s:6:"router";s:2399:"a:3:{s:8:"messages";a:12:{i:6;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715136;i:4;a:0:{}i:5;i:4484144;}i:7;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715144;i:4;a:0:{}i:5;i:4484896;}i:8;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715148;i:4;a:0:{}i:5;i:4485648;}i:9;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715152;i:4;a:0:{}i:5;i:4486720;}i:10;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715155;i:4;a:0:{}i:5;i:4487472;}i:11;a:6:{i:0;a:3:{s:4:"rule";s:4:"auth";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715158;i:4;a:0:{}i:5;i:4488224;}i:12;a:6:{i:0;a:3:{s:4:"rule";s:3:"reg";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715161;i:4;a:0:{}i:5;i:4488976;}i:13;a:6:{i:0;a:3:{s:4:"rule";s:2:"v1";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715164;i:4;a:0:{}i:5;i:4489728;}i:14;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715167;i:4;a:0:{}i:5;i:4490480;}i:15;a:6:{i:0;s:55:"Request parsed with URL rule: v1/products/<id:\d[\d,]*>";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1665667921.715179;i:4;a:0:{}i:5;i:4492544;}i:16;a:6:{i:0;a:3:{s:4:"rule";s:35:"PUT,PATCH v1/products/<id:\d[\d,]*>";s:5:"match";b:1;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1665667921.715185;i:4;a:0:{}i:5;i:4492912;}i:17;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:1;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1665667921.715187;i:4;a:0:{}i:5;i:4493928;}}s:5:"route";s:18:"v1/products/update";s:6:"action";s:65:"restapi\modules\v1\controllers\ProductsController::actionUpdate()";}";s:7:"request";s:70586:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:10:{s:13:"authorization";s:39:"Bearer uCPfJ5WIPk-OJzaxnVvrGh30Sqh77cKC";s:10:"user-agent";s:21:"PostmanRuntime/7.29.2";s:6:"accept";s:3:"*/*";s:13:"postman-token";s:36:"457eba81-17b9-468b-8ac9-62f54cc4e355";s:4:"host";s:4:"yii2";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:10:"connection";s:10:"keep-alive";s:12:"content-type";s:80:"multipart/form-data; boundary=--------------------------110496790014867076037627";s:6:"cookie";s:189:"_csrf-restapi=94322c1fea0899c4480aba377f51c474aa856aabf38907f2766ed2944c04efd6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%228h0jbHlpz53lKvHxXycxRwe7Gc7Ozta6%22%3B%7D";s:14:"content-length";s:5:"65917";}s:15:"responseHeaders";a:5:{s:12:"Content-Type";s:31:"application/json; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"63481351ad1c2";s:16:"X-Debug-Duration";s:2:"71";s:12:"X-Debug-Link";s:45:"/restapi/debug/default/view?tag=63481351ad1c2";s:10:"Set-Cookie";s:221:"_csrf-restapi=fd62ff7f5a96e4936dc276069aa419780301579e3dabf774891a1e10714d657da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%220QJ_pnO95Zwt_EgCsHxmULN5uo3Nk3Ei%22%3B%7D; path=/; HttpOnly; SameSite=Lax";}s:5:"route";s:18:"v1/products/update";s:6:"action";s:65:"restapi\modules\v1\controllers\ProductsController::actionUpdate()";s:12:"actionParams";a:1:{s:2:"id";s:2:"22";}s:7:"general";a:5:{s:6:"method";s:5:"PATCH";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:3:{s:12:"Content Type";s:80:"multipart/form-data; boundary=--------------------------110496790014867076037627";s:3:"Raw";s:65917:"----------------------------110496790014867076037627
+Content-Disposition: form-data; name="img"; filename="25. Ğ Ğ¾Ğ¼Ğ°ÑˆĞºĞ¸.jpg"; filename*=UTF-8''25.%20%D0%A0%D0%BE%D0%BC%D0%B0%D1%88%D0%BA%D0%B8.jpg
+Content-Type: image/jpeg
+
+ÿØÿâøICC_PROFILE   è       mntrRGB XYZ Ù    $ acsp                             öÖ     Ó-    )ø=Ş¯òU®xBúäÊƒ9                               desc  D   ybXYZ  À   bTRC  Ô  dmdd  	à   ˆgXYZ  
+h   gTRC  Ô  lumi  
+|   meas  
+   $bkpt  
+´   rXYZ  
+È   rTRC  Ô  tech  
+Ü   vued  
+è   ‡wtpt  p   cprt  „   7chad  ¼   ,desc       sRGB IEC61966-2-1 black scaled                                                                                  XYZ       $   „  ¶Ïcurv           
+     # ( - 2 7 ; @ E J O T Y ^ c h m r w |  † ‹  • š Ÿ ¤ © ® ² · ¼ Á Æ Ë Ğ Õ Û à å ë ğ ö û%+28>ELRY`gnu|ƒ‹’š¡©±¹ÁÉÑÙáéòú&/8AKT]gqz„˜¢¬¶ÁËÕàëõ !-8COZfr~Š–¢®ºÇÓàìù -;HUcq~Œš¨¶ÄÓáğş+:IXgw†–¦µÅÕåö'7HYj{Œ¯ÀÑãõ+=Oat†™¬¿Òåø2FZn‚–ª¾Òçû		%	:	O	d	y		¤	º	Ï	å	û
+
+'
+=
+T
+j
+
+˜
+®
+Å
+Ü
+ó"9Qi€˜°Èáù*C\u§ÀÙó&@Zt©ÃŞø.Id›¶Òî	%A^z–³Ïì	&Ca~›¹×õ1OmŒªÉè&Ed„£Ãã#Ccƒ¤Åå'Ij‹­Îğ4Vx›½à&Il²ÖúAe‰®Ò÷@eŠ¯Õú Ek‘·İ*QwÅì;cŠ²Ú*R{£ÌõGp™Ãì@j”¾é>i”¿ê  A l ˜ Ä ğ!!H!u!¡!Î!û"'"U"‚"¯"İ#
+#8#f#”#Â#ğ$$M$|$«$Ú%	%8%h%—%Ç%÷&'&W&‡&·&è''I'z'«'Ü((?(q(¢(Ô))8)k))Ğ**5*h*›*Ï++6+i++Ñ,,9,n,¢,×--A-v-«-á..L.‚.·.î/$/Z/‘/Ç/ş050l0¤0Û11J1‚1º1ò2*2c2›2Ô33F33¸3ñ4+4e44Ø55M5‡5Â5ı676r6®6é7$7`7œ7×88P8Œ8È99B99¼9ù:6:t:²:ï;-;k;ª;è<'<e<¤<ã="=a=¡=à> >`> >à?!?a?¢?â@#@d@¦@çA)AjA¬AîB0BrBµB÷C:C}CÀDDGDŠDÎEEUEšEŞF"FgF«FğG5G{GÀHHKH‘H×IIcI©IğJ7J}JÄKKSKšKâL*LrLºMMJM“MÜN%NnN·O OIO“OİP'PqP»QQPQ›QæR1R|RÇSS_SªSöTBTTÛU(UuUÂVV\V©V÷WDW’WàX/X}XËYYiY¸ZZVZ¦Zõ[E[•[å\5\†\Ö]']x]É^^l^½__a_³``W`ª`üaOa¢aõbIbœbğcCc—cëd@d”dée=e’eçf=f’fèg=g“géh?h–hìiCišiñjHjŸj÷kOk§kÿlWl¯mm`m¹nnknÄooxoÑp+p†pàq:q•qğrKr¦ss]s¸ttptÌu(u…uáv>v›vøwVw³xxnxÌy*y‰yçzFz¥{{c{Â|!||á}A}¡~~b~Â#„å€G€¨
+kÍ‚0‚’‚ôƒWƒº„„€„ã…G…«††r†×‡;‡ŸˆˆiˆÎ‰3‰™‰şŠdŠÊ‹0‹–‹üŒcŒÊ1˜ÿfÎ6nÖ‘?‘¨’’z’ã“M“¶” ”Š”ô•_•É–4–Ÿ—
+—u—à˜L˜¸™$™™üšhšÕ›B›¯œœ‰œ÷dÒ@®ŸŸ‹Ÿú i Ø¡G¡¶¢&¢–££v£æ¤V¤Ç¥8¥©¦¦‹¦ı§n§à¨R¨Ä©7©©ªª««u«é¬\¬Ğ­D­¸®-®¡¯¯‹° °u°ê±`±Ö²K²Â³8³®´%´œµµŠ¶¶y¶ğ·h·à¸Y¸Ñ¹J¹Âº;ºµ».»§¼!¼›½½¾
+¾„¾ÿ¿z¿õÀpÀìÁgÁãÂ_ÂÛÃXÃÔÄQÄÎÅKÅÈÆFÆÃÇAÇ¿È=È¼É:É¹Ê8Ê·Ë6Ë¶Ì5ÌµÍ5ÍµÎ6Î¶Ï7Ï¸Ğ9ĞºÑ<Ñ¾Ò?ÒÁÓDÓÆÔIÔËÕNÕÑÖUÖØ×\×àØdØèÙlÙñÚvÚûÛ€ÜÜŠİİ–ŞŞ¢ß)ß¯à6à½áDáÌâSâÛãcãëäsäüå„ææ–çç©è2è¼éFéĞê[êåëpëûì†ííœî(î´ï@ïÌğXğåñrñÿòŒóó§ô4ôÂõPõŞömöû÷Šøø¨ù8ùÇúWúçûwüü˜ı)ıºşKşÜÿmÿÿdesc       .IEC 61966-2-1 Default RGB Colour Space - sRGB                                                                               XYZ       b™  ·…  ÚXYZ          P      meas                              XYZ         3  ¤XYZ       o¢  8õ  sig     CRT desc       -Reference Viewing Condition in IEC 61966-2-1                                                                                XYZ       öÖ     Ó-text    Copyright International Color Consortium, 2009  sf32     D  ßÿÿó&  ”  ıÿÿû¡ÿÿı¢  Û  ÀuÿÛ C 		
+ $.' ",#(7),01444'9=82<.342ÿÛ C			2!!22222222222222222222222222222222222222222222222222ÿÂ °€ " ÿÄ            ÿÄ           ÿÄ           ÿÚ     Ô>çÌX²a*Qa*P
+‚€¥ XŠ”  *
+‚ ¨„)
+€     ª            
+„©@€  
+‚ ©@       ¨*
+‚        Š¨@P*
+‚  (`°PÀ E¨ ¨Z€ E°,% ‚¥ƒXD
+Q ( !@   )`  )(€  €                  
+	@       € (       À P €     * PĞ„¢  Pˆ •(–S¬²áDDe@Å ” !P©@@   À ´°   €  ,            P     P     P K  
+  @     @ @,   ¨°  Q ”°
+,PB"Å  ¤¼è( A`@@@  ”  P¡  
+  D @P                €E       P  €       @ ° °  ’À @‚B @ % "`€z‹Ì• ¢À€E @A  BÀ *  , €            e     !e@      Z€(           , ,   ¤°  RÀ° ¢ *–ê/0E E–€A@Q@A@  @   ° 
+   @           Bˆ      	(       €
+             °  ’À  l¢(€ ¢”T°Yeè/ (@ª € P@  @ ¢   (    @         e@ 
+           (     €      €,   ¤   YH P   !(@”²ËÍe@¡P Še    
+@  €  @      Š"À   
+”XŠ± 
+  …       À(%
+     €    °  D    %•RÀ T¢  P"À P”²œÂÀ@X P   €
+@ BÀ
+  , @   €  )b6—),°P
+–:ı/«íùŞÏ—áı[ü~×Åú~é eAbJ"ª    °
+	@
+     (     K @  ’À  J –Ë @J  ,ABz‹ÈP ŠP!e     (  €      ;z1¿×ç³Íä :}¯›úo§Ÿ.ùñz~ÏıgÄ÷y~t³×À, IEô¾³äû}<»{xõó~õ>Nüÿ )Sêø(° Š”]}¾]>é|ë˜7"Ä‹(   ¢
+       (    @K B     ‹¥"À Pˆ B ‹ Uˆê/0E”Y@E Š     
+@,€°      ô|¦ò÷×~˜ùCŸ“ÓÏ\ş‡õ_3ßäøÍgÙÀ,ßÓù_GÉ×ßé×_›ï¸ìšüŸ›ôŸúÿ 4;ó” Š353¯£ìğ}›êëìóùøvú~w³;øÑ~wë|ê;ò !·è¸u}>?—ï÷x|¿Bçó8÷x~·Ï‹7”²€  @"Â¥‰@     Š B‚€ @ @K P¤°   ” JY`²ˆ @J"À P€X ^²Ç!@€E”P       
+ BÀ  P      7÷¿<å¿Ú_ÉıÏìõøı~9ú|}î~Èıoç½şoöp¿gã}ï'o§¦¾gĞY¥óşGöŸ”÷xüeú>0 Y3{ı¿Îş«Áêôçµñ{9nÓÉù/Ú~7èø öùB›~‡WÑ³äı,òí3~÷|ş¾o/Ÿ|ş¯ˆ7˜ª€YH @         ˆ P€  P 
+€     "ÅX("À P ‹ P€•,Uë)È`P!e	@    
+@, D@       ©A
+NI~÷³ó[æz»z<İ¼ıı>oV—ñÓÓæû?:ş‡óß¤òwú5~w¿;Î‰ùŸÓ~sÓçù4úß<`Yb³wúÿ •÷>o¿4ówŠ3ø¿Úş/İâæ>‡»úO?WÑ>_ÒK3©5^/£òzrøRÏ³ó"ªP,   P      À(  €   P¡   
+  )b‰`²ˆ°  P€e¢s”@„P    À²€ -       ¡–T…X¯ÉéãÓêz¸ú~O»·^}1×áüÒ~oêüûú_Í~Ÿ–ıökçû³¬èŸ˜ıGä=^ ú¿<XQaëãú7£Ñ³æûÂŒ~/õŸúm~Ÿ¯>~óæ}3¤°€Ÿ’úÿ èø,=`@  , (Š€ ”  ¢(€ -  AÀ B    (    )IH° ¢	@´©Ì@Aa(      @€        ("ÂÀz|İ±¯ĞöãéøßG]1×8ş?ö÷ù/éÿ 3úDú6_¶PŸŠı_ä>‡Œ_wX'èøu×Ñ>gĞ‚hƒã|gŞöxyú¬ñûP”°rëùî¼¾n±ó‚C·\ß"Í@P@         @ ,B€K    Ñ      	@ %  ”"À „±@²ÉÌPd”         AB          €)fóeı»ç}?‹ô§LïŸ^_ıoä½ŞGè>èSê«Ãì•ò÷Ÿ—ó±ó)u‘aÓ¿é<Ş7Ó>w¸ILùSØòzMy=^k~ìni	@W<¿™íÇë|È®Üã^üßĞúŞŸ§ÏXòú>'ô?èø9ÑÎ   Š  AU  ’À D°
+     ),            P"ˆ% ±@X^âs X      K Ê @J        €Pn9:dÈ Y~÷×ù__ã},tÇN]~Wç¾·“ßâŸ¨Ç£Éêüß÷üß©óÔôğ§|Şgİô>·<¾”R5‹bVi‰ÖJR, Ÿ›öü/…½n>¯§õ<¸ñ{$éÏçá÷y5Ï'Õãôù|V_¥å%%    bˆ°
+°À), K @ 
+€            (‚P ‹e^ò³ÎP ‰B)    À* ±B   @     P…÷}O—õ~£|½›óz~'‡ôü}1>·Ìöù±WSô_SÁîøßNuåÓŸOÏıŞ^˜Eç·‡İùNü<¾·ÏVòëún_Gæ{Ã‡¡¼³¸› AÎèP©E€ƒ¿åı>nwÓö½~o™ö½Ãì¹®=„35O_–çæø}^£ó¥—×É °  ˆ , J¨ P¨  €  P¡              ,P–YNã8 T  €²,   ¨  P¨           z|Ö_¹íøŸOåû=:á¯?£·‡×½gòùûŸ'éxÿ MÚ>WÑÖóeÑ?ä>×Äú8_WÖùŸ©òwöSæı‘ÉÒJ¨ 
+”Y@§ÇéÇÉî÷{:ã:<ş‰IP%Ae3ãõ|¼¾o#ëüÈ[!H¢(Š% A J UK ª ),@K B’À         °     P"É@Q}Ìó   PÀ  , Ô°           =SæıoéÎÙñú;kI¾o}Îü÷}z\n,J±çOÍylûŸ%e¯Wêÿ 5ú™í©|§-ó5²€D(  XØ¹ó{v«èBÊïÏŞ9ü[©ó;s”     R]XÄíÖl€	D( PD¢  Q*Å      H    *    P ” _@Ï0   P@¨°(€K(±@K(          E•}ß[âıèö1×Çëç:ó—~¯¢_Fl›Şùô$‚üï¡òºrøÏµó ú£üÏèşO¿ª<¾¬kJ5'›S¯Nâ…``GIT‚   A|nœº|=zş‡Ïòú½Ş=~O—îüŞ˜ùË=|@  AFæóWZÍËv^<ı<ìóÍã¤* D°
+ @ B€J   H       ª€  T¢	@ô` @T¢ ,K  K(±@K(           ¾5Ëìû~ÖùŞ¯Zß'¯†·Æ=Ñ&õ¾|“ÑÅßÊú_?|¾Óíüü·¸¿¢ü×Ùù¯«9gäû}ãÓÕšÆ6/7Ğôyı›Î¸z**¢®!.Å ‚‚Äüß+·Ÿ\~‡··³®|Ş˜Îs¬ü¯¡âôù>lëËéxÂ€  c7¥—Ö¡«Ó£:ÅÒ\ã®lòòõğëMMÈ£3P P   K @
+           ª, ,•e=±‰@  )`Ä° @(±B’À           û|7ôİÿ ?ö~W»Ñåõy<ıı²I­ñè“ÃëøİuÇêyç—éù?KÕÓÛ¦çÉÛÅ¿O:ãyóù¾ŸfüW¾=ŞÜ>×‹Ïö|ÏF¸Õëyc´ïË—£Rô&€ ‚ÉÎËó}{ß/™ô½s5}syî^mq×.—ŸMcçxı~O§áƒ®@Àju‰×]9jtß^]<Ø÷àñôŞ5‹¬k”é‹3Í1ËÑ‹Ÿ&{óëmM3K3,¡V7¹8½^®tÂÊJ%°  P     H¢(Š"ˆ°  P , @”—Ğ³   €À°
+,PÊ     @    (W§7œúŞ7OÎO±óûcÏN™¿Såzøuıô›ğö“¶¼÷Í¾^OŸË·£şW«Û8tôóŞqc§“¯,oÏ7Ë‡k¼á;^VMvòİOv¼=ıœ®ùûÿ AóõÓ:ÏZ( "‰B¤,™/;:âÎ}<ï?'şO—ìú>P  (vãß7¿n]¸tíÓ³:±ÓÏÏÕãË½c|§>¼ìÊ]K£‡Wç†zg¤Æ:cyÄ×JÇoG«¼»ö9tñãÛÎÏ?g˜òc¿.Ùæ5@(…     Š% @   ŠX   ²€Ò9Hª”’  T°,°°
+,P          
+X×·ËíáÓétñtù¾ÏW-õ—æø¿C®Øü¯×ÃÕçúúç¯“ôyx¾—OŸßË¼½s^Ë}/V¼ÚÇoGoöí×Í•ôLêN)–¬ÖL“ÑÊj7œ“Ùíù¯¡ÃèkO±æÛ:ÑbªCR
+Ó$°"ŒÍmâ§™òûy¯‰>—„:d¢(¼#Ùéù¾[ú7[ùvgy9qôòß>8éœxÛ77eÆ±Ï·;<øëÏ·>|ú]Éì¾[½µÓÍéÌë1¾½<·/_Ÿ·ŸËÃÕçôsá5 P@ J"ˆ¢(    ˆ    ˆ¢   ‹(Hä )) RÀ²À  K ¨°        @QMz¹ı½8ğz|Æytôtğî_\óI~‡Âú}zË<S–¸IÃÃÕÂvğôåo¥Óœ»ê›kèø8ûS\|ş²y¹dİÎ-é<Ù×?¡|ZÍö^L7×š>¯«åûşç“¶²öòÒ[EH UJ"‰f,Ş<şœ½ÿ ;ÅÃÙãëÆ½\"Ë B@Bº{>~±~Ï§äû<ı{åŞcx³–:g|yg¦7†³©¹â8òïÇ·,õÏ{:ú¸ú|ş1¾õÉ¾<ûsß??ŸÕæíçóy»ù½\9gSª
+  @
+"ˆ¢(      Š"À  J"À  …©e_L®H¢ *,@T¢ ,€
+  (¢    H¤Š #Õõ>?³Ë×èñçÓÅéËlopåœåß§Ç×ı?íÎ¸ùÜ{ü^˜õz¾W£à{ºã­ñ÷åsİ'¢Ş¿NwÑ:ğ—~w+3®¸Şw>„ò9_¡¿;›»Ëè_ÒøŞ¸ú÷—O¹äÕÍêÒ[qÎÎóÅåéÏêrøŞnÜ>Ç‡Á=>~¼«¿8ª€ ¢(Š @P5ëño/¯ßæ{<½ı.}f7bgRçfV5šçË®:ó½øöG?nÛå¾]º±s\µÃxÇ“¯“ÑæãÃ§/_‚€(  €"ˆ¢(  ˆ¢(€
+(@ ¢   _Hä( J²  ,€,  K   J%    @  vó²÷ú>Wn>·Oëñú;c¦øvòsöyåá¦³®İ9kûş{ëüß¼n^O7_G/V.ç«–1½òózw:ç}/ŸÏ7×<[®İ¾\Óê_›ìÍáèótÖ>‹Åéá¾Ü³“Ñíùİó>çoæı'Îıüî=¾ÒóüõÖ~Ï›ÅÚÍrôt“Ãëïßå¿Nùvóë¬Î¥çv^9ô[<œıöÏ™Çíİçóœ?W7ÈgõŞ~¼¿0û~ü|N¹éÏ’À ®Ï~wéoËÛÍÛ¦c6Ylc¦3®yÖuœM7—Lê^İxôãß¶¸Ş};gŸ8×¼qÃ§?W\úc¾15  H¢(”  ¢(Š"ˆ¡(Š"ˆ ˆ° *)` (Š _BÎ` ‹ @¨°,È°,ª  "–, 
+  € €A€^¾üoÇì÷÷ñz<]½ów×>Ûç×äãÛâ˜]k–ø|ÿ OÏóºxş¿Ãèñx¾”oËÏèø4ôoÍôq®Ï'¡ãÔö<ü—¯—Û5=??~œÙÛpëÓÍOg_nwÕ¼uåzùúkô7Ÿ]ëÛÆõåyï«›:Û6­Èééñô_v¹o=:^tëyYz^tİÅ7qWH4ƒRù=^^œ¾~ãİàø¯·áçîs¹ø¹úü:cçï·-çÑèñz9ëÑyŞ]7ssw+ãÏ·-æjìÎµ¬êmyõ+³¸¹ãË¿.ü¸òíÏ¿<úóïŒK7 Š"‰V"ˆ° R ¢(Š"ˆ° ª‹  Š ¢–   ”=2Î`Rˆ²€K D²€J ¨°  bˆ¢(Š"€@ (Š"ˆu1êëìóôÏ»ü^®šå<şØj^}5âös³àù?CË¿›âcîù¹ßòş¯Ãù»¹Öu®[Îú¼^Èógßów=8ÇCÕáv—ÑäßL½9Ö9ı/?ßNøj=<ı¹İ÷ñ{17£èù7¬ëÛÏzÍë4—Kr4‚ÜÛ=>¯ŸìÎ»RnØ– Ó
+Û#W65p7q’ÌúµŠÒo3c{,òr÷ã|şgŸêğíÃågèríÃÍ®˜Ôtå¼Ş¶^=±‹œtni­oŸNzé¬ï“¬ÍåÏ¿=g‡OÜ|ü»rôğãË¯.üğ­#U0Ñr B  J@   P   ˆ¢*¢ˆ¢(€
+JX¢(…=Î`@JH    ¬€,¢À         Hl¾ÙïòõÏ}_©ÏœÆºöçèÇMtÎæè^_/ìğgáÏ¡àÂù:yü×åqú•Ÿ'ƒ¿Ïó÷õtö|¿¥ò3÷:Ï£~kYôóÔo·—7®ºp—¿’õ³¶/§å¾·çèÎò¾Ÿ/nsÔ?Gó»ïŸ¶ß#ÕÇ:ÅŞW­®7µN:õzWÉéë&·y&º9¦ˆéNW¤0ØÉ,^›\èP  ñôsÖ<wŸ·ŸÉü»pãjÎ·:ãÖV³©ÒtšÖçLt]\ï¦dåÏ¯>˜áÇ¿ü8pïÃÑçãİ:ãÏ¿EÍóONO>}Ôã:cL5@ Š     €¨¢  "ˆ ¨¢, (ŠXNã‹,  ²€‹ Dª€J ’ˆ¢    H¢,
+"€‡¯Íô¹ï×é™îåæõùyï‡^=u_nqÛ¥Ê]Lq®ØáY¾/OšN:òã¯Ÿò~ïÈò¾7¿Çíºá¾}ó×İåãÓùô×ÎÜíìñıñtW—~<×¯6<ıotóëÙŒ\ö—ú±¹;öáÛëyzoï¦ˆÕ¬ºS½^¹¯˜ú˜>v½\.uÓÉOvşv—è<{^îZ:o†Ñò½Nœ~G¾põøşÏ§â{xz~‹ÍÓ£«	vÍ–¥.l9pïÇ§/?Ü;yñ,Ö7eçÒï1½tÏLtßLîjÕÎ³fÎ|ºqëË—Ü»ùüïGNœøk»;á=Í=9O'/_¸óc¿>œøç¦vÊ¬Š"ˆ¥     "ˆ¢*¢À "ˆ° ªŠ"ˆ¥…;u* @PH°, ˆ ±(€(€ ( %      ×Òù¾[û^¯éùŞî¾~¼ñ|Ùy÷ËßÛäk=>¬ù©¯W?5gÑ¯=—¿;¹¯'.Ş~zãçõcâ¾ç?W/ƒæéÓå{8ê%Şûx±¿¡á×ÏÔôúÜåÆõ…ôë›ÆøôÖ{öáíãygµÎon}ıŞG£‡ONzLë´–İITºÎÏ^±fîyå';cRK4ÈÓÛLÃ¥âNó•¤×‡×æú]~GN˜úÛù¸ôúñ÷áßÓ¯;Ÿ_KÌ=„;sç‹—òëÏ,éëã×]'n]¯GI¶—PJs¼÷Œò×.œs¼®ó¦­k:—W7–;óÔáÇÓË§//Güxãxëœ¬ĞH  € *¢ˆ¢ ¢ *(Š"À¢(Š"ˆ°z¬Å
+K @Àª€, ˆ  J"ˆ¢(Š"ˆ¢(Š   g³äk–ş×/™9ë×>ˆV<İù%ç»¬éu¼÷ÍíÚõÇ_™áúŸ2çÍ5êôğóğ÷yü}şÍı/“ÁÓÅèíÃ=8ø}½%áä×»Nü|ºç¶ï›SOÅëçeÆ³1wg~Ï'£·/WLôösÖ³­Ë¤ë®Z®—:.§¨å=F¼oW&xN¼õ3.l±,¬¬©Ü‹p6Í•âöø½~vó×ÑÃ^Üû¼çn<¾¾õg:òröğÖ|Ír¼÷‰,sŞ«–úk:çÛ]|~¬ôË‡§¶ùté¥é†uç—.œ:òÏ+Ï·kµšç¹¾›Ï\éjkéÏYçÃ¯Ÿ¯\:òôpåã®2ªŠ%  (Š"Ä*¢À¢(€ )(Š"ˆ° S¬³
+K  JH ¶,@ ‹ @¤¢,     R(Š"ˆ¢(Š"€"«¯³ÃíáÓÙÎ¾«Æ¹7®K;÷ğî¾®ş^Zôüìç·.ş}|İùòôóã×ÇÇ×Ç“ß~—æx¾Ÿ‹âû9_Çç¾ûÏ«ù>«¦^Ÿ¿¯Úú<;ôÎ¹óõŞ¼ú³¶½ùéõú_ÎO»àÖ|.™²j,ÖùSµålëx¬êçªÇ?N:c‹»òîó¬ô_4OSÊ=3Ì³Ñ3R¦ºó×³Íô8oÓëãêğû÷£Ÿ`\óìgÉÏß›ŸŸ>„¹ğëÙOÙœïÏ{gÏß„éÏÍÖôã®núå®Ü÷3:³æôqé7.Ü}^K®}:sßn}3¾ºÅšé1š×'-òÏã·\ûsëÏ†:ç¤æÔÔŠ"ˆ¥!HR  ¨¢, Š @¨¢(€(Š"ˆ° N’Ìè)   Pª ° (    € (‹H°‹’(ŠøY}»ñß?^œñ•é9Î˜é0Şu¹zxõôé~o¹˜ÍáÃÕÃYóã§/O?o‡ìåãú8<½ıø<¿SâÓÃëï<úò}Lté;ÃïøÍÃ{Îşo³¿Ğù]-û¾µ¾ş«µüö~ß‚ãÆé.pÒÌ¬±,²ï”_N1î³çù¿Yó»cá·_–D¢(…NßCæûxoéú¼>¯¿ĞÍçÚ…   ézåÇ·l3Ÿ^úá­g³–»æãNÎ}\½>n_O—{çtêæ³xK™gxÆwœùc®7S¬Ó{cS”éL¬¢–(Š"’(… ˆ¢,ª(€Š"ˆ± J¨¢(Š  ¤³:
+‹  @
+‹ @ J"ˆ¢(Š"ˆ    R R(Š"ˆ¢(Š"ŒÚ"ˆ¢R]úxz|^èòzµ›™sË¶,ñc¶y¹rôóå®zŞ¥áÛ:ë_W.üóÏÓ<]ñ»½Ìjë×Çš¾—}|ı|½zZòznğ_W¿äušû¯ï8|ÿ ³àÏ§à¼ùgyÖ3,ÔT_w»á÷šúŸêzúcóOo‹ßã*É)"Ê¾Ÿ.òú~¯‘èóöú»ù›ã×éoçõç×Û|—;õÏ37Ó<°õ<•=n=eMÌï—O/?o'/OŸÃèÎøß?NÚå®¸ëq}9¸ÜïËŒé_eíÄ5çYee-ÖyÎãÏ=Ôáü÷8íÏyÄÔÒ)"ˆ¢)bˆ¢,"ª,ˆ¢*¢ˆ¢, J"ˆ¢, Ô²P   @ *,     R(Š%P(Š"ˆ¤ŠX¤ŠX¢(µ¢5swéóz~w¯¥Åç×H–çK<¸íÏ7ë3pÒ17*çW¿&<ıyëEËsyÏ.øöy±+×çéèñôóõïcÇè·:šß¯Ã©¯½¯™ô3×|¶—åù~ßÎ×/éÏ|ò³Pƒ^ÿ ŸÖkêqÏ»ãòşµéÏóooèx¤Ô³+*,³Zæİ<İòõwãéòú.´áŞff[Šeè¾™©Ú±Ø˜é1|¾_w›ÉèğòíæùşÏFü“Ó®}ºÜkÑÏ8ëŸW“š½>Y+YÌÔÔÍÖÓ;Ö¦ó7–:ã|øóíË§.<úòëŒK7‚PÄ¢(Š ˆ¢*¢À¤Š"ˆ ¨¢(‹  Ô²P   h  
+Š"ˆ¤Š% €"ˆ¢( ˆ¢P  À¢(Š"ˆ¢(‹	f¼İwÛ¼šç¹½\èÒI9ãRkiq7M“6·‹¼ï³V\­³Öw¼¾‡7›ßÎÆ½S—_¢Ü9ï·Òù=ó¿«¯óÓÕåëÅ<g§-DÖw™IÓôzxtÆ¾¦<_G=y|Ñù»qüü¯‡2Í @§§ÍèÅ÷z|Ş«¦5=±Ï\¯>?º^½¥çè€Ÿ›×åã¯‹Ûó¾ºuğõğz~‡_W/Vùtõyö__—9é=~s£xäé,Å´ºÍ­H3Ï§>˜çË¯œysé¸Æu7"”  J"ˆ°J"ª,ˆ¢ ªŠ"ˆ H¢,@²À ¤°   J"À   ’( ˆ¢P(Š%ˆ¢)@ŠH¢)b’(Îl–ë¾®Ùf÷¬k7zÍ¤g6U—C-4³-Mfêk:µs¨°c¤Ö1Ç¶=y«ÙçŠ%#¦¸tóv×§Ï|ı½<{ã;vğœuIr¹Û3¦7¬\^şï™éÏOV÷1¿kËëÎşÏıç¾Ïƒ¿((0=ŞŸ›Û‡O|ò9tïÏ–Øöû¼ß?¯ çè  '“×å“ç|Ï«ó<½¼pğz¾§¯ä}}ıı¼w¾¹ïÙæ²ºòÊµ™55œµ5˜DcY¸c\ç-séÏ8¸é”­Y@  ¨¢(ŠX¢,@"ª(€(Š"ˆªŠ  J"À)(‹     J"‰@ 
+"€H H  ¢(Š"ØŠ"ˆ¥ŠH¢(™Ö,òwŞÎí–kZÍ6È©sªX‹,Š$ÔDÓS8öŞm—[*X]gécƒY÷ùY ×‹ôŞòú5ÏSÈ•
+uÏÒO™?AùïWŞ[Ãİôş»Íè÷tšç×Ÿæ~ÏÆ÷ø ôp
+J"™š—9ÕË›^Ÿ/§–¾—·çúüßGÒÎ¹÷ Dn¼Yòx~—›–¾?ìx|¾ŸĞùş]>§«çúı<={ã×ÓÇvkxŠÖbÍfM5sxŞq›Ï|Ü§.œµŒÎ™B€ ¢(Š"ˆ¢  "ª,Pˆ¢)  J¨¢(€Š"ÀRK(¢ *(‹     (Š % 
+"b( ¢P*"€
+X¡)"ˆ¹3‹˜tÇo±)¥”¬¬Ú\kVY­YD±™e"¨[8uç¯G–_/§Is¨K.4Ö9sëÏÕçƒÑÆ(Š"‰ItÆ¼ı¬³‡YI{}_©~¿Íçg’Ï¡äéõ~6¹tûÓÃãá×löùf*fUÂ-åb¹×^Z—ßéù™éú}|yú=-›ôO7&}|¼˜¸ö^>œï?^1Óçø~ÇOÏÏg—ı^¿«¯/o~Ü½;á½g««R)ŞõÏ§<qëË¯XéÏ®2²Š%      ¢, *¢ˆ¥Š  Š"ˆ«"ˆUÌ«"À¢, 
+(Š"€ ( €‚‰@RP*%H  ¢(‹ˆ¢(œõÎÌÄòõí×^‘å:óiw‹s¯7£W:–ÙK–P–ÎYÖ=_EçÓÉéXÇK,‚]gúã¯.cÛå   c—J<½êk5f£ïÃÛç¼ÅH¦bÜÈ¬%®v+* DÒôá:½İ¾oKÓégÃ‰¯^<ÚN×ã×İîğû¸wŞzLvóøş‡–>G“ëpç<ºïy&úso3yí¾;ëæµ›&5óçÏ¦:ñå¹éS­ÓŒí›9µš R(” Š"ˆ° ¢(Š"ˆ  *¢Å(‹ 2(,J"À "ˆ¢(Š"ˆ¢P ¢P(   €‚‰@¢P)b’((’á3ËX–ÇßzÆúE»ë1­]óÌ¹åÖë7ËéÕÊ]ÜÒÄMYB
+–ÌcxöyuÓ—N]67¢‰sbËÏyß>sSİä‹5    XÎ®±¿¢÷ß¿^_¯/Œ®œbÜÈ·®v+6* ¢MK3:,—¢-İ–Õ’ÈÖñ¾=zoüı}şÏ³ŸoKçÛ=“ÇÏÕ›Ÿ3ÑSÊôãYãøÖ8İóÖzo†×¬ÉnÖY³|äÓyÄÜ³3SSé›9µ@ €‚€J"ˆ     Š"À«bÀ 0²€
+ŠH¥€ R(” "€
+ * ((  XŠYTŠ
+H¢T'-òÔÎlóôV¹îô=\j–,1,óú*^ªYmÅ³LÓ¢HÕÍ²fÏg•¬Ó¥Æ¼^»c:’æµXå,öù¦ Š"À  k6>¯ƒ‹+\‹yØ®v€¬“rÉ:.N‚İYjPP"XÖ³¯7}ëç¿g¯ÁêÆı]¼½ñ×|õ%å6ÔÅİŒcº<™ôóÖ|øôsŞ<Ùôq×9yÍg¤Â¶Æ¬Õ”’ÍLÍgy™Ô³Şu2ª   (‹(  Š"ˆ¢(€(€‹(Sª(Š"ˆ° -  R( @€
+ (%–Uˆ¤)e ”5ÏYÇ=c(_7[Ó={âí­È²Vu“š_/¨9ô¨:ÖÍ³lÜnÈÊÊ=D­e¬_¯£7—[X¹™öø½~X³·0@ ˆ &EÌS™Nt2 Š3:K$é,]Ø¶ÙUb–(Š"ÂYyîë7ÍÛZÅ—¿£Çé—ÙèóúyõŞ:bo25ï—I­­Æùc¾n|Üı<÷??F7oŸ§:ç¦7qW¶¹tÉ,©›7™›fBÈ- R    (‹À  
+(€J e+(   ¥Š"€@ ( X”%bPPE‰@ %(•H¥‹”ÏòÖ3šáÑ©¹u×={ó[3´¢sëÈÀòzƒ:fÊ½1×·Ë’=l‹7eõù"µœ®xwÖ±|Ş"U–Ï­ñş¯ËïÇ#ÕåŠXR,K	•9”À1@Ë$ÚÉ:¬­%¶êRP , ,T±åĞ8v¶S~Ï'³7Óêóz¹véætóã§Ÿ¯½|ıeôkùö¢k<ûKŸ7/WóáÇÓÏ§/o›¿Ÿ’:c[ä=¥ÜÌK”Ğ,  P J"ˆ     Š ’ˆ¢ "¢¨ "’,    ( X”YDP”€U PYR‚€”¢Pœ÷ËXÇ;œ¡®=/LõëîjØ¢(ÏÜf³O/¢Íjç[_Oc§<l—ÏØ[Y¯_–,Öfwœnk7ÇëĞÎ¨³é|ÏwƒÑÁ,ôù€ FEÄ`Í°‚,²M¬‚İ%«©I@( H ˆ3EÎ–\k§¯ÇéãÓİêòzxú;e‰¾~n¾nş}wñwÖ=½<İxz{±¬n†§.Ù¹òòôğëÇ‡Ÿ×Ç·?Gü Ğ @      ˆ¢(‹   ¢,@¤¢,d²€(Š @€Š% ‰@D(@!EPPQIVYUb‰HK›1Ç|µÏ0å¶¦åßluë›Lí(Š3Ã¿)s5<Ş‰5*uÏ^ÜCxœ{ñÎ³eóú]çZ—ÕåMdÍ<^Ín–Î¾}ç×åƒ·°!€ç*1 È(“RÈèÚZh%@     Š"‰c7^7^==şŸŸÛ‡f8æİy¯Ü¼zsú<|¾¯fü}¹õôë‡LïpšçÃÑË|¼Ü»qíÇŸÕÇ·ŸÎ³®BÀ   ÀR  @    Š  J °°‚€   JH¢(Š% Q@RP X( QTAe)B%	Ï|µ|õ†ayjõÇnôš”¢gZ|½~~=¹·­fjºó€sé“…<Şš!MãeôùàŒSÍè¶^=šÎ’gYöy!:sDbÃ£°‹¬“¢—r[n¥%     R(Š"ˆ°*Ù¬Üºôóë7Ñ0ß4Üº—7¿_7O?nı<·ş‡_y¿[Lô¸°ãçõpéË‡.¼»yøã¯>Üä²À €  ¡(  Y@ ˆ¢  ¤¢ ±¢Á,U’Ê R(Š"À   RP) (PP%HPQT!@Q.LqéÇ|ó›œV¦ówÛ·4¬î(‹ ‰)bˆ« "9ë}#N=e··ÎÜÒÄƒ—j·ÉèU³l÷xäMòC
+ŒP”B^‚İš € P X”   P@ J"ˆ¥hººç¼ê8vFs{wño¦>—_|tôÌ1ÒòŞ,áÃÑçïççç¯<H,`      (€ ), K ²,ÁaB€  €¤¢(”% €
+@h@•A@Y@¢R…”	\÷ËXÇ-óÖ29îõÇZé×©¨ @"À¢, "‰(ËRÈ¢,², Ó.=53:a›œ‘1*3j%r—qjè%Š@ T@ RPPŠ"ˆ°  D¢tÇyuSY,åÓ¹–ÈïÇ§¯çõÖ~†ü»åÛ¶3™\wÏ§.q:s™³@°  XŠ        €
+K À,K°       I@@!@@X	TPY@QE@”°Ï-òß>xÖRY¬k]¹÷Ôé©sĞ ¢,°) ¢À°
+K¤€‚È±¸Ö3Í)­Æ†@  ”     J /n=3vÌÎµ™{’3DíÍszsïÓÍ¬ëÒásw‰K”±€  •`    Š    ¤°,Ä°²‰@       E … U`H	hQ`–Vu„Ç¼zsÄ³¬î^ùwÓC,  ²ˆ ¨°,ª,ÄJ©)&n.YFÌÑ!M­V¢À°,  % e    
+(€k#¦fcY“:XÎ¬MâÙw•rH 
+   ¨(  ‚    
+€,È°       D !@P!EYA`
+%Y@Z!`¢Z=ó¹çË§=óÀÆİ1Õ:öåÙª—:KÊD° ²À ¨¢
+’ææbæóDÍ@–oFši,€ €P P€ ” @     fÊ’À3 ¹jZ !j‚À° ¨*
+” !`       B€ ,€€Ô°e"À€     Y@¢P%PYT"eZ	Ë§=g—=ó×81½uåÚÎİ1¼íe”A`   ‚À ¢À ¤°D¹˜¸¼ä²DIE¡­iBi)"ˆ     Š‚€    €@ *³5,Ye     
+” !`¨*
+‚ ¨ 
+@ °
+K@ ·RÈ,P   X‹  QE(P% YT"€
+%¨'.œwxÖ.ß^]µ;o:ÆÂP    ‚€‹ Ë €
+DI›Ï\ÙI”²X)V››¦‰´  K   e€P ©@     ‚À @(E€`¨,”@©A,, ‚€ P*
+”  € ,   ,€K-YMK 
+”K”  €   Z” Y@–ePŠ”¥\réÇ|ùçY¹–\ë§n=¬í¬Üt¢@    K D²€€¦n/9”¸DÍB•i©½.¥ÎÀ€  H   X(P        BÀ ‹,( (    €   *
+”  @     ¤, 4   € (€  P €Z” Y@•eh"€Ÿ.œ·Ïu”Y¬ë}øö³­— X
+ 
+  À
+F5†.n$³1•tškK¥Îì%À  A `¨(  ¨*
+‚ ¨, ˆ   (       
+‚   
+‚ ¨*P , ¡J ƒpŠ”  *P (€ e ©E‚‚¥…‚ˆXZ…¢UK“Ÿ.œºrÄ²V³eëß‡téeÇQH @P   Èn.X¸¼Ñ$AB©­K¦¦Âh²€  @P      €¨*  ª€ *    ‚ ¨*
+  ¨*
+‚€ € 
+ D
+@
+ĞÈ‚€‚€ˆ©@ Y@€jP
+ˆ ©@•ejP!an5‹9òéÏ§,K3n³£¯~åİŒt       ‚ÁfÆ¼Ù±˜IE¡­FæÚ,ÎÀ , ˆ  
+    ‚ ¨*    *À BÀ J¨*
+‚ ¨*
+‚ ¨*
+‚ˆ ¨( À¨*
+”jÀ 
+@"€Ù"€ 
+”` X( Y@€V
+”Y@*P%©@ˆsß=N|÷Ï|¤3»¬é;wáŞ]%ÆÁ@¨*
+‚ ° Ë fÉ–o9”%…¡u.ši¤ÎÅ €À° (
+‚À    ‚ °   ¢  J° ¨*
+‚ ¨*
+‚ ¨*
+” 
+‚ ¢ X*
+•@ ‚À€@B¶2¥ ©@
+ Š” 
+ €h ©@Š‚‚ ¢Uesß=cŸ=ãYÎµ¬îÎİ¸öÎ¨Î¬
+‚¥P 
+! ±†o6Q”%B•u›i£;E  ,€ (@   
+€ € ¨*  ¨ "¬   *
+‚ ¨*
+‚ ¨*P!`¨*P‚¥P ` ((„B„:Ã6  X(
+‚€"¥ X(
+ 
+ˆ©@*
+%°3Ë§-ãÖ,ÛÓŸ[;uå×=3jP     É–.F•
+Yu.š[£;  ° ¢     
+     ¨, «  (‚À 
+‚ ¨*
+‚ ¨*
+ *
+‚ˆX*
+ 
+…¨*  ¡
+ ¡%©Eˆ©@*
+!` X(*P‚€!`¡@ 
+‚b*
+”±òß-ã9°"]uçÖÎÛÆñÒ¢Z ‚ ©BU €K–¸¸F Š¥Ñ¦íiq°P 
+@,   €    ‚À (‚ °  ° ª *  
+ 
+‚ ¨*
+ €*
+ *
+”X*
+ * KlŠ "€è3@¨($¡V
+!` X*P"  X*P Š‚ ¡@ ¨*Ç.œ·ÎD”%ßn=¬íeÆÖ%¨*`¨*"¥¡fo6óD•¶]nÖåÎê%Y@ " € € ¡   ª *
+€ ª€
+€ ¡
+‚À  *
+‚ ©@
+‚€"  `¨*P   ° AD± J¬3V
+‚¥@Š”¥PŠ‚‚  ©@
+‚¥  ¨* šÇ=ãx™³:©c}øö³¥—¨*
+”X” *
+–nK„HD]-›«¹¬ì%X € 
+  € ¢  *À € ˆ  ‚  *  
+‚    	@ X*P
+‚€"       T,„°°Îª
+!`¡
+”XŠ”X*UXŠ”X*P!`¨(   *
+‚ °Ö,ç›eée:vãÚÍØÆê"*
+‚ ¶
+‚å›–¸²HD*-ºšÔ»k:RlB ¨ °@« €*    "€ €*À ‚  * °  ‚  (
+€   ‚  ¨*P
+‚€!`X*
+‚Á@¬JÁƒª3ª”X*P"¥@*
+"  ¨Z!`©@*
+ € °*
+‚ ¨&5ÏS,C6ÜêºõåÔĞÆª
+‚¡jQ`¨,e’óH„E
+Y­KÒjjÓ; B¨@ˆ, « 
+€*À ‚À J°* ª‚À 
+€ ˆ*         
+” "   ¨*
+‚ ¨D,Š„A)`êLê¥"‚  XŠ
+‚ˆ¨(*
+”XŠ‚ ¡@`¨*
+‚ ±	Ë§-g2À3ZÎµ;tçÓ6ØŠ…¨*P‚ ©á›„HD–Â–]KÒmm—;¤ª‚ °@, «  J¨ °„* ,  *  ª‚À    
+€  `©@    ©@   J°¢Jª3ª•
+"¥U‚¥*
+`¨(Š‚¥ X*
+‚ˆ  *
+Q±ÏXÖd²h3nùôŞ{oÅ¶%X*
+‚¡*D¸gY¹H$–ÀYu.óÒÛ£   ¨, « 
+€*À¨ ª * ˆ  * °    ¨ € ¨*
+‚¥ ©@ `©@   „* ¤
+ "€êŒÚ”X‹`©E‰h
+ˆ©P *
+ …‚ ¨*P  X*
+‚ãX1‹7ˆLmauÓŸMc®³qª‚€‚ e‹‹”,LÒ,Yi©ÒÛ¹sª%!*
+€‹* 
+€ ¢ , ¢    (B  BÀ Š    
+€ ˆ,     ¡@   V ¨*
+‚ °  
+@A¤(€¨Í©E‚ØŠ”©Ub*P
+‚€$¨( `¨*
+” 
+‚¥@•ÏXÔÄ²È1°5×—]ã¥ÍÆª
+‚ˆ±&nR,*ÙÓK¹¬î¢Z‚ °*
+‚À J¨,  "¬ , ª€ , ¡    ‚   ¡ @       ¡@   @    JB¤(¬2¨-ˆ¶
+–*R¡hŠ‚€
+‚„b
+‚ ©@    rß=fBT3º–Ívå×YÒ3jTXŠ‚ÆleŒ„”—A­ËÒk:£6À°,  
+ ¨,   ° "€ BÀ ) 
+€       ( @       (  P    P  (
+@B¡•v2¨-‚¥*X¨4ˆ¶¥*
+ 
+‚ ©@    ±cXC;%Î—:ŞztÆä¨–€”e.HÊÄÍ
+ËÒmm—4°@PB
+…¨*  ª   
+ € € BÀ   
+ 
+„       €P P     @,D)
+K(+ÿÄ .      !01@p"`2#AP3B$C°ÿÚ   ÿ û³FF>–Ïâ#/M´j¾ÜÚÊó/|8ãéöCfó©éëí¨ÆŞ.šÏã¢}:3`Ûæé²ÿ ‰Ë·¨6È;QdşÎXÛ?!à’Zç‡ûG$T^[7å›ypÿ Mı°ÆÍˆÚu½Lo³ğÅnxº?Ç/LâÚ¯°0áÜCKj<)™05Ê$$"+IÇrÍ’ñôÿ ÔÇ-§ªz„egWf_VğàX£ê»µ%—¦RR[_×°Vğ®Ú6o)HÍ€j¸á#^;§ÑCµ;Œ]¨Ñ×ÆáÍ+}?Oé¹’"›D2vê•eúö/kÃÕÂ”ÓÑŒR£û,øxôè\2Fã%Rñau’*İvP6éÔ­İ7$·>Ÿ¦PZMv~ûŒÎåõş<²ƒÅÔn=Éi­uöK^›ÛƒöêUfñ.Ï
+µÂ}ñ?~	9>›¦Ø¸dÇ¤¿·Ø–×‹5éşâ#¨Çºôß×Z¿Ëâ„7Kvãàÿ ¬¿¶±‹“éúeqjÌ¸Ò‡ØQ•Éhˆu;rˆéÿ ¯»ÿ _I‡—úŸ÷Ò1r}?N±®}nJØpdD-:èşB:ëÇ­çğàÇ¾qØñ—ô—ö!7ƒ§X×7ÙeŸ©“ì<dd-:ØŞ{ôÿ ×Rï¨ğBo<º™mÀcÆòKx:ÜÔ¾ÄÅïms+À#§ş¼´ŞéóŒw>ŸÅÏ¯Ÿã‹ÈğáX×ƒ$Ö8JNrûø½µÉÿ ˆŸúğêrzx9¥o§éö/ï¨êqãX×‡¬Í¾\£!âkëèûàö×/şt¯ñ\:ÌŞ¦^Q‹“éúoOÃU¶/S›Ó‡Ì};d0ÆE²CëÔtşÚõ.ºm:Xş:õG§X°K+Å‚8—	]\ÅºBU¥\—‡$Ô!’o$õJÌ}3‘1=‰÷ÍÓTş¼é½µëåXŒ8œåíZfÊ°â”œåÁ+0tv(¨®^ú¶/UŸÔ–°Âäbé”OmY'Ş/ts®ÿ YQ±›\ú_mzù^\X^GÆµë3z™xC›ÁÓ¬k•ğoÇÕõ¬`äaéEL‚•¿¬±ÆÅŒôÇ…éÉcqãÒ.Ú¼o?U(-z¬Ş–ñ¹ËqÜ{ùúŒş”}ÚVbéœˆaŒ<M÷úËJ!”SÒ‰BÌ˜«DtËğû,0Ù^OS>±Vúl;cÁ³ÜKÏ—*Å	Éäœ0¹ºeÛÃ›úÖ1Îô²Ê³&"pqq÷Â«øõ=<<:\vø6{‰yòdXã9K<ğôÄb£ãÊûMÛú×‹×ÜÍ‹rÆ¿ÉÑb?ß¾}õŠ·ÓÇlx{‹Ï9¨&¥Xğ(ù:Œ¾¶ëÃÜô¿ü¸ç–üÚáW8ö¬^yJ#Œ|ŒÍ›hİ¿­±‘+Š~ye·›ûêşbù³fPR–çò¨¯§1‹Ø®ğuoü<:_í«ğ¶%æÏÔ(¹5!ã%“CúnSÒµ‹ğuŸùğéßåàœè‡‰yº¤§"8ˆã6‰‘|¦‡ôÕ‘™	F´\áÕÿ NİJ2µeñœö¨~r\ïÍ)¨¬İD²ÄG¡ZY&eŠ+“_NBf9kC÷ÖRÚ]­:ğ(«=7¦ÚËÕÊ‰O|±.v/.\êß™Ã  —$I^Z6”V‹J+‹C_NbÉD%zËûk‘\0åíe™è¬/wñãPÂ£'Ôºt8mŠ7ÍÅ™¦cD=¸Yv%ärHÉšR!…·uÅ±È]ÆŒJ(HÚl+E¥rkéÜyh„¯Iû¯ë®U³$2ŠV&Uğÿ rŸkÕ8Y’L²ËèW!/#c†ábFŞlz.Ãdß¡"Š6›t^¼Tm6›J+èj,xß,?Ôı±Ë³ÒÌñÜ–2*„Dÿ jcì¿ÔĞÏõ­‘fòÉd!òQ^
+ÆJC~4!¢Š(kÂÇÎ…@Úm(¡¯¡¡	á²XÚá‡û/gìG.õeö½ìÿ ªj·Ycü‡EŒº,oKÑ>Ê’Uñèh™'äB…Â†¼/’‰
+&ÒŠ(hhcú"éZeK§L—M$U¶“FH‹+ÆÙeè¥G©eölÈ—½ê›wí£¢ÈLOãV’•'åL‹…ÅÀÇ£ÑDŒE"Š(hcşƒŠ#™gb‘Õb:oï«‰–;\}Éº#+W¦9~mmqã*SqS»R-•–™‘»¾âôº#Oâ¶K!<·çLŒÈÌLO‹ğ½R"ˆ¡.,cşH;2†X¤Yfã´Õ<´²Ì½ÔU™RwPNoÿ ÙºlŠktåºs›jö±I!IÜ†Ê´"áÙ,”O1)·ğ”ˆÌRàü/Tˆ¡rcÇôQPûp³qdeF\k<0çôÊSRM›ôMŠ]®ÎĞ èË+~¥’qƒüÛQN]í5«´\»q#+7÷R»¢ÌmŠßÀr%’‰ç%‘¿Š™‘‘~Gª¹1’$? `chrğY	°,ê§ŠKªÉO!<”FW	ÈÇï;ˆä¦àïr†ßUä=<›½Wÿ ÄjÜ¢ÍÔÜ·ÛJ;a´‹#.êkÉfáäD³¤K¨Ûù	‘‘ãz!\˜É1èE—­rE´:È§Ó´uSxÌ?æ‹‹‚OñÜ‰Ë²§)Qî±êı§‚no=Ûbœ	OñJIÅor{Üßä~L©Z¤3;,sd‰uº†9Éğ¢¾:dd'ãz¡rll”‰1ı¤)
+BzQED'¯]Š3x©Fr!‘Ä–SxmŠíy}ÒS„¥G­n~ù˜ã¼sŒ;C3Ü¡–Y\ñÈ¾ÑcŸvû©ßx²ÍÈŞQ4GÔ!õ'òç&(ÊDzk?ˆÅ‰ühŸÇè@ôqŸÇÆñ`ğĞú!ôRK4<2F×æLŒ„ü¨\,±±±±èKÈÌSÒ†µZY™Øá)”àÏctIO²ÌF;É½”“…ãÇ¾²)Ö9I¬‘q~µ(äœß¨I¼ÒÙ$’lÛm¨Àjˆ1É¥êÈõdn‘r)ŠÄzhÚ…ØYÜn7‹ğÙØxàÉt°dº"]4âzr6¿Yæ\,±Œz?¡£FIˆ¢Q$«K7dòYÿ Ì£cƒQv§<yé÷DİƒMåHß'y-±Ç%³<öãÁ‡xª)EÈí	o·ê\Dz‰e6G°ÿ ©´P
+ZY|,‹Ò¾Ôg„v8wØl6¥jˆ±>oéHÂÈa#ŒØm6ˆhœM¬X¤ÉB&ñÖ)¥‘æ'<C’¨Æ²sq”_©/Å­ËòM2?Œrªj	ÆIÅ¬J­a=CUÑèZXÓ=*=6ˆ©cÒÍÅøSÆâÍÆãq¸ÜYe–Ye–XÙ?ÈôHôLôHx‡ˆxÍ¢æøQ\Ş¯è4ˆã!+’lÉÄ|¯YAH™,q=¤g1)¸Eu6Iî’‹¨ç›“š%•)úÑjSß4–Ù\'Ó»[Ôäå·v‹ì¥mæ‹ñYe—Å‘VQEm6€à<fÂ¹²¸ÑE«Æ? R#DHFâõ­72D³FFüd”d½×QDm‹"kÔƒdR»ÉêméRXr¿Áeí†¤nüqÂÇ¸âI™#ieicjRu‘Â'§%ôÒ~˜šN>tD¯ÆôîERçCCCEV‹ÁEÅŒcĞ	ˆ¢%£–ˆ\%ÒƒÓq9db%²cR—ñTÿ YºPÍ’3†L“›q¨BDŞJÆå‰9E‘Œ±‹%¿ş½M¹·Ç¾9z„r­ªq·8²‚‰°¯Y-‹FÒŠ+Z+J+J+M¥xÚñ/ÑŒc(ÚQEûÊD F%°ŞˆK”¢dÆ>Ã$…s—yÍÀYÿ Í}ºŒ•-¹²„pÆm8z·ÏüSš·ù$öeµ#$ZÉ¾MzF)S”ãxâ8EKÓ‹=8´¿}ôŒ¨RW(¡Q¹#y¼Şo7³Ô7¢Ö•ÂÑ¹
+¼¬cüÀÆ1Œ£i´¢Š+÷œq!†=—+,d´fFÌ“q%&Ş,0ôó~&.,‘ê5,»¦nŠ3nÄGšÍ»	ndñĞ¿¬»dŞ¦(Ùè›òÆ0ÈÑê¶)"(^ËÇLîw;‰–Z-iFÓiM™¼’ÜdÇ
+L„ÈÌOÊÆ?
+ğ1ŒfÓi´¢Š(¡¯İÑÑ’Ò"|,r,±’Ñ’‰šÇùbÈñ¬­¹,‘µ’y­£'™Ü£<¤$¶u2Ü°Ëd{mrp#ù™1RÃUş×aDq¥WŠ	Å!¨´³q¼õTõU¢7£qê´MFf×3Å3q¸²ËæÆ1óBğ1éEiEQCC_»£ĞôLÜn7!¸²Ëôd£dºI,“Äà>ñX,‹ô\²Gno\QØ¥ş>®¶tıâõŠI'Ş8ÛÆ½dÎÓU´İ!4–ëwMHDt®V"'},wà²Ë,ÜnÕŠbÈz§¨z†óq¸²Ë,²Æ1òB\ØÇà¢´cCîĞ‘	‹$Ç#Ô7›ÅğEí£×'ôœ¥º9Y¤šÁ‚;ó=_PŠ”Œ¥8hiîÙÄ©şHÙùMN÷2Ê+ºBDt¾i	hÎÿ Ëïe‰‰ˆZÙ¸ÜYe‚¼~F1şì™‹!ê å¥sDbm3DcÒ‰§Y zot1v‹J2Æ ½9{;ÿ &íÑÊ”î&èÓÉ¹Çú¿ê¨ÛNSš»AÙBñ#s-›‹øOßDF"‰EV¶Y|hKEÍèß‘Œcıãq¸Ü!	\¢GLŞÌ÷j41¢Q6wŒ¤CåI+ÔÙJjXß¨¯İeÂ6ÑM=Ìº'rj$U–^‘£ñ*&Äl(¯=ÒÑ"#"Š(hhkP‘^1ùÆ?ŞâDDù&&9&6AjĞÑD¢¤½6J4œäÏLy6—êšqø5#øÉV–øìH«6ÓHB1áŞK¢W;73q¸½[£y½‘¹‹áh´nFòïDAB\hq†Ãa°Øm6•âcÉ±±èÿ {DYz=l³yê))ØˆêÆ=r»6şY`¢eîút;¹¯Æ¡MîNKè÷TQ\0JŸº–É`hÛâ²ôpLpkÍEà¢Š(¢Šå|˜õZ.-ó¢¿y‹7e–Ye—¬E«-$PÌ¯xâGñqÍ{Ûô¬Ä¶¼‘R#
+ ùÅÑ¤gg¹,I’ÅFß—§§¸–	ÇÉEğ_/ƒ×À¯ŞìÜ_†<¥£(’ìàFéá8úQŒT;¸	wÚW‚Å*#”ŒÓ=ÉbL–&Šñ&bi‹Û7McUâD&_ÀcÖù¿¥QLzĞ‘EÒŠ(\“åQºËd±¸ø“¢è[2bU<nÃFB‘¸Ün,¾6YeğcÈ¯¡‘L~úWÂ…Í>IËBw§¹<#x’‘­†e›Æü	ŠB™¼Ş)Æãq¸Üo7›…Å¡KøTQEô*#Î^Jà×Ë•˜òPë()ÇC\Ñ	6¸‘’’ÍÁølÜ&&.Â(K‹Ë/ÍEWô7ğZà¥Eß1Ì½_u8íoš!U$à.ë>ø¢E	r¢1y²HÄÄÄş+úxÇR¾)‘—e"ô›íeòBD'µ¦¤œJİ¸ı9øbDZ>DW’$H±2ÄÅğ˜şƒ^ğrRãQ¸Y&‡Í(„¶´í4gÇêCÙø"DZ½"EÀÉ$X¤&!|&? —ü4õ…2IÄÜ)Ñ¼—¿8ºrˆËkNÑÔãÛ/"ÄË,oH‘ñH™1ŠDd&/†ş”~£ğ'¬r–_n¹DiÔÆñøSÆâÈŠDÉ¢ZBDX…ôšøoÙx=,|Ôw„ ï\Y6Š¤¶3æıüV^"/$Hš%¡{Á‘bÔËßÂüWàJÌXèÉeƒTËâFV{>£*¯4‰‰ó±±Œ’%q?ÜH±1y[/÷÷ª_û¯Â„©¬ˆyv™¥¾ZFTA©¥ØÍ’ İùâE‰‰–Ye–n‹Ò†‡q$„E‰‰‹ÃeŒA¯/xøÄÜ_ÜZê{N{ŸÀLŒ…#q¸ÜnÍæâ/J(hš'ˆˆLL²Ëğ¿ ãñ¤/økGñÔ…1HÜ9fâôÆ-Z&‰Äq¶Yeù+÷õñ¥¢ğ?]¾=›ÆâõD«$†‡i´¯…Eô“Ñ|Üq¹dŒqbùÈ€¸Hh£iEQ_D>tWÃ~7ğñãrrQÃÍÍüäDBÕQE­kB?–õ_):#ÕF1G‘ÿ Àˆ„ü4QZV¶_Ğ/õÈ‰ˆ^(¢ŠÖş€òıD&!x¨­Zúò\ŸÍ-ñÿ ¦ˆˆ\—&ŠÑ¡¡şüÇÅ“ù½7õÿ ¦ˆ‘¯UÊŠÕ¡®6_ï’æù¯ÓûÒDH‹W¥‹›CZ1¡®6_îÌ|P¹¾kGñ:aûÿ ÒDH‹F1–&.lz1¡şöø¡y–¯âauúh‰61²È±1>LcÆ¿zcâ…Íüäêõ"&&XØØÙdX™e–_1ŒcıåñBøoô„&n7†ÆôLL±1=/ƒô¼1ñBğíğ¿Òl²ÍÅğL²Å!2ËàÇ£îïŠ¿ı.ù-,±HLOƒÿ xcâ…ñ_ê‰‘˜ŸûÃ!|V¿ULŒ„ËàÇû»â…ò+Ëe—ÿ qxS,¾÷f>(_±¯Ye—«ıÙñBìkÆ™e—û»/Ü,²ÿ wcâ…÷Kâ„/ºø¡}ÒÇÅî–>(_t±ñBû¥ñBİ/Š¾ècâ…÷K/ºXø¡}ÒÇÅî—Éî—Éî—Éî†>H_t1òBû¡Šİè_w¡}Òù!}Òù!}Òù!}Ş…÷Cæ¾é|×İ/šû¥òBû½îõ÷Kæ¾é|×Şï÷Cæ…÷Cæ¾ğ_x/º}Ğüîõ÷‚ûÁ}à¾´ÿÄ -        !01`AP@Q"2a3RqÿÚ ?ÿ ï^:ı2ï"T!‚Qqx~P ØâÖÊ1‹î8Å•)c}9b"QZ–cÆèS”û‹‹Ãò
+0ÔÌ`’‹*RÇkÓîF#Y*GKİO±ÊJ±Ó<l§MÍšt¯â7ñ!¬<xü*8>WRîK‘iã›Qş×õ1ùİC›ú¥ü¯J››#…i,ïä4çğDœr†Oı¯ê?¦ÔQ†oêû«R¤æÈÅEa^«J9ò(÷#jÑÄOŞş§úí£OSÎÏTÿ –
+TœßøF*+g¨©—¥y!ÚŞ§¹éûßÔË²ÙN››IalP÷fåğ$’ÂÙZ¦ˆù)[zåö””VY)jy½*.\±$¸[%ÊÁ’ÂØŞ9*T×,Ù&ûôßùRZJĞüy¿­¦œçÁiV­ST¯J‚\Ë§^®Šµ?NåÜŒ{Zk‚³Ì|j–Ÿ“Û‹%@qjÔÿ ­£Z¼ôÆôiiY}:õqüQ
+N]ˆQŒvO±UüxÒ)LÉ()–Ûeyj¨GTºu*cˆ÷!Cæ[«OL|rã—²O7ô«†úOü#·Nj+,œÜŞ_R’BæËeúİı/õØŞÓ©QArJR¨ÈĞo¹R®<>”ö7‹W_Á˜4›:°aÙ‰ë—N¥lq4e7™§Ú¾_Yørx)TÍÚÊ)ÏÅŞ¤BŒbF	pS¦£,£Hé¢­)|¢â¬ŞÎù)H…%d“8Á.û°(qáŠ˜âÕ©¼;jæÔè¦õ3X1É‚	­˜'Oz%ÈDQÄÆv¶(äĞiğ8¡	‚b†™àD£©”¢ğÌiBåCYGş·T§òº•k%Øo;Ó#!;Imc#1044?Š1l™*CRÊ!5+Fbı‹pÛ&oUaôgZ1'^Ré&BfF;!ŒD¬Ñ1ø9`O;:Z¹Duö)).Y“äBvÈ¬ßÅçíÊD«Áõ_¢Ue.´&fècZL›ğ523…É«ƒàÎL‰™äRÀ¤œ™³ıª{oõ/ôÈ™ª¤jO¹ùgµOô{pıÜ?G³ÑìSıÓS¥_~–_©Î=Öä'e±"6l“¨¶B‹0bİ»‘šoƒ?³¡¬r+v2cœ³½¹2íê`å!QRØô*¥¤öYì³ÚcƒVOc0$%fH—F$"+É‹o¸¨Év²¹-p>Œûï‹è¾Yƒ”:d©¡ÃB1fH—€Â#İıÌ3R"s#¶îNmQ½By¶4šVıK{D¢4!Y!#"VÁ½Š)Ä’­“7Ág‘c&r7w>N×Å›ÀöàÒ4j5š‘”d©Ï¹¢Pe:¢š5#;$‰!!		
+Ì‘3FM‘Äkï"ÈOÈÔ)šÌ™²%,"5Xšf_dqŒ|`\+äC%ß~z5V›ÙmFMD„(Š“d†#‰!ıâ‘î127VlÃ›#­	,prù;š†Äd“à“xì{rfõ¡105±"œLÍ‹%fMï .ÖÉ¬÷‡S$;ZO‚œX¦ÚÉ¯Œ¡K'”şê¸õ	¢Ô­Œ=ïWÀç${Œ÷î³İc¨íA_“A Hˆ†Œ%jÊÙ%!ıúb™¬s3h!Z]ŠTòòì–	¼–£–Q8á”ç¥™Œ&8îÒ™:æ; ù ÌïDLL*@jÙü’»É>QJõ#‘¢O‡tÄÇ­ªL©MO•Üi§‡¶50*¢¨k5šFDE‘fZhš»ƒIDB<;²¬~m
+˜î'dÄóiGb8déêî4ÓÃİbê"VLƒ#Èâ42hjØ4˜´üœEÑWd–£&ˆÏ6LÔ=Éä­ORÿ wS³dD¶Eà¥3†J$ÉFlcğÉ‹ÙQlOØ³vğ&'eÉZ:g¶3ÁîšÊ{©ÈŒÍYEF1ÙÍïÙN=&Añ±’X{#6ˆÏ&o§$ààÈÔı‘‘ş•ä¥.6dÍ£Ü§·$Yj&ÇwvÆü+,KÏB/ÙQnŒî¥‚£Ô­
+$ë­?ÆÙ3|Y˜¦kCY›FX5fLìüšœˆË/¡/ìEæìšã|g<Ş¢Ã¶Lô2*‡¸Äò"ÈØí“#ï¼bB5`u-O¡>å7vH{Ô°FI˜ã,©=LÍñ¿-h	ìhÅ²dc0cï¢†Î÷¦·²]È>EvK¿C8%VRX}d%hîhjÙ3v?»bV“Ù×“"îÉw´eE‡¿=,nŠ®¬ĞĞĞÖÆ?»î!½‹¸¯6Bì—{Rb½~Ë¯„m‘
+Ò"Åf†††dÉŸ»b³¼{İ»C½Øíâ½™è`ÇI3P™#dÙ	‰Ù¢H’ûõº=ï'h÷»º#z½ï†:Ù#1Ì”„ù"ÄÄí!’ûÉ
+Ì[u¢SılNÒí²›âõ;ôqøZŒÙ2)	Œşñ‹«	|ZrÙIófIò7»„38#+2vö/Á\ëÛİÇBÆ)`R5vÅøÏó‘‘1±Û&~íŒV_†ş…;?¾vVá7ôyû÷²?‚ØŞÔ¼vBºü7µxô…ømù#—à7»>Åe×or^>Æ+G¬Øö¥äìUíKÈX¬Èõ[Ú—‘;±tò7µ/#wbé1½¨^bß›·¹yBè½ÉyJè7¹/&béd{Rò…g¿&|¹t^Õå]÷/(b³×æ
+Ì]%âÿÄ 0       !10`"2AP@Qa3#BRpÿÚ ?ÿ ï]û:©xDsÍ3E5kå$P¤ŸNI.Èõ$aÏ}Ÿ&eÖ]2í—,™c$2F~>AÔäÚ»dd×ƒQ}¥¯SàlNŒ3ß,Í÷˜Î[¡Ã6eNNØ®.Ñº7ñü˜£“É—§p×§ËKÓ«ñ¯G.ûx³©Uß^ı-k›2Æ‰IÉÛÑw1ªŠùVfÅµö	mvEÚ³«ñ¯Kÿ 'u·Zô_3çX×ù%''o\Qİ4¾E•Z%§M+Õıºô‹ëãŸ.Õ\:5Ù³6uKÈÛnß—-ÏäS]‰yÓ¤ğÎ«í×£™pË•A““·ÃÔô¡µy¾ï†{åB×røû2ıÚtßiÔıºBn‘¨Æ–¹s¨öD¤äíğ]»ßwÁ+0âôã¤¦£äÉÕâowf»×Æ¬½Y›ïzbj8û™2oztØ¶FônŒ½C}£íôØkëctdêRíSró¢0/¯ãYÜìYdˆuOòC"—™~÷¤åztø÷ÏFÌÙ\ßøöğbÜíø'1'šSà?Ÿ4™ô„Ü_bwFÆíğéaP½:©ÔkÛ„/»'›ñX¡ºT%Kã}Oc=¼wDU*Ó«W¶ß(ÅÉÒ1cP^å—ğş¢-¾xäZõ¦X‰Xı¼xÜİ"*‘>§ú1eİí2Ëøs™ñW7F	ÿ ÔFáÍê+éÜ…šû»l·Wİ2Š¨Mé‚“;,l½"ş(îFl[ôİLê1ößu
+32u’Ÿƒ'S7Üêz§<{dG#‚=TÑÒõXßveêã'HR#ÜñÍ5YµB1}¼Xä9
+eßÄøÙ¸¿·Cê)Ê¥¦xÜFU¢R:ºJ"n¹[7öìn¿,ÈÓí¥°¤Ó³§êê‘¹Wow7	Wl±Hò-,OD]Èz‚¤'ğ,¬¤Ñ¦H–Mø­h§²VdÃÑİ_TŠ"ßƒÃ*ŸÕ­kÓuuôÌŒ¯ÛÇ‰È„6ªç(’Z¦-S,œÇ"ÄÈ²?É:%‘½+L96º~¸œI²]D ÚL¯Î®ÙOÁOËÓi°¡£¢È¥ıˆâ”Œ}2^D’ñìÊ6NKˆ’cÑ#ğÑ±ªàÈu{HŸ£%gV±9ÔÅÀĞÕ‹»Gş‘·òPÑƒ,±ºDn,RdzWù#‚(I/rQ²Q+‚ÉDAø“ÂOZ²HË7BØ«ú¶mÚí›#Š}Ñ¶£hôívì4ª˜âŠG‡hé!êÃpºSı´W–mÅÕ‚ğ‰uğzÓ=Yÿ g©/ìß/ìõgı´ÿ ±u9ÕËò.­~Hæ„¿%®2ˆ×£dµŠ"/K"‰“¨%$ôc‹~ı<Ò¶mKíb—o©“’ÚK·‘GêìR—cj}…*Øâ¬íù*#Š¡ÿ GúwQb¡õWày÷±·¸õÏ\YÅ•™$PôEèˆ‘Àg”œÇªQ¯úÌuLp‚—ĞûqD¢¶îd-®Å$û	F,[bè§ìWrè’0F‘q~ÊìYeŠdr
+eŒe–"$Eğ™	NùIF.•¸[ìFNÈnÈén5O¸–îèMîîyïù<¾çe÷³ªí%äÁš%-,²Ë/>i‘˜Ç£eêˆ‘7Q¼Ü_ï2:Dä!ñdÜ¢Ì—·é>­½•äŒwv&ê=¼–ö_äW.ÃkÃ›—ô:¡EÍ˜û/bŠ+XMÄß¢xÍ¬®)‘cc/‚"o7Âb»È­ƒ±DØÇiEhÑ>¤¨—K¢JPğv­Òç+F8T·XÚ“;y)yzO±hÄŞÚ"/u~¥Üx‘(QEl”‡Ü^ˆBÒË"È‹÷rÄ™è…|jÅX¢eË)tY’>å¨öE¨Š”$›&×‚˜•¾æ;hi]ÄKÛ¢ŠÓ¦]¬lÉ1²Ëá&d‘bbbdX¸¢$EûÜ¤¼”m61a°Ñ‘Û.F^–9"eÇdÚ‰bq–Ù’‹]ĞÛjÑwõHO¢?äÃĞzr3aÙ:*Ò;"Åz1=zô°GLŒ“áe–2hŸaLŒÅ"3#.$DBıëVK±µi•Ò‘û‘ÕfÛ‰8WÔ‰ï›ÜÎš]£ÇTn•mfØİ£Ôãf|[ÑEk|”œ|úÄ…Ç"$½‰PÅ"3!!=+T"Ëøyp—vJ"‰‹é‘Õ«¡ÀŠ0Ïc³6û–µì4bÊáäŒ”•®Y,cÆ8J(­'$4‹"È2–áHL_ “¤MÛâÑE>¨"Š‚‡¦L)÷CUÅ1qÇ‘ÁŠJJ×‰²õz´d‰•~H;"È²ZÙz!àçøöWPŒrÜ´œ‰ãqÑ¢½Œ96¾2&QCã8™qâBV@ˆ‹/‚¿'H“Üı”=Q†Tõ}Éáş†´­TwPÖ¸%º<eÓ6’âÉÄ3hÆˆ‹…$$/ßçŸãÚFHÓàˆ;\'H”áºŒrYrx«Á%§O£Å±±²\¦‰ÆÈD‚«D$$%ûùÊ‘åŞµìM\,z£üqjÉâ¯´c{]é“‘w~9cz8›M¦ÃhôœDˆ¡pB¾šZÆ£KØ‡x’TøctùÏø­p»Ã˜ä^©
+'¦zc–”m!	–_ïdè—r0±cKL¯·±í3GóÁv¹Ê*DàâyìŒPØ´rÇ-hQc­h„Yz/ŞM‘VÄ«\¯ØÇàš´=Qíör8ãèr‡-hQ2$ôcâ´V«÷ˆ“ğŸb¬’®ñ¤Õ>_oa±ÈoZE¹ÍV-©éQE÷²dWàzÁ5D|i•~xtş_+†õ¡DQ+Ù™Ez!¡ê˜ˆ”Q´¯İ"OH®ñªB2xÕÆ“]‡®ÏÆõ¡DQ÷6CJ#Z¡2,O÷Ò"¸ËÆ±ZKÆ«VK\>87ÁDQşD¢8Š$bIE¢ûÄ=ø3Ódaığ’ï¤<ğÊ»ë‹íÕ½hQ+øTm6”2EV‘¿xÅîN?“¹/ÏËµèˆªZ7ªB_È“$"‡„G÷hz!ÿ ÷=‹Vê‘_Ècˆ#‰DWîĞÿ õKùL¡¢ˆèÑ´¯Ş1øZşe/ß-‡ûFP—ï–¨Æ_Cş+Õ|}øëäçz?š-æ‹ƒù¢Õæ‹ƒù¢àÿ ÷{ùº¾şJ‡¢¼şL‡¢Íşl´6Cùºˆ~ÛùSÑÙHÿÄ 2      !01p Aa"2@QqPB¡3b€‘°ĞÿÚ   ?ÿ İüŞšÆÆjvæÄ‰Ç+åùZÑÑåjz‹r5¿gƒ5[ã(E•§:u*´sU¾…ùºåi1¯‚ô3U¿+½Ié«ñÕÍVı3ËĞ.–>ˆD½úİ_\’ôWãO3êcÆ/}BïÉ)èÿ M8êcÂÄ½ô]\“?Z5èÂ<õÕÓ[½ù*¯ÆOíèËßAS¦ê}‡SİòU_
+Ÿ}–„÷Ññ§‘l¹.¿Æ†Uí§®5o£vyÒ…îz-Èuş:òSïã®È¶ı6é'SO®ÜŠ©ûxÆ.§ıSİôØšÈKâå^ÕÓrÜM?Kª¶›÷øß§Nıú%–ãûiTûI¢ŞçeÕçãB÷>G¶‡—õM—Lüid¼.[”*«¿n™øÒÉ/ÉP-
+hş¿*Kí­|OåKäÙĞoå_[É/‘ßìñNüß–PZñ¥™iÛ×Bz|ÿ %ùt3+è‡ŒA=qñ¢‚_(ßæß’#Eàõaåˆ~í|?%ŠæÈ¾ŒöÂØÏ.gZ°4FIò¬¡rÃe…#]–Ç‚Y8lY—åÏ÷v?Oø½¿Á4´ú&:lNqQ
+—G¥Œmãn\Ì­YŞ–E^¯ÏMö&’{HŸòºÃÈêûˆ“Æ"grßÜ‰©&›¡4‹›‰¢1ØÌ·&R2Ö:sôSüD%R==Ëï„²K’}“ğ·,FX±?ÄE‘g‘I¾Â‘%U°Ü½êéWb¹X\ßK±·M6›ÙİÈe†™™–ØlõIc6øI9ä3wÓcsss±¶Ãn5²/c.å«25rJ³+ù&ªIC©©%X‚ği35C[Ş	É¸±·ì[qŸ®´Kc¦»>ÅèM©¦9e”‘R#(×cr ±,Q±5éø5î7!›Û•½4æ#ÛûabL÷¹!²¦]ş‹—¥O"qaC°¾°º…„R\Ş£*g»•¯JgútÄos|<÷7R:gÉéxOó`ìÇQqá±+±±/qÓ.[rçÙnZri	™Èé›Xÿ MJ=j£*!7$ËQ¤eJ0vœ>Éåœ«
+d™G§sÕ°²“Üµ%·)gbâ†M$Aä½ÏìòGÎÜß§1ê¨UUy¥»ŠOi‘)GÒ2Á4³5LšI%JØ‰¾™éEÓ=°l_æzjƒİ(¿A–¥øƒ6aåvîÇ(^„Ú„ev2+‘PÒªKÓ$²Wl!÷ÆQoŸ·fOq<.x=ÒML”S—¹äòT\©o%Ñé¤ú.[oØ¥qÛ;ŞÅ‰î[c-Â,Ç™Î±t³{}‘SÌ›XËMÌĞKª)3!n_şÉÌ(Ø”AˆíÌ>1Í&j‘0,-†ÆÇa†CÂ0Š‘±'lvæhÆ~‹¸2§<Ûê³%9XÊù»r}Ñ·ì3A~pòCæ;jÃ<s}Œµ¶çµ9Ã+æÏ8Ï/C%mÏC]p>g’;ö!ï×šst[œ%_Û./›ów%óu¨¹/û^Ïüá|ŞùÂ®p«Ïÿ HÓÿÄ )     !1 0APQ`a@pq‘¡±ÁğÿÚ   ?!›’K¤²Id’I,–I.’I,’ItšMf’IzK$’Y$’I$’I$ÒI¤ÒI¤’I4’I$’I$¹$’I$’I$’Éd²Y,–K%’Éd²Y,–K%’Éd²Y,–K%’Éd“Id²I$’I$’I&’I$ÒI$’I$’I$’I$’I$’I$’I$’I¤’I$’I$’I$’I$’I,’Y$’I,–K%’I,’I%’Éd²I$’Y,’Id’K¤’M%’Éd²Y,–K%’Éd²Y,’Y,–K%’Éd±7#Ïİü?w¬?w¬œıŞ²<ıŞ²<ıŞ²<ıŞ²s÷#Ïİë#Ïİë#Ïİë#Ïİë#Ïİü?w¬>QC¬>M†CAE¨ÚCĞ«#ÏŠÀ™Àİeo=²7v”p–,5˜eàaÙı²sâ‰IhK\¬&2õç&¸t‹¬0ğI&Ìk—B,>-¸£ µºK"<P'lX\îoé,Â^hE­"IÓ`FE˜1¡¯6Y|&D´$Z“Ü£KCÔİ%ªµq¸×/tc	‹x|’q‡²øˆPDö__.8ZŞj²<øDH´¶£!2¸Ğ$”hzE–X H‚Ããqî&ap1DõÃÔ”W8!C”1ÂwóU“Ÿ„d"›lÆ(·Åƒ:†¡Õd²„ T‹ˆ{qìFÑØH™æu½	!M´HèXa2!ÿ <Õdyğ¬¢ÂäÀQd’F]bÎ«&QQ$C;ßmá}ˆŞêEVHm1‚âˆ“@òŞj²<ø[ìa±¹CµDßq¨tYÍP+î¶Ü¤"SüÅÛB
+. .uVp	¿5Y9ğÇ=ŒàÜŒ`5"!ŸÚdcø©ÿ Èÿ ¾°€Y^ÇöQşy²Èóáˆ‰5ÑwLŒz¦m£T¢Â”šèigºGĞZDì1·	]Î?<ÙdyğÔ—Dµ~©SÊ8ÙA@‡migu\I	öÙ\ÿ ş7Y|5…å!Z¯º™E¢Æ=ª=‡¡$%hØDŸ7mc¾Îq7%ùºÉÏ†¼(Ò¤X?íS!í…H\¿¦ÃÔ™…ì…"1¡©+í]^ÿ ·­¦‡åë#Ï†áRˆE¿¦ˆ‘(‹Öôğ~½ki–%í›ı.g–Õüìjsd]ZK"ÇN|½dçÃrÒ"YŞz‘ÅnåŸñ®)c¹k§“Ô2VH£¹ÿ vZ‘ÏÎ=hkÙ®…,–cÄŒ<½–N|5dÄEBía+Jæ‡v:d·¥ï	,²ÇØP„µ´ŒVIÙl¹¿ı+;À…?ò(HH.È-C‚`d\Y|;&àkàn¸Ô²`§"?ü!%¾¬*¤¯¢mÜ÷1t!Äëúh€Ë˜-·eÚ¯ì¨ªíşâTa©7ËñdçÀÖI_b=‡¸¦áˆªÉb1dBŒ'ğON‰©iE$…[iL°Iä%n±-•~eèm±»¶5¡!¢m
+qqºE v0“Ë‹'>¬OÂ%àCà”È±<p÷†©‘fCJı	WuŞ›qè†©!
+e}0¶Ô»±-—lÜ!²ûcü%		ª1,A#rü¹dçÁµĞ»Æˆ(v¹bJ‘p0gıi»”(Ñ2Ô1-–W“Ö8FÙ²È”òõ‘çÁVHÉ”ˆÈœSû‡)ª¹Ó.Ñ‹®†àw	¾òÄŞKŠ]JÛL€JßÌN|D¡1:`( ¬èó¨lí¤ÂÑ,C‰¾„; ÆãaddÏäAx·'>½@˜˜²(±£ĞHn\èYM%/VvcòKr20œ†3%#âÁ0üT²sà«4E/ºšÃ¢8Ñ³SÀ¨ÚMn¶I½ÖJŞå …|4A@Âx§#Ï‚¡)““rW¿ëLJH†Ì½c!m/a·†áI²ü±94ãQŒyø0$$AEñ5“ŸP/" ĞĞ+À<’MıôÇ¡X0©$‹H¶İ“†8KŞH¸,ªdwàHHAP‚ j“^%Èóá2D*1b½è‘ìH‰$¹"„ø!¥Ka&˜ìÌk$’$–¾P´ÈÂn6'ŒöW·aIb‘d7G¤œî ª A*E¨Gˆ¬>¬J†%(Õ‹4PBY¬Ö!eAe#å¬9"\~Á©HfœÂ
+ñ–Ä²X$’Fˆ›[t[-–úe¸!!Ñ‘Ö­‰¶Š¨1i$1dPkrğE“Ÿ	LsÃdqàÀË‘’Mö°ÆrwBğ5uİ
+ wÀâc€Ş$Ì¨›‰û¦^…4õAT(H¾öäì`§EV5)!q¹(‚ Tb aDPkePËà<œøĞ‡MhNq"BÚÅ9K4C¾P˜MÑâ$¦Ó&$$ã#arD#y‹WcA3E³rEqtï±IÓúƒD—	4¶61„¢Á¤ÛJ²*:Š1Ö„Š1Õ;Ó3.•¡¯ Y9ğ9(¦0'î«X5‚L*aÃ‰B×JdeèÉa£Üƒ2)Í¯ø+rÃ’w$‚Øqƒ(lÉ+ì±|ŠZ˜¡a_I«èl.m­R‚€è¨ĞĞ„1Òzš¢Ë¬ÀK#Ï%éA"5bòF¼«šE•)rF{y Hà¨írûÚ!ı(chôBo†H›]…ŸĞŠ‚#fİÈGàX§d#Ùa%2Æ…„éˆ›’bIÑ$“¦(p…! ÜîA¡ŸCJ1ˆTb	¡6–L:Q×ÖN|	¬y<I ˜mDjdtLw¡tXÀÉ–b²(/d¾]‹÷Ê÷³§¼Y›Ìàá(±&åÑ^}Ëî50]rA·nÇımh^±Ş'Z¤šÉ:àŠ!
+\Ò7;ĞÑCªMXƒCècÒ¨‘CB(¢¯¬>%$´±Š"k£·#™blı)>V²dv#IkêËÁ= ©›ì%
+^n5ea³¸š$jß§î²O¥ZĞ5¹‘w`A~¶²ŸqœÛ¬
+´9“ç±ü6è´„É$PF˜«D#‘Ûü'*Ô•t1QUĞÈ¬(•‚]õşG¾©bt‡r(V˜DU“!­‹$(vzİQwH$µÉ†¤ÎšÜ™ÏÉl®Â{V]ˆÄèæøÒHY"Ù”îD¥‰'ÅÑàry!ù¯É#¹/äçnIlP‹®ÜØ•ê‘$·¤BÈíŸÅ‚°¤MèÖ†:¢Ğ…F=‡_Y9ëèbÙšÀĞéa%ŠBÿ Gà˜=7ØtnGİJ¤Í³4æ—a“{Æ8ÆÁÖKšÇ±É"r;IjâR9Çˆra±l°“7`¹rLEİÃ»-¼˜D$&.*på‰&E@ÃL©¡ ‡'<9ŒûùW‘èj¬u&Œ˜ªèzOà%‘ç¯¡é ®EF:^%ü”ùEÅÿ ØOšÊ.°k¸´Ö‰P/bB|ˆ}ÚÁLŸ£Sf$•,™!¦ĞôSSt0¹u+»Ob)…dJYv)Ó”q¿’{ºİ…Ã=hˆG0'†1ƒ•%²±"]ˆ'_’hô::•D!2IÒàÃğ‘çÀ!«IS%ˆ;(¶ìÅÄ	·°æŞLŒ‘N‚Ğš±ÍAôÍ5Ø·‰>B¿¡I_jisqx4…^%@=ì¸¾Î„{BÈ•‘(—Éç°öÑ ¿'e´vœÉ	DkÕ\ƒÔ6p7Ódûçeˆ`ãØkË»bhô:1ÑTBdĞô^j€,œøELC"Fc¢ÖÎ2,Kÿ DUQ9rİØJœ&b¾–É0´&Jì=¿ä1)7Á‘7Ü’.Eù’É4hDªîÿ ‚Ïeâ²! &Ä$Àæ²ìf•è±ŠÂb—ø1±”óÌÚ=ÂnDÃ]¡'–Ğ—K3$H–K%’Éd²I¢ì¡‘Sc½8§×•²ª)“¥ŒtŠ*$Œ0ÃPè~ ²<øLn…*ÑÁ*«/oE¬Ÿ³2º0O£àB
+Y“XJ’Ïa¡‘p†S&`Ø¤ğ¸¿e]2:6N’FTI’Ø&ËhvŒ-ˆµÿ °\e‘-‘LÑóˆ¨¥	ª’I"¸Jˆ"AAEbGÙÉ(c‰“&7‘F¨MU„$!UŒcÆ? Y9ğ&ò¸RÅ¤ˆVÌ vƒòÄLK{Ã”%daX\Hû@¤"Rù"º»'‘[)	A„ØpÅµ†û|ŒT¯è€-®Ln V¯Ë°ãÀäÉ š+a=™¤É®ÃxD†b¹
+fF«1ç’Ì	!"¢DìDê¤L‘ø?§¹àcñKô¡è=È²’d’!B„ªA@ĞƒC¡ÀN|Œ˜B¢”£FVÏñ.kÙXËiÓ¹(àVi1,§h‡ÄÈÊhBå‘æÊ±|¾…Ú°f9ÿ £}…ËĞîˆy=Â2öğiˆZ /“’ZÄŞ ŸÒd™ÿ ¥È˜ÈÓØ-d\UèµÈ„!h’Iªt”Im3¤&³DÂ$H‘ =0çÚH˜…D¡!!" Mè¹Èó×ç¥+JSª ±\FÄûÊb$X"
+Iü™m²H­ÀfX¬0‘&Or?ş	ÆîîC&¡ïD/Øì%<1êÊãbQ1È¹XàCQ‚Ó¾ q†‰¦x7Ä$i!nå•8JÃ (¹ŒBÛCUEnC#Q46Èm†èªË.¢£ HHHU@ĞĞšAÒ ‚ë+#Ï^èâR%AR	 .Ú‘‰˜&†İÈúÃ¹~ÄHyĞ—†'şQÛk,–´ä—†p@”N²dM·¸²BÅä1Eo¼P“\Ğ—rĞŠ~Ğ¢+!ˆA=¤Ì&~ü
+Â?‰™A¯ì!Ü¤Pˆ°‘)1ºÓHLâ…Î	‰ö'Ø—bb*EH©f$[MUà«$$$APôÅÂÒÈ#¬¬=vGBIìBĞHZÙ%Ğ¼†$ÈŸAuë\"é„äpf¹Û‘*—¤h+‘;\|ƒgZo¸å›Ğ˜'Ü–P ù€˜@Âuk¼%0@?ÛØD^	C~¡°‰Bÿ Ñ {†$v
+è†9°-Ö@„B,X°†"áõçÅ$òÏBF¬§ú&ïQ…¢ ‚=F¼EhvXY9ë²QFÅZÒZ$tÆCÄcÀÉ£Oq‚HQ 
+\ïÙ:0ä}ì_ƒ.éva2?*bŠÄn"5òÇúÌ¶Ä¡£MÈVX çˆ!3YLv®Lìbbá²,a
+·.\¹r‰%2% ³ A¬á1'(Hò=2ÉöÛÔ îu¤½Ç¡±ÑUA!hcĞRE1i›¡®°²s×õ©XQ‘¨'I‹µ,A³‘—9d¯´†<’KgÁ°ä“š²òbÖ°bC	_¡Ç	.ìmà&„#´ößÌ[s†ÈÜÆ[äÌ)¨öO/"4<¡WñìWHBd’I4°Ó½8.šTÃ&¢eÈ™ª©°l°!0—İ‰ÊÑbRH%I$é'EUQCF¤EÒ hh}]dyë™JÅR
+ÎšJX›Øl¼Â$?¹Jms"IÛ7‰	ÌFÄoD“ÍOø@^F ¢É„r(w-¤£’ĞæÅ‚æÒš.…şÜÍ<÷fÒX‘LÍÿ D‰eÌIÿ 	Àç‘èIQ’hkûû¸cjI5$Nˆ%¡BÚ/aEjM†Ò!J	ja¨tU‚(a¡(%}Ydyëˆˆ²-4©‰“	$º•Ë™¤¬)!lZáˆ<[Á Ù
+U´—Ê»ï"&oô9gWÛ‘Ú\dM»Ç92D&ŞÌÊ…†`´]˜éÈ%XğÑ‰Šf°AÌ…´IîÈ™2À˜U¤ÄØ¤j*%HŒ14Z 	Q«,=vGJ=É‰™šb	Ò“YLAî+“ÈHË¸	WX‚0bö\ö›‹‘»—P&¶œ	ïî0L²ä¨Dçúl'Ù™`G{	*Ñ31ØGŒ½
+h¾²ÈZP‰¢b¤A%Z‘2vd’IÓ’ˆY­*†5˜lbBB•¨Z]Ğlš¡		Q¡éf>¬²<õé"dÆlRbT!&‚!¤¸-_ÒwÅÒ—$Maåb‘àQdNK7J,ci. CÑKJÂçC'Ù¡cœ¯BÕ#J ZBhï&yHÔbÛ’F¬lË6„U7¢ãEÈd1hú¡	‹C¨ÄÒh„*±±Ç¨ÇÕ–N|‚‹+Ju»%¢rå©;Õ5ò{1y  ”ÚK¸1Œ¡*(d9B  qŸä’*şâd³ƒ 
+E(Lœe‰"¤’Hr{	÷%ÜŸr}—î3ƒ#ÙÔ½‡¸rWrI]Ïb=ç°}ƒl¨šKC¨€UH´5DÄÅW£I"DÔt1õe“Ÿxt•£º,d“U‚æ-©-q_ÚeiÍˆ¯‚%”$È¡pÄTŞÅİNåğIIàMQ*„„$2!4KìbFÈ‚¬ÖhBdôüä¸‚®kş†‡D$’GJAP‰$nƒcÆ†ªGTY9ğ%QÀ¹¨2&ˆ-ª‚	F°ÂC‘‘íŠhk(jÜHJ	FPÅ¸˜®ÀÆ’Öˆ‰Ò @²Ô<6DAn"F¸Yˆ&åó¥†1:’MIB!I#c£È¡¢ê|œøp*LI:‚Â«ÔI¨»G	b…°„Ab¨Aã¾ ÈÒÃH 1U…ÄVe	W›°÷„Ú}!;¬u"I5hB&I$éc@×TY9ğäC¢ÑC fÁì<#1†«Ä@¨˜˜öìÄå™}V8¢×XfBÎ3İ)èIT¤’IÒ5A"d“V45´éQCC]MdçÃÙêADP‘U5q!„ ‚8Šñ²)ÈXÅ,ª4’9ÃKb×C¸cî^çswlÁXAP¢µäE„AT†Ä$LN¬k['[0ĞĞĞĞúŠÉÏ‡°ÔÄ½R".$EA‹Dx2¤Á2@˜ƒ"ÒkëÇº‰"³F¸¦Aàái™4Å£vb’ôa±±K«%X’è„«Ø\ĞĞĞÕcê+#ğÕFêRA‚*„A"':ù%ˆ$ÉìÅÙI@éŸèÓDÉC´@Ë‚9ĞéØÉJ»m!*	nŒR©F–…¤…šLN­F˜XÆ:ú—'>Œè¶-E`Z£R†¡èM§aª§HØç!ö‚kÇuYQ‰^'ç ác*œ4‘_xIQª‚¤AAZê1õ.N|-ÖÅE¥³*Åb‘D*EPE©ÕIšI#ÍøÍòEc"Iü$’;Qpä†z…ÌD"T¬p=—bF0Ø”’ÆœqdÔÜaj‚#D’6:Œ}K“Ÿ^j¨ª÷¦®p5RmWŸ6‘ã3@è‰%Àw DÈÃôZX{/¡n‘]Š&ËÅvÈäL’“‰‹vFÆÆÆú—'>é–+-U{eE¥%Qv;´Vd‹„Zä¢áè™
+ôL™%µ®e.ÃÎÌ:›˜›WŠRšÊ0ãÆÆÆÆúŸ'>êºVòl©x"Âm
+c°o_ì4˜»¨˜Ö‡¥!–jíÌ'Rh|nD«D<T0¶ØÆÆÆÆú§'>ÇEv-RNäCaİQyÚ]äë˜1Óµ—!ïD%™K"Ğ”¾Æ®|zRkp¨]
+D­0…°Æ7Qa¾«ÉÏ…¢Z¦«rÃrØ±‰+n`OCµ/cˆ^T~j×î‹Ó~ÂHTSq;í¡å¦.•J¦¶FËtÂ×#0ÃVäçÁØè’õOÁ.©*;“¥	ÚC¬à†>ËİÆMğĞ‚¨t¯Ú™„¨töËÅ‡¬*‰«£èh}[“ŸlzÓğr,{/?Ü-§ãI¡«2H¨Hêˆ!:Aô1Œc"ˆê|œø3‚t’h—Â5¶M[â+¡Üø²I"
+‹ …©¦‹sA"(˜˜˜Æ1¢"‡ÔGŸccª$š@—ÃåòÑC÷“{KáÉ$ëB•T1‰A—¥„ÄÄÉ£ëhhk¨r<ø+B T"ilÖ— óğ–-cü˜‰{ğdF”!PãF&€E– ha¡1	$’v˜ú#Ï‚1‡¡!-/ed[Ã«Á™‰]ˆ+èš»òI: hBG‚tcDEK40Ö‚IÛ}?“ŸcBBBZ^Ä‹[Ñ;=I'Dlª*!è6¤@ĞÃ0è4I"ÃéüœøuBBZXöV©”ú*I'Do¡ôÓĞˆ ha††ªRIÃéüœøuBB	n—ÅcS·Ì’tA	´¶ŒQ1«CTj¤šêË'>Ã¨A7HCÜtZš]CkäI$è”™£CC45Zj²*¡õN|Œ=	%¥ê: ÷Ç3şÇñ¤’~^zK¥»ˆ0˜´5PhJÓÔI$õN|Œ0ê„SÖHM¢Ü{‹™ûø’I:#å[@Ô¸¨OKB1)'YäçÀÃªA-LzU=kK×5ì¾’M`–ÃŒ=CÒË@'¡„¤úÇ'=}Œ6„ ›¥!*±êBÒôªF¿
+tA5®%eTAN…¨¢õNzûzAkcÒ–ÑKÒ¨ñğgDt¦¨:škJ¤LU1¡Š>¯ÉÏ^c:¡ÙRt˜¢BZSRÂ¢£øqĞ“TØaº*K@(*Å¥Ğc¼ÆP‚	l¦Y¢µ ó¥mª?ƒI¢u¡hÉ4t-cêüõó¨A>*hÅG¿tµ¡N”	£,cêüõÖ6¡øÄh[‚G½5	F‰!¨!#cuŸXç®ºP‚ãEFÔ¡¡ù¨öã§¨•Xë$dèTĞ}[¸ê:¡ém. ¶ĞÇ©EPllaõzã¡èA:Aí¥ÔL	$š=)èöëœõáÕP‚èÌ{Iu&I$êO@’zÇ'=mÔu] cÚK©¦I$ìÉ$õzã¡¥=¤º¬’O‚ó×‡¨]í%ç¼õ·QÕT]e.¾ºÿ =mÔu]cÙH^}Ï[uWEŞÊ×N†>Ê_@sÖİ£†1ì¤/¯G©]ì¤/ yë£Ô®€ÆÇ°—×£ª¨¾{ÂĞ\õ§QÕT_9e/¡yë.†:ª‹æ±²vRĞœœõ—CUEóØöRĞ¼œõ—CĞ¾pÆÆ=„„¾†äç­BùÃÂĞüœõ±è_6ccØBBú“°ê=BùMí$%ôG'=aŒcÔ¯’ØØŞÊB_DòsÖÇ¡T_!±±½”„¾Šäç¬:…Q|vÆÉÙHKè¾NzÃ¡è_$‘±ì¤%ôo=aĞô/’6=”„¾äç«±Jùc{)	}ÉÏWt=*…ñ[ÙHKèşNz»¡éT¯ˆÆöP¾äç«º•Bømí$/¤99êïæÉÙKé.zÃ•ñFÆöRÒ\œõv=eğdloe!/¤ÖNz³¡éT/#c{)	}(²sÕ²¥|ÆöP¾”äç«1êT/€ŞÊÒ¼œõf=Kà$oe	}/ÉÏW?Œ7´¾—äyê¯d[Íí$!}/ÉÏUcØ-ÖÉÙHKé•“ªÇ°[“²„¾šY9êÇ©n›ÙBBúidçª=‚Ü67´¾›Y9êŒ{¶ŞÒB_N,œõF?„oi!};ÈóÕÂ7´„¾äç©±ë[FÆö’ÓË'ÿÚ     jT%"R³Øà½%ËK,¦8ãÀQMçşûï²Ï<Ã0Ã0Ã0ÃÃIÏ?ÿ üóËÃ0Ã0ÃÏ<óúË,²Ë,²ˆÃ|Âc/8M…ŒÆo1îs‹ã9JK·xèÄú7qø‚ ƒKï¾;‰ï¸Ã Ç<         sŞAß}ûÎŠ ‚ ‚/ÿ ÷ßm      _T /¾¨ =$¸'ü­?îü$$©R#Z±½zEşbƒ0ÃàOï(  sÍ<€       wAwŞ|óïã0Ã0‚	oÿ ÷ß}      | ¾ø 5¤ø¥ığ~, öğ°€/Â^z	€?› Ã2Ãú€Èƒß@ <÷O        =ô@÷Õ|ûøÃ0Ã0ÂÏ½÷ß}÷ßm y ¾ø ¤ü }¢}ø°ãòÖ$jƒøbV>è1Ú$‡°}Æ1ßÿ ØAß}óˆ     B =ò ÷Õ<ú°Ã0Ã0Ş;Ï}÷ß}÷ß}´A} ¾ø ¤@WÀ5õQşàÀMŞ³ø– ^ƒäº~‚1ÿ Ì_cÿ ıöAwÛ8     C OqÀ  ×Õ<ü0ßşğÃ0ÿ ûÏ}÷ß}÷ß}öA} ¾ø ¤DGÀöÅ	Gû€jÿ àÔÈ•şÃ ‚á7Çÿ ßy„]÷È       A J<òAU~ì1ÿ ÿ ÿ Ë0ÿ ûÏ=÷Ûßÿ ß}öA} ¾ø ¤0À§Ò ÷Û<-?¯ 0#^±9àé_°Çè ƒø]ä7ÿ ÷˜}ò   ÀBp”€‚B&!{ÁWâÿ ÿ ÿ ÿ ë5ıûÏ<óÏ<óï=÷ĞA} ¾ì!=0Ã¡Z@CßXğ=ş$ •H!V¥Aş1ú ƒşyïy€ ß|€ äMPû™PŠg¨dAZÙ-ì?ÿ ÿ ë5ıûï<ûï¾ûÏ<÷ĞA_|€/¾¨94Ã±[@}rà÷ù‚ÔNAø~W¬0‚ ß¬^BûŞ@ M÷ß  8à•·Ø“E`‚
+ûEŞ“òàvÈôóÎC4ıÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿ ¼÷ĞAßXo¿c0ÃĞm=÷‚ÃÛÛ±Ú_©Ø ‚!ÿ ØW÷ß}ÓÈ  ,ƒ éû•0â*6À7øÆ-(ÔóËrÓŒ0Ã0ÃÏÿ ¼ÿ ĞAß`êNC(ÃBÄ}öÂ×ÖÏxW‘zV—ã ‚7ë‘ÿ ä]÷[<â     ¿5Ç¼$KIÂ¦Ÿ¸ÎÇÖëZğò0Ç<óÏ<óÃ?şûĞAsŞÿ ÂØÂ0ÃK×ß_hD^†äzË ‚Áv%ÿ €_}óŒ     b†	ÈÈœ÷Ô©˜Eí©Ã“—Ü‘òÍHñ„<<óÜóÏ<óÏ?¼5şóĞAöØú€ĞÂpÃ4²±|°|¨0!¿¹¹¶Â ‚zÕ¨?àÉx     &«ê¹Ê `{i+Ã6µ®1ëÉ$UóApò°ÿ óE÷ Wş0€ö ‚pÃ0Ã5òÀQúğLní0‚ ƒø\~ óÎ     p÷âïY_Tšd8ì2„òzaÊ°âüãÁÏügÏ,PAsÀ×ø U¤1ÿ ì0ğ ‚0ÃŒ0ã0 ×Ë[ò•“;Œ0‚ÂÃñièóÊ  0A‚ ƒÿ -BLƒ‘äİf!5÷¾;©UÊŠÊo¿ÿ ÿ şó»¢ÒsÉS€×ø=„?ÿ Œ ğ ‚ ‚0Ã0Â¯oÌ%Î‚4Ó|óÊC^µc¡<óHC0S Ë( !‚ZƒšV:
+ğö‚È Y›Íå–¢ã!Ÿÿ ÿ ÿ ë=áÈ×ú=oÿ  <  ‚ ‚0ÃC~¬=ªN!¼Â}óÊC^CZ<ò€A0AË@àİÅ(ÖÃKt@a‡3®Ñ5X+ê^§ÿ =ÿ ÿ ÿ ?ÿ ¾=ËG0ßø!ÿ ã<  ‚ ‚óM4A 5ø´«(Î@ƒ×ÚÃüCè<pC ÁC<yÀ$Š 7GkŒ÷ˆSª|’­@jàô§¾óÏ8ÃpÓş¥ëFÿ ø 	Ë<° ‚ ÷ßu÷ÛIÚàâWGïßCíZG¡O< B C%8&€.œŠ ÁÇÔ™ıı–8'&0ÇÇ=óÏu‚û’Şğ@?ÃF<ğÂ†9Ï9À0Ã<}´@êÖ$¾ÿ ÿ «_S­PÖ©O( B ÁÂ0u¥ÒÚ‡|à\Ï‘öŞÚ<uÿ â&W<óß<÷Ùb%?`µşğ@kƒ óÏ<ã    ‚ ÃÇÓEŸ¹èƒ	?ZG­PÖ©O, A0A‚ 1^WTé^L?©*¾‚0taFõÒZë}ß}÷ßwù—J˜¹4‡·ş@C	«      ÿ ÿ ¼à‚} «n!¼ <¾ZG¯ĞÖ¡O<ğ€AApÃ|1T¶¹Ñ"µÊ>ºÄPA÷_Ve@€}õØoÚmOø¡…úO"N=®,!8ãÿ ûÏ<óßÿ Î õô€bÓß|°°¾¥ZW¯ĞÖ)O<ó‹$A|Äú¯Ç$‚UW‚Š§¡@A ‚ğ«_}÷ o«æÇùÛEé0òè÷ÿ ÿ ÿ ûÎ0B  <¾øàƒÖÒ/ò–‰ZW¯ĞÖ°<óÏ,óO,4‘<MÄ#Jò¦G¦aSGá)d©¶Yl÷Î:8 Äà˜Mrk ·ué)IÀ Ã<óÌ0M4ßqö×x0 Ëï‚_¨sÀGĞ©ZG§ĞÖø<óÏ<óÏ<óÛ00v‹dÈKÚÓÑ\Š>ˆ€’p=…>„…ØóÈrn'ìúÄ'GÜÁËÑL1ßqÇA“M4Ğq×Ë-®>hK/«ZøC¯ĞÂúÀ0óÏ<óÎ1ÇİwÎ°tù´ğaL Ët!êM?‰¬P3• ,1óË#î)3cTİÂ@³TdX¨¨AÄO=¼óÌ3ÃO<ï4|°€2úğD $¿	B¸C­BÃ[ë    AT‚› ­ÄÚ™©¦TĞ¬ÀQ"5×lTÚø	ƒĞ–¸ /ƒœW$[ï®k,®0Ì0ÃÃOsÁÂÊK;Ú ¶¬ ÚKƒ-¾0Ã3ï¿û÷}?¬p>œX]T-jñ'5›Ô‡ş¥’z¦Äÿ òÁ™cuˆ‘ø41CJÃæ¾Ë,²ØâĞĞó<<°€çVĞü%(ZµIL.0²Ë,²0ÃO,¹Š1‚Äã6ˆäÏg
+­G@A¸YYº0JÇŒºZ¢[	’¼}. ˜š;à“<óM1Ï<0ä²9Mg;ÍCWÒ N°¼
+äm/rtøğÃ0Ãá†p‚KKÚË1¢„¨–Œ¤” V¬*Áè¶Î4ÇSÏ<òÁƒrŒ÷&„¨¬4Æ•ßyÄÓO8ã#€ÆSCO+›+_@òÕ+bÑµ?ÁC<÷ß|ã0Ğû
+Q šß°(S¸Ş5 ìK5³<£á¶D#!Mrç^$Uh[XëË€Â=è0óèã0ã‚Ë#ÒÃ²˜óÑÇ©hzÕ¥/‰FĞó<    ãÏìx„n9¨®pC³¼ò[%ÓÏZ)Mz2ÕX-..ÄªÄx'ã0ÙxşÙBã:GyÄSÏ<ôqÀÂ²¸Œ0ìóÎ1ÚØ)zÑ¤5¾%M<óÏ<óË ‚, Zà°5ªÄfŒt‹)}"$9D	¹7d)–jÈØc\ÑYÄ	:~Êá«„Q&<îÃ0Ä²œôt9,80ÀCYJ(:ÀÔ¶ü”uôÓM4ŞqÇ  Cáó<haš)†BˆğINdË(N:ä®³µ²ÑAO/ÒÓH[2ƒ¨”uğ¢Š8ã0Ì'L+,¢ã›X( ?ªBBÛóÉA4óÏÍföëlóL_R˜àùXpFÆ0T˜Ã<úqĞäæŒ×bnv¶óÏ<ò{*ó	-5\jgˆhÅÃ1“ÓÌv 3¨‡=œqÓ]H( ?¾BA	,²Ë,²3Í4“H0Ã C	ƒXs?ü¶QGúJbŠÉŒ`ò€`HŸ„.ëTú=OÆ(Ä´b(Áh5E’_ÿ ~Ê!ÄVó=œpç²Ècšl ?¾¸MwÎ0ÂO8(²,Îûì4s@«ŞraA÷ìcr†hŠ‚™bØ@8$C‹SÕ¸'Vo*)†ZZ€0$!ãgj#°ÎóŒóqÆSEl ?‚úà0ÃaòÓË#ŒC	8á‚#ú¦ï!ÀÍaFı¾ã˜ã=l“­ŸË0ğz›vÊŸÏ<¬SOfã½ Bn‘ØÃ=<Ç[Èã°À	Îs0T  ‚Ko®8ç³ÌsAÆSÃÎĞQĞÃŠs/Æ5	©–"}1£ ªV“?‚á€ŞåŠ¤BóÏ<çé†üœhP5O9Ğ€Ã`3)ÏÆMo8ÎcäpQÒÂ  ’Ê!ŒÃšÈÂ08-ˆ°Ã‹5ÛäÇBS	Ô!W¹.ÓÃ	CèÊ`4€Ô<”!ÿ tî×Ï92êù(1~†{,²Ë;ÏK Ï=ÜA71Û¸Ë<ğÃsj#Ğ¬FĞ÷5<°ÆF)õ5‚¼PJ ‰, òË(¹\ c D0if˜ÌÃ¢°êÊÛxád¢ 0ÂCÎsÃG 0Ì²9HçSSœğ@C@ì†sÓ™SœœOKâCœŠŒ–p'Rà8˜'D¢@  FÒ7âÁhHÀ$§áKE¬U2DÜ0/¯ƒD3Œau4”óÌ3Ï,<D!)¨u4¼ã4óœÜa?1Ñ73Ñ=;Ñ„ğ·üŞè¾¾‘Ï²ß91Ã¯ôôñÂ 
+&>ØèŒúäac@%ø™e¤×ÿ öûEGM4ÓE1ËBB‡˜ã4Öq„ÖóS7ó7ò£ƒşğKu¿…–©ö8°ã°¯‰, †?¼f tĞÀ…œn&´ı¸ÄÜ<ƒŒı ‚ ²œÒAqÆÓsü­9k,²ØãÈ ÛÌ3y±ù3q.t"|	Nxˆ‘‹¥#<‚&•°Q7pö<PÑş„€0Ê£ß'0€Ïá±3”ºmßP4¯ÏyóË<÷ûÏ4mOò Ã,0òË Ã7[™[Ÿ“ã`©Õ;*TµŞ&gÁ4
+6!­¶‘ëîövhrã4¤_ö¹œ„#ğ%¥[[(Y‰ü@ 0òÃ‚ ƒÏòQµ?Ö¯  ÇSM×q¹Ø…ùÙ•³$M’–TíèD¶†(\‰ô¡½:j\m“U´Ñzo;ÃŒÀ¹ì‡5“m(¾Y>Ë%ìAL AÓ]4 0ÓÃ	-ÉFş_ì²<óIÆ[ŒÈOÌØO™§…¦k¡	‰(ÅµŞÛI
+N^‡è¦©ö[ŒRÈïÁ$ˆwaEC|ÃE£Ks«x‘]÷ÿ ÷ïÿ ÿ zã$q°$©Õş¨!Œ $óÏ8ÄàfçäÆÁ±d›–Ğ	«@?"[ÛO¡Eg ¯€îs’XÀØˆç£7M?¼óÎsèï¿ğXÅæe¯}ÿ ÿ óL0Âˆ “ÏóÁF€·'UêWÎ0ÃO<0Æ ;1q3$m™&…¦tüÓÎs“{¬IŒ¤ÑkÌH®¡pŞ»©Ğ†{1ı„^ãÓ|4ÓS/ËŒ­Ş<|ÀşşÃ#0Ã‚	/ïP–'Uî$  0‚ÍØWÁ;di¡iÑ¶¤¥A†c€0g-9IÆá{¾]‰NÜ$)Gqşóo9 œâaÇ<°Öá:¤‹¸A­(a÷[Â	O<óÏ<  ÿ R–¥Uş¸ã¾ûï;î¢vãrVÙjZÙz"¸³/)-LOòuupN¢w¼QãÇR‚3Îèo!QO°` ¨@D0A_®	/<óŒ<ğ ÿ Z–¥ÕşJ ‚  € =…øÜ‡µ‰‘áµe¹d#÷şğ´µ?ÉÖ™Ğ‘vyÌG’n5×Í<à ^	ÊA #8òÁ,_©
+ÃŒ ¾8$4òÃ<à!ÿ Ğ–‡•ş±Ï1Ã<³ÈE~7¹~*:T*ÔV;VUş¢Í‚VMz‚Ğ•ëÖÈãHöq)…Í ãSÀAïÿ ÿ ÿ ÁÏ!u#ˆ±×=4Ò Úà‚K0ãv ¾ŸÒWÊ4ó  >ˆnéQã¤hÈ\:VU‚)jÇ¿ÿ Â
+ĞZjBCÄPXÄóüĞAßÂòÀAÿ Ï8AsˆßÅ#IïÌpÆ,K/,!î8ã?¸]ˆ%¨TzÀWÀ <÷½¢€‰•Á¥`è\?V8CÆsÿ ÿ ¼ÂÀ6©Pz ‰NÎZ«Ã
+_ÿ MwÚÒóÂAAXˆnÁŸ¾¼çë|±×LôóÓÃ W`/åy)WÂ =ì †ò >
+•Õ¥`À\µIêèıĞÂ ‚s€­Zb{Lv3§Ï(ÿ }÷ûÂC<óÎ0Ã †j#Xˆ3ÇQÇóO<ÿ <´óÏ<óÈ	è¥5O<ğ= œàş•Á¥jĞğıf¬úŸßm´0œóÀ–Øj´Â‚Eš_"ÿ ¿Ïo®8 8ã9¬ 3˜ÏîC0Ã0ÃC<ÿ <óË †{axJx¤0ğ=!¼ ş*ÕK•;‘:ƒŠ¨¤¿®|÷Ï<ò¾—Ö^~†}¯-^{ëÎ8ï¾û,²Ê 0Ç1Œüå7=ïûÏ?®<óÂÃ0sÏÿ ¸€\^›†‘¯+‚BÀ4¼¥¼¡ş+PoD« îsÁ:äñ×0ˆn‚ö^FZ%o¾­X’ûì€    Ã3Ìq3ÛÌWq¼å4ĞE4SM4ÓsÌóÂCM4‘f7âá¢2¾) úä¼¥ş¹:W¯Rv,S 2…-¼¾8ã{¡]Æá…U› ¾¥P–ì 1Ï<ó¬ƒ<÷óÏ8MgÓ•œG8ã8£8âñÄÓSÎóÊ@9©8i‡°‡R Ø¤,Câ”ğÿ ø,ILüMJjà'#M',²€ßcòZv"h >Ñÿ _<ólóşó„M7G/3Q¬  C0Ã0Â2ˆæñ””²Ëë²ˆÈš`¶ulô,k±ŠÒÄw¼ “µÙÔİš@`û"òÁÇyÆá›æ€µpÂ ¢v7Á7Ï33ÿ Î8ÇÏ=<Ígš€Æ0ÈcÏ<óÎ<ü°0Ì¢9<m0ÃÀl˜’Ó”‰šÀÌ®BÄ>+Îğ‚KCQœş\8£3@TóœòÊè^{ûQA(  lœø”ó0Â;ì 3ˆo8M5œNk!ÀsûÏA4ÃM4÷=,#+1ÏLF$³0…+™)Øä¬%Ï<$°0ÁxÔ­VóŞÂ_$›äqp°ê‚;##~!03úÀG0	îå7;,„3	ïMsrãkMGsÃÂCMf6…lI²nà¤%2õ#c±7ŠÂÃI<Ã¼îåG£ÈWy‹/Ï/¦ƒë+²‰û€ÌC?¸cÌVp;,€3?¼Å38(Ã€8ËÌÔw<0ÓÇC?&ciqtÌ®NVgnV&jB2¸à°Ã0„P¼Œ…ĞÃ{øABu\àÃ0™¸„F3óŞa?¸Íæ#²Œ?<Å5Œ28( Ã<Ã4´ĞC½MG;ï<ö²ÅšYç<©Ø¼MÌôÌJf´0²Éc8¬Ã­“]\3ÎæR¬°¢2T±có€Äc?1]Äró5˜k!˜ìÅ5œ08®²€Ó|Â ‚ ‚I3ÓÔÓM4Óp2F’ya‘‰’1	“ÔÜÏÌVc=ü0Â 0ÇÈ„C1ËU‹d­€ŒöÃ„öó5˜ÏNS0¬3	šˆÌg9,ÃÇ8Ã‚ãºË,®($u4÷<°ÓŒ3Ó–ˆ.³¹¹S*B2;MÌòñ”×sÏ<Ï²kÃ3Š#>÷P¹(LŸßyÆsÓÌ×q¼Œbc²Ì&?¨LÀ|Ã×pÀ ‚ê²€0Âø ÁÖÒA<óÎM‰¦`¢15™áfd,BbÓÄĞrˆsÛÇaD™Áï=a U¦¤òƒÊÓQ‚cº€Ìj8ˆì±ÜCL3|À ‚cºˆçq×ß@Sà_-4ÓM5ÜN†Øi‚ó)©'l‰ŠĞÄ7<4ñ”ÃAç"q…sHÌ–¬¥Aı°  1¼ó’ÊCˆìŒsšÈSyŒ´ÁØ#û¨÷˜AAWß@Sà<óÏ1„7¤Á¶Za£t@É m±29,ï<òÃ<qÇÛp©æ1Ñ°¨BUß}ÿ òÀÃÈ#šˆÎ0ì€wÃŒMä û¬° }äAM÷û A7ÛxóÊù(m–˜hQêÈhiÑä##‚Ë[M4œqÇqÊ	Á,„ÿ Çğ±n¶Ì¼PG8â²ÊCÀ#º€9Œ°AWpo¢  7ß}ôA5ßq G¾ˆM÷ß}ã A^e¦–6ÿÄ '      ! 1A0@PQ`aq±€Á¡ÿÚ ?òŞ7Ï~¾ışşmú{ÿ şfŸ›-y².¨3èhÏè}{Á13ÓÈ”ò]–ÿ Xy!†À9?Ï—ltíDãwXÆ6éâ]ŒaÕ¿»cÁš=|ÏW @å3~ŸÏí'QÑ°4»ÛqÁŞ]GŒ¾8À¿³œQëå¾I¦N»–¦2~rÔÔ»Ër>Gtöóÿ gğV ë–j¡y[VÏûü¬'ûâÚ= ŸĞ¿Z˜¯Õ‡ıış\á÷<·Nd¾ùÇÊ4x‡·Ô¼‚š~`ü1{^SüƒÅİ2¿~#pë†"àù…x 5è›õ>8WÊöÿ õ9ƒ	ñúgñø¶6rõğÄ‡—ÏQèàÂùQıyÏßŒ÷eÙu"ğğÌqoŠş@üS'WÎN÷á‚øŒÿ ¯¾:óÛÉ|“ôğü¯ÿ ’}:»Ÿo‡²ÕğoäÏÁ¤z™1ˆD´Ãàëíô}4ùÊî÷°‡ˆ$ªëõOø’Æ’ØIğ_«¯ÏÔ^§kóõ`ÏŒ³øÿ y u&OÁg'°ÿ |ko5ğ÷yk½­‹¿A÷‹,˜6ò~ü ãÕßŒvA5íˆŞâ0ùøáa²ÎŞüÇæ6£€è·,}²,’vğ~ü*-"8Ï:ı6œøµ4Ø,Yİ—Ü±d×3ÔY=¼—.œèäÜHÏfŞÌñ"iab@$ğÌ³Ç»ƒ•6÷8ŞËš„“×W¢C[Ù3!2&ß§IïR{ñöàÀÙK–pdğ®?„gÖr À¯Hpocãµ{D±¯» 'sç¤osÆ°ˆı'Øöëçœ_3nIÁ$1á³	ÏÊüì]˜…
+ı€DuïõÈ{Dzàn–	:ÙCÇN¦ÇçÍBùK¨:'_Eı±¾Î"=Ã^39Ä1à¢pN5é`]1ií‰'[aÔ¨u#İé¬êdab:Ï¿Üo‘¿F÷Í¶ñ–Ye#ğX{Ÿr~®’ØÆôä³ü§©ˆßvVgB0–³6@º0¿O™¶ÕÜ‡X]^å[±©zWÃŠz'å_-ŞÇê
+ŠÛáŠR+Ö’à¾Ãæ‚Æë—®ÂwÉ=]×ÃmüÎø9ÕìM;c–ƒVXÅ@]ÓP"vì”Ë^ÖçPqeß¢Ø#Ü‡»r@{½!e–Kf---´ğĞ3·•O€D²†=ßpá!ÁğË,û£ğ¶­€Ë8ï«@êcTãï›	Â ÷
+Ú¦İ¦Ú=F]ÆË¤¾S<m¶ßßmß€ê³fZ'ºÌœ4»9ÒæFvÛmüÈlÇéD1=¹p&BšuiÑd3¦õÕèêuõ›g·êÖog€7óiiiÆp[ú³ÄŞ,áİëá ù‡W¬åbÇeŸ›Ñ‡8½¤g.Ö÷¤qÃ~ˆ;7~Ş ?áu1 2Vôİïq‹+·E¼›îÿ •„b·~ä‡ü?üƒ²éîEş–m-%ßV–ùãÒRîî3oL³œ³òØ1ÒNñé´ÇĞ›ÛÆ£Or½í`İúµ:/nä¦ÛÍÛQgÃâbùk{±˜>"°ğÄÎĞîÚ{¬Ç©Ë¸l2!®Dıá÷û9(NÁÍànĞX7üæHÔÄÔoş·èÊZöÙ°é+';`ÖßîJÙ¶ÛS6"P‚gİ‰oÓ„Û¾ÖÈFN—xQÀOÌoårË8DÉ²`E„rƒm—²øÒÍHwî4Åì“ìÒÅ@,°.rîÛcòHcÃşSú&W*öÚ1äÂY¬?ÅŒğ–ğ0{(Æì:´'<d²ÎrË?%¶Ûm¶3R[klÇá÷/ÕìÆ!…—HÛcv<™2½ç¨Ñ)ê™¢>Eœ{?Éã9Ê@|ßDÎ³£ƒŞ–Iùl²Ë,³œä¾X·†Fğ“Í¶XÏû`å„l203’pYø3ş×Î2ÈéÙ ÛÁğceœ;OY‰jX³ài´Îd³'Œ³ò¹e–Yadu²!¶XãfòøS7_H^Èl m‡dœl±ƒşX{|7Ê‰ã87gbîÛ¶ĞœawÇvQêÚÉGí’Ì~c»,²Ë8ÑØE¼Û,ûÙLÄK¤á 0Ù°'§S6Äo²Ú'¹hmÙ²<5FX]¿™	i>¸±ùã«6DpÔÙõÃsyõ|pe=É™Ÿp¾¬¬ù%ˆP==ø§¶>;c(é'h6}ÂHp\ä—ùL²Î2Ë%ñ|ìx-¼zÛÁá#¥ [m¼¢o¦Ù˜¦]|@z_ä\¹"`¼w•ÉÕƒhF¾RÍé2ÇÂ¼oåöÛmmedŒ™ØØ‰|t—íñté†ÙıdÉ»:d{ìº/g„MU‚ KáâÄîö’7Y©¶IÛE¹Ìg“ú°îC(FI“,Õ›bal§Éú> qœNİ&®Ùˆ‰	ÊX.§œu”°¢v½cÜ–Jü¾Yg+-˜á4©WÜ{Ø·Åáøã£›=#ØÏÂ#Ü0À7-äQø¯KB}q—è˜¹K¨O"~W«mã8{x²%×dls°ÛÁÌ"áQÏ Ò,pYÆÛg ruæy»oiÀ‰~¼7xŸÊe–YÃâ:-:ƒ« CŒCŸN!ÆÓQ0ŸGÍ›e‡;o~Öx<C®ë'l°ä2¶ØvR–còYe“{FÀƒX8ï‹Ó…µrqÇ§'Ázpß÷ùâ¹-œí¶ğCœ³À pìÆN§Ù/Ø6¹wîO¼K/\d²1Ôì,-²%×g=/~OH™úó³Ã,ãyéaÈRêèŠîã‰;ººû£ï2Ë8z/l%ß/mÜ8ySÂÆZDÉx¬ê÷ÇVó‹ ú¦F0Î¦&¤/Â0½şXñQ‰CÀ÷±ê`LåéÛcxyÁãH3*²í–YÏ¸û¸RÕ¶]„ººqjK¨F}Ïİ~ÏXpvÙô€í(aá†,ºÉ´‚v5îÏ¶1„µkhÈoiŸº>ıÇlK·éçÊIZ]1Ø¼ñî1ö9ä5‰zJr(äZLıÑ÷Ìá|^Ø:ú¯ƒ.JpgÜŒptO©÷â¶ıÙ÷Ê]ñ[ßì²w¶õÏ¸3î·ƒeåŸ™¾ïIÙa.°g>úƒ>ğs‚ó–}á÷óÜz›Óì åüï;oå—=>Ápò°ƒîòË9ßã?,¸>£Ü}Œ»rßoğS{}Œ°rÏ\ÍïgÔÂ[ß>ÿ ¡×¤Ãëa+İëĞöÅéõ«9Àõıû ¹ÀÁàA³¬½-%³‡€3ú1ÇµëoÑ\°g#{‡ôLûqoÆÛoÇºÁ<ÁıË|ÄÇ¾vÛm¶ÙsväîÒ,DŞŞâ¯vpÙagô¨ñm¶Ûà.ğqóÀÒ®1Õ¶ølÅ¼²ğ[m¿Ñ¾áÇ´q……—© ğ,çmş‹çƒ|ó¼lË·¯c'ô‚cß—èƒÀ6m¶ñ¿Ävş#Âêõã9Yàş¥í‡èx3ÛÆp±ÎvßâËÿÄ ,     !1 A`0PQa@qğ‘¡±pñÁÑÿÚ ?ş>}Ÿ?—¬ç9Îsÿ ÿ ã}k„Åé·‹¿B&Ûò±o>ôŠ»÷cÒ Ö~gLÏøaÓÒ/x{~Ê¹û¥-Y=\ wŒİ$ZY¯¿¨1N–:ú?`½Ò³ÜØŸœ}åû)™RÓ²:—,ü¯=ïA•°å¿ìsûÉ{á“òİç…á ˆ@{Ï¯/úúQçğr»á€&€×”<|W|cş§Ó·ø9Y`Íå—^qâhnıŸ×È¶wWÂÿ zz9pOë…–ıËÒÇäH½ÏB³Ş aÊNoÇüaŒãªr:pGŞ…{RË{èÚ¾7†-{Jı,"ÃİóÀÚ­z›ê÷Ÿ óğóáÈÆÓÛÁå˜Æ­ì©ùú~ıûÖ÷ÂkWsc>îı‰‰ÒKÌN {RÔ2¼<8Àß|kfwè~3ÌNo1ãÑåfoãFâC×eª€şâØ}×ËÂd÷çÏĞ%á%Ï*öúP„y~3„=ıïiºG°üÊõëÑ›÷úŒ(ïÃ[XOVÏ;wÜKÀg-»¶EtsÓ¾³½I³v?IO";ğÒ8Êô™zã³–ì€şø>–,ûP#Px–°ƒ³Ë¶ıö¥š§uxZYi¾­“<ò;Àü,ğfı„±¡¥{#…ä™[?ú‚ï(kvOvŞ Ç:z‚îÛÍrCÕ¼o¥g$¾ö¨Ã°ğiG	,@~›nƒ’'Ştö±‹7p¯Qã¿û–C³:ÿ náL_Üâ`V—æx‡ÃuèïÓVÀ0ôøNË‘±zÊ@îÏÄ¥å¶ødŞPA){—/‰ëc5.½1NİG¹íMŸõdgMv|§úÀ4¢IõORlşÒûÈ‘Ä¯ix6#ÜG8Qğ]MæbZŞt—ëó1ÓbƒÍ…3{|Øn{Á;ëüÿ ?ÚÓ×˜F3Ú6ZVáòXöõ„ÇEÚSp}
+WW†Sî1÷öQ,xxeóÓ·9ÑºGç/;ñ³ÚO˜" ;k;Oí½¶- Xyxòoáyşà:´ú`,Ş2ğy>½g‡_/(c¥»Ãb'§ Ü{üK{K¯ú•şk7â+ÁÁ<N8¼Ù=L¶
+:½«7åb¾ãËğÉyN9ûpñ<6†^áôìY¶M¼ÁÄoø	À¹œğ_Çyrí»$/„+®A;wjy_xùN»y;ù¼S$›_™ãÉ¶±ÂYô@;ƒ–`‘ã`—¹O$YN\OFÛ÷¥.‰Ÿ2WyXîm„é%Œ…Ûö$:É‡PWk¾ÒÖ2YÅ€{†;ƒ]$ôæÇ9°èDô2È}‹V¡’JË¸ÁôU~Ûm¿{\ŒêU=ù—ÒLßä»£[Á‰öö´a™#£cˆ&G¸:}ßæÉÅÒÕ¢k¾à¿¥ı^ñè”úÿ U™êË]^Vİ9Í0†áûâ:ÊğÈuÀC^¤áÁ=Ş`oÍ˜€èìœcÿ I¼ÉN¦.	Q¼Ds® €F¶Ygš±±‘Ò?Ê=HZ±ä}./n·C©|x6ıåø#	8bbq<6ÇâÔûöÿ Ü½”@ƒ¡ß÷9FU¦]÷$PÇ©2ìÀh—g–Ye–Z$±ìâ	<‚>,nÈÜ!ÅK1ä+ïn¸‡V[¢¾Å á'{ent´|É?»ñÀ©¸=§	‹Aµ_"ƒ•¶‚,±ÎŸ‰¢Ø-øs…H{ÜpğéÇe—Aa÷àr•¨RŞÒŸx,÷“ŞhÂÿ ÷~
+AûxŒam‡Ú.–¾:œñbŞ2ŸF#G‹ößº=ö¯p…™?;m«Á‹Êw[ËÔw0‘ooŞrZ<"AXb×x Ÿ»¶»d^ìµ]²Jµ^ë»âe¦„÷<‘—8gØ{(+M8Şw'‘õ0àHÏi{üz"RˆAûîÛÂŞÔ–GQvxzn»fv†ğ¿è€imÿ -–OÈa‡†O;€ôd¶áÆ_ğKbÔaÇ‹Ö""Ğ³iÀ¡ûÆÛm¶ÛmØqée’ZD;KGãA½µeXğ›=r.2IRÔ?´yAˆ '’—î»Ì¹%Ô0ÍÓ§ÀûÆÛm¶ÛÆ&,êl™²È/bK8<t»^ïÌ‡vpjà“.ğğsãål8d»èÔ´Ò5ØF—~/"xsqÛxÛ}m¶ÛwÒêÌğó]Ü|ºWßf;©¹E“¯3¬xÚL”wÛĞš[LpOÒ6î»‘™'ë‘D>í¶úw‚×¬g3ÆYÇWnà÷“‚V;èı3™É®ØñÙ/n×¹+âÙ>ş4õrÔ±e¦íœx/(á§ßób
+Õ—o6}EøBÈáçô€c'o	8ÖË‚&ºtİ·‰q²K%o6’íÂâ2MºaâY¬Ùø è´2 YX!óèÎb3±1+ëŞS®øYû}¹Ù²[Y¡‹”Î§½œ ²ÎWÉ¿xÛx,ÒT£ˆ ña‰õ‚ì‰Á;õ™Œï~-W¹./™`8•x5iÀ%m½p-Œ–Yg;˜¥„­û¾ÛÇ‚ß„o9<e–p^t‡å£è c'‡p(ËÀP¢ŞVÆs¼‘(ˆ~é¶ú™vl–ÛeªN5[¹<Ş·	ˆGãÕ¶Øğ«mŞP'ê¼<™às€xÆ »o¸[[·‚ŞO.ÌØÏW‹¸œÿ ƒÔã‘]²9¨múl®QœâRŞé>ë¼o‰í²%åw›-˜a)ãË›gè×õèŞU[æ ı-}0×‹£‹8YmÁ±÷ÂğKmè¶Ş<üfğ5LG¸ñÀÒç#9®p®ğœ ım8—–é»&<Oƒ~ög=Ç	z;i(ï,°Ç}8à¹À»Á® ÿ ˜0	õîÓ\A)ËïDtNÏE¿IŞ&¯Hivp²IëîÎWÇñ›¢\;œÁœO½	a1—ğ@1»¦t/po	ğ·÷c€¸D}äÎ÷‰ş)ƒ€2_äğáPğ }ä‹¯á„§‚ÿ (åíÆY÷··ü8ORïKü²È~ıgÏ/à‘Ô¼%şv}üğ|Ç‰óü	p—ä^Óü —‚Ô¿3Ãâ~¸[1â_‡¼'ëÀA’üÊ<p>¼8x2_½¦>´=¿!0ú°³9%Ÿ™˜¼ş˜AÈA,¿!ÈMŞ×—Ò'€‚\—äA'‡Äı Ä¿#ÚbğŸ¢€¼Kò@Ÿè3Ó–Ax¼ğ‰|”paëåY“ÀA’ù0ä>ƒ É²%Ÿ’Ã†AÔÙéÈ%ã —%ù&p/öŸPKÆA=üœpb|qœeKÈ^%ù@ä=P—'€ƒ	| åèËÁ/À¾!ÿÄ +      !1 AQ0@Paq‘`¡±ÁÑápğÿÚ   ?m+¼òK—ú{é/—ú{é._éì¤¹¤¹¤¹§±şÇúK—ú{é/—úK–K—ú{é._é._éì¤¾_é.Y/–K–Kåş’ù¤¹d¾Y.Y.Y<Ÿé/—ú{._é._éì¤¹d¹d¹¤¹¤¹d¹d¹d¹d¹¤¹d¾_é.Y.Y/—úK—úKåş’å’åş’ù¤¹d¹d¹d¹¤¾Y._é._é._é._é._é._é._é._é<Ÿé._é.Y.Y._é._é.Y._é._é._é._éì§±şÇú{éì§±şÇú{éì§±şÇú{éì§±şÇú{éì§±şÇú{éì§±şÇú{éì§±ş’åş’åş’ù§±şÇúK—úK–K–K–K–K–K—úK—úK—úK—úK—úKåş’å’å’å’å’ùd¹d¹d¹¤¹¤¹d¹d¹d¹d¹d¹d¹d¹d¹d¹d¹d¹d¹d¹¤¹d¹d¹¤¹¤¹¤¹¤¹d¹d¹d¹d¹d¹d¾_é.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Y.Yì¤¹§±ş’åş’åş’åş’åÇú{éì§±ş’åş’åşÇúK–K–K—ú{éì§±şÇúK—úK—úK–K–{éì¤¹¤¹§±ş’åş’åşÇúKåş’åş’åş’å’ù§±şÇú{éì§±şÇú{éì§±şÇú{éì§±şÇúK—ú{éì§±şÇú{éì§±şÇú@]ç“'ß6ÿ Œ¿ürÃé“ïğ—¯oş?ƒé“ï“z'ø4ù—ÖßÅàú<¾ô×c?üsnÙøLŸ{M¿ùÖşÓ'Ò™¿à¾uzmƒé“ï€ŸåëÄ>çnÿ Ñå÷¾âŒ:¿ãË¦O½º+³]9ş·ñuÔ]¦¦O¿üÕ÷[é‚ìğ}2}ÿ èOCñ8>™>÷3ü*;üIô_s¶¼LŸu/â1üyë}ÓuÛ½X}2}şg·óÌLŸu®»óQÜK·„Çn¢ï°}2}ì¶óGR5­y)áî@93aÊ’ÃÑtOC}PGUôvò{õ–‡İ`údû©}$ÌÄ3şŒØ‡¯mHLÂn>u@‘$g1a–&E”šÛĞ‰å«}PAWÑÛÅ¿)ƒèòûü6Ò„$e‰’ââI?¢€É¥´iß¨Ìm±K’dÙ¡v1xeÅÆù;¬ùê%4^eùÜLŸt®ço™àÏ°4®s!Ü9J6c"±¯Ïú/¡DÈÈ§¡Úİ&nc¶idf–.MepãØf*Ğ?¨k¦.Šjå±/qÙ¥—á'IÕù½»WÜíÒÁôÉ÷¼ßÆ%.¢À•á!²l~•c¶øxi§¥«hZgNvâF0oˆu×IŒcãZ7LnY6ÀË=Ğº
+í6Ù'JáôwÌYJ‘¡S¦³>İXïßÁôÉ÷½ÛÅÂŸ$t–CV'`±`LT4Å¤ĞÓZ1S‘À¢Ë%ˆ½ÃèÀÑõÊK‰ş¡Ú¦$9é¢»CzöÛm±}&©G±9¶L¦ÃL-È-öŸßñwß`ú<¾ùYìß0ğlÌ¥á“õCpL†&ØÌâ2l‚¹ q
+n‚‡E¡OVQ:n.“BĞn
+ÈB„lHn†i‰i(ÃÔØÍ·°¤®“Øw ŸP=oe…1ï70«Ë>ùkëÓ'ß%=¼‰Pï‹b*e#Y±fQ|Y‡&YÔƒ«ˆI$°ÕŒÆ¬N"Ït††!ËJÆ“"
+Â.5bw¼·ú :ÅXmÀ®•“Øtdéˆ@=œ“Îy÷ŞÏl«ƒé“ïğ´FÂp.aoò4¢Æ%ä¬VÄò©ˆüq!«	\Øxÿ êg£BË¸÷*éA"ÂC&W.¿Ááô=g°ªL¼=‡F†1‰°NÄ˜nFä|¿*ûÇá0}_{½¼Fı	[`ˆMs$r‚à–›¡‘p›…0ıó ‹›Rß«ıô”™d^â„¾	oH¿³ıÁÎªl6Ø¤”©ÛSdzïı/ıòn¯NŞ{\LŸ†41è¸åR)…1z²4é‡èŸ™XÜØØŠW‹ü½L|Gq`a\tŠn)ÆÏşv5s¼ ÕùGLÑÒÉ³„‹ &„ãguÎÕ}E§nò{<?LŸ{úQâ fé,(šUt:-ŸEüÄEˆ¹°ìÄªfş•#[è9y™Øô¤^ÈpåÈğÑ7e´8]ñ©™fÄ=“,¶Ø¿¿¿z«¿o=Ö¦O½ÆŞ!ô#L
+…ƒáÂXÀßà‹şŸàĞğoGL<%s×!û¢+;6Ø¬—A-Wi!xšëØKI-ÍƒîŒ<„ïeúK†h]¼
+›ö¼}xÑÖ£ËïğßîGØ"Æb ÿ õ¸6_?I>4¶,ÒÃPÕZWËlì “k¤úc8IK²h’²îélÙS™zÇşQğµœ¶×è}Eåp}2}ï_xúPM
+b<Ÿÿ qğÈ…	i7$D¸%F·üjHn<!T&mÆ™&’2ğè!ôæõFô$:­Ö*Ùr9m¶å¼½02	5dl9Ã?¥C³Á‹Mú›ëÁp}_†Ú¤€¤„ƒSıÚ‰K(…PıøkôûÅ¢B{Jw|!A!¹sY§Ğ¿Á¢·KÑ¤ß,n¼ËVNŠŸ¯¡]¬Ù6Z ŒbdM£»–!ØØÃ4³Åô#ª»§äã©ƒèòûü&4b$ÉXn-ˆÙŞé)ÿ ªBÍv,Œ+ìÑC?¡'8(„„&¸ÍÔ³Éobº/	-LÄV[ˆHH¤
+9Ò+*M6¦ôBY7çŸ5LĞ»|1)ı`†Á–L’°æÙi	zFı(é-1üSÓ'ŞñÑõu‰332LDiÀ,–
+E}ıoüîÅ6²ìÅ.n~'¹ÿ Õ„…‡œ¼‹ˆ1o¶¦Ò;\ıİÛşª„s1IÌ·‡YNúXH…ì_I•¸“£²8Ğ{n&Toá6Ğÿ ‚àú<¾ÿ YJ$}X7mb»¨©l<rĞ·,‘LC&ô`\RÇú‚
+$–i›Òoô<¿éU!!8›±­4´Il¿>ÆÒî$*Ä.Q"t»Ñ,Mœ9b[{“dÆBEÁ…ddA»eÙ"ƒÉ‰²G\Ò|èmÓ~KÑå÷«7âÚRE‘UŸ…œ39C4ÑÉ*k‡ÀÛ	$¯Ñèq±‰¼9>S4,£qöèÅF§'ş“ıÿ UBÚ–Ş£,¸±À…w¡¸$JJ«LÁ<y˜İ›xãĞ½,Œ„ğ$`’lJäÖ°’^‹Q0ü®şgÑå÷¯ËïÒ„¥2„*œ‰a\L!Ø[ÊÍŒ`^0F½Ÿ~†°…şá(I›ÒXGè,9nî[ËªD`´ÂZW‘ˆKD6 ]/IYr?Itl$OûbJWÑˆ’"’D‘c¡Np[X¼u#ø¦¦O½8íŸƒCÀ[©c$‡àX¸ĞJË¦4Ò²äzteGø1Hë#OøZ=ÀÅ¢I"Fc
+ÒØ—B`g8ÂäWZQÚ%	BH.È£qH06E
+R)›dn\öñ§5Î£ËïğU’f Æª~òbé!fhı0’àa‰½ò66&@¤|Ü§ô•e°‹U²W·/Lô[¶eHá‰!$VH"ä¡Mt¾ÇË}¼2Ùi~<jÃèòûÜ¿½oU’2¥;$\±":NVWXò‡³--Œ“ßèæ6[—Tz0…Hx”hlWt$ƒË6G²ÂY¢FÕvkS$2‰a&É-ˆìàA££ÅA'Ñå÷¼~j,…R“!C§)bnf`Í&Ã\ôXŸDíx&p$"I¤9!knl³Lğ¢²N¶2Y5ÊÖÃËÌwlw‹°&H$˜qEØAT„vş¾¥‡Ó'ŞÉù7†,Iiq)PzcC"Crn5ĞÌÜ‘±j¹AèWÜ%i|ÄTd“WcyO[pl¬’9b·AUŠc4’Ëd©LMRÛwls†Ód%ae);X[¸ìhm$T4,ÅZ#ø$t°}_zÏ[ñ»èsYH›45—Ë&ÊM…·>%M¨h‚×±SE°{:/M½†æîÈBÒÙ´‰Ü±Z“ÑnÑÈ×&)[—ÔmŠE!V7ÅJ;„K.º©}¤AAØ[¡pŠ´45ÃLŸ{W¥ô…M§#Ô›§"J”%"†öl¾M‰¯
+@t¦«¬.ŒK†>‡6Xà³aFÇ«#‰“—„J‘SÙÄ„íbãQ¢Dî-Ø¬ºM‰Jã¢9°…ë)Ùp$6á"ÃÅ …p>Nu$¤kÑ5°‚¨PaPj„ˆ¼8EĞÿ …àúdûÛº¾ƒğQ¡›J Ø%´æDÓV&ÿ Ø&È›“a¨³¾‹À–R$o#÷…2FI<H¢Nî{G’‘†dRÛÁi¶ä»Óã\6X©QÀ×	,É}nÇµ€‰Z	²Øà°äİ“cÂ
+íÄ\‘ùl\°JPĞé!;‡·	S2=&ºWğYÀ•¬Ho°P/±fƒƒ bŠ6@ĞĞÆ=‚DˆÑ>Ñå÷«q‰Êl"ãIXö‡ùĞpt8dü¦J„ÿ Ø¨Àd·ŸCªÓŞÅ÷.ÍØv‘¤ºJÅéÃàqr²ÆJiàY¯@ØÃ)dI¥/ğ*DÏ"äÄÙ¿ÚK€„À—FF„’QràØB›!Û %!·‚jÉºŠm=š	/Wãö#Ø›(bXQŒÑú‹ƒCCCa±a¼#nEäx×Û¬>/½%Ó~61€EÎCHj¨tˆtÆ\%à2@]àVKÜAiP<ÑßdHiíƒzEDœß,r˜{Û(Q‘ˆ¹ÌTp$¤5l\ÛEVÉ$ÎZ²Å7{	’â&ºı"¹Øc±¹°…3ü)’7g›b$„*í®YlY62ûŞh)<$ID~–BJİaé=g¤Nâr…©TîŒ4%p5å‚Í‡èzO]ú”R:ñàŒG—ßºRÉŠÂB„M¤1šæ†éİU«ì!‚Éôb0øc¤V-r;91CâåÉ²(Bqw_Øõ½Ø|œ¤®ÓÂøZ«(†³ı3KÕ¦s/|‘ìÙ*ÃY	§–ö{‘A²Rçbb\™r989¿±Í“r¿D)¤"„¨‚Ù¸í<“î	Á–))*gDIH’Is±¡ì\5‘"Ó/ßAS!ÕvPƒ¾ˆcÀ£¡h-†˜‘Îa°•–º™´_œÁôÉ÷TußYõ#³˜*MX]m)fù\HÔ„ËH~…NÈqKI”È÷³ ™;ˆ4æ—`ÃR—È›LY¬ÈWEÒNadJIäJÃI¸RÄ¥’í7"IŞv•µô2E˜¹·‚	­û|‰)$Úä«J‘¬{*òÿ ’İ²†¯Éip²@5î’a7D0™$›ˆŠA$’H¶ulc•Ââ]Ã&OR`†2tÛœ…›R—Ğ%(Õ6É×F+IZ‚H®8’ú7ëGF:Ş`ú<¾öÁG]&Ç˜‡Š7aœŒHk(vÍÁ•!Éà•[	ÃkğbÈé!–œ]1Ê]Îş†{±ØïekŒD˜‰gRIËrw½˜™*èôv±C p‚š!¶X^),/½É¡9îš¹0²p#OaiaîLBM)Dq¢jÒ¬.²~ğ7Eşˆw¥bP*•a¼Ë‘×,ßÁ'½Á&'"u‘›©4H¹‚(Ğè¸B\‹Ø˜Òr=å¾³B‰bq1lBÃi@ÅâÉ…J-,™àÁb¬[§@%ï „w>™>öïÄ±‰ŠPµ”‡À\$ÃEe˜Ú§’ÆÚHh¿Ô’ä’İ˜ßø	s^ÏaÇjËd1”‹	å»°›z¡&Í™‘*‰¨#³ÚH&^7$Šw)Ê#EÒ¦ŸÑÃ,Mí	3pBğKÓe¯‚-¥™;Ä\Cç°LŞM=ìX¶¿VKLÏğ%œ§á7ğ‘¸¦‹qÈ%:%ºI,½!AD¤,È©„İ0ÕxC¾º‰´5É,K&‹‹A1Ğ–Bá:V•'KyDZ‚èxİ¾<JÃé“é£êoßd)´^Hü“½!Ø'lj\–ywìà`@ÈB[pıl·y#NK’Ç«¹°”4€ÒJ&­}„ó‰C`œÛJMûÛvf4ŒáÀ•œ§»Ùz¥Ø€ÜÌò-…¤Î±;“]™3HÉO©å³¹·Ë0ó# 0¼;HÃ9!M°‘4•¢%±%IÄ"ä	p‡´Æär‰vB“"$JH,lMb“Tn'(„©M#WrCm¹n±G¦:Os’H¹†ÌhjƒBDåã%QKAD°£D™ƒ_¡ ¤tc¹Š`ú<¾önÅd)5"(ŞK-X9¦Hh‹Ó
+°‚pÄNC“~¦<z¿ûÖïfÓ.'÷OÔ1B»i0’Mİ´^³)çØÏê6“J²‘ÆË¶w‚ğe¥°0Û•ÉÙŠdÙLÈ¯:l²0%Ğ¶"Us'°……‚{	m­H¯"Øm¹CÀ¤·iŠ6­ÁÜcÖ<9lYE‹II7'‘’5M£2óèJ\ÆÃö˜ì¤z'8ØS¸˜‰$’h• †ˆS,Ì Ä™.ƒ ÛyéGUîc¹"W&¨Æ5B 5,¸&(j&7"ØÁ™Œ†q®>ò+Ó'İo õo§j>æ:Y±‹r|º–$‡À¢C'‘RYÜ‚¦åpFÒ-Áß ì3¸5%Ñ(ÅğşˆÉ'şÄ“%]¸èDïŒ–”Ó$IYvÎÂÓNtwIX‚…g…·°”¬`¤Gl(5t;¹Û’ém*öd¥òöØ›)~ˆ\¤j!¸Ôš¶'pÇÄò9V‚¸±4ï²¥I–µ°yó×Ğ—+(L'YcšlĞLDRR!«s.Í»ú#7Î<»«Ë=Ÿqé‡½øz™tC#×fÜ†+’%qZ0êhh°n¤\Z^ÃŒZŠ,ÑÉrRõ/³pE`ƒé“ï]÷ñÙFÎ`·¸‡¸€’haãª0Ÿœ¢!#i²s+’Ve+Ï,åóH°80®3ò*ÜyHWÍ˜¡M…Ï[q¶Möa°˜ŒÆl‹¸TNmç¡'-‡/™$¶ÈÚ$á8Hvv òË¨^mŞl ¸DJF¥ìyH›+(ÍZPÄ¥AµÄ¤ÒY¹° ÜÛ-“VOf@%ì C×ı×ôS‡è½Ä‡·xÅ¢ß,€9HX<®£ëÌ
+åœ¥ø%¨…ø/üDZÿ Í‚Á±mø0¬ĞŞFßéšI¹?N[p1°ş†Ë+©#˜ÁrD ØÕhQÑ™ĞÖšŞˆÆòZôì ƒèòûĞ}m´>ò:i´89n&ÒÍâ€Õ,N‡ì†2vbÉhËBuvƒ¹”æHURRğIª‚‚X!6ØØS@¹]…X"e.ÉMä+ñôÉÜ÷úÄ4{1	›i°ïJÙĞ©ä>¬…yY/jÍ ·©§	²ò²ÂÂCr%¥„‹¿lKÊ‘í‚öQpdçrQ³£´gvXˆ(—„¼„Q?èŸşãsú‰»¶Í˜ä3ÚÊ"Â)¹~ã%DH½‡²’Âd†³Ï¨å‡²ÚÁƒ½ÿ FP–ËPíĞhd-*¦É´K¡!hh;¬Í¥F+äp}2}î_q“NÈj¡1x™˜d§bQlNÁ6áÃd% ÖLod=Â¸»@§¸,ó*Å@éXwE„î‹˜se,“&Ì6‚ÂH‘•÷m‰I›–J¬1ZÛ&ØŸ8Ûq1Véw¦[#m ‘ë/Šö8™c¿;?E"šÃp‡í¹ic±.Ş]B‚pUé¡óƒl4„†=È›c¶yFJa#ïCEé.CÉ(‚õ ’âª1F™$şåßÑ >‚z¤\bâcâvÙˆì6[R&{ID&Œ!l ò$"ŒĞ©…Š(¢ÒôïH H#Çàú<¾ô]^‡äRo5a`’ÁmˆF§À˜2à‰ˆC~Ç„í‰Šã—?8ÿ ÛüİÄxGÆA©nrõ¦Ù!Uî5k‰ÎLd33@ŠÄœ0e|ddYE¡¨ƒxˆR$L50‡Ì”ÊÅ‚İËx-™÷l™s<Œì7»/!-²ZÏìÉ<¡cB'ìâ¼®1gb˜Ã7C~PüPp†4XµÂìS"!6ÌN‰ÑhFüL„ü,P¸á?!z‹Ñ‰x>E*bD‰"’¯j"î=Âÿ ^Ál!¾mzŠ
+¡%PwTPAfLz(‚ÒÈèAAãÅ`ú<¾ùìàs&Ñk‰…aiI28&.Â„·±Ä\ïø4>­·öò]ŒÛl¶îÄ˜õKmğc5raÀ&oğ€r÷3ı”¿Ğ@‡ZÃc*®)+¡Qi¢èÌY8Dö1J¶CZ*påz!Ià’xI+‘xGV6!°¼¼"şRÕÖä%Ù@‰Á3‘ ¦IIŞs›ìm6ƒ‡8ãı©Ìçı½”1É>q…È›Â›hp·ØBdˆ*HÄ/x	'¸D’†"ˆíB	Xš,4¦E½Å“‘è=G¨|BøÀ=…pLÀœ)YÉ….œ²*UAé0 ”f:EE#¹ÚF¨LŸzOKññq¯*,)ˆFH5VaH”JG"lBğ¼½×&sĞş™µf“LtI&SpEÈZIC3–_›\±tŠ+2$U™C¬DKÓûËáGÁ™8Ş=	‡¦ö.¶7–Ø·&ém„N””¬¾–+¥&tƒh)¤ä¤KWx
+¢àMì,å'*DµI–¬¿±î“JŠÉ“ å&‰¡XAn$
+³İÇ{šßl¸Eı	z`šPîÆa1=2M!WFiu‚äP'{“İBI?¢KbQŠh¦Xµ­÷ÖÕŠ{³™±&)Lc(…ÊRĞAQt–¨(•3 OLô×ãğ}2}ì]Šê±ÄIXZX2Æ4+!Í „!«îEæ!Œ‰¸bM¤kÂb°:ş¿£*RE <c×%vÉºÌHŠe…İi}¨m.$½gÚ¯K¢•"tq"ˆIÔYYˆk5³“+ˆ0r6†gÕ!±FËäMKæİ’Î¨®Ñd½“~ß	ú9{™<iYkEµ“Ñ$µÖàZÛLÙåY¦åí7¡àµ¸4r)²-ˆ‘•D2™‘"bvÃË0‚Z\¯è.¯]£d|$L‘ğO°Â1ªı¦š¸¡:‚\µjdAjØtIaDªÄ˜õÔøa–¤vñÛÆ¼LŸzo¡¿}‹‹ˆ=g"l—²WXJHÚ‚D.Âèk4ŒcÂ®Và¾T.}‘Ë›¹p…6lÅL¥ìEƒ’Éè˜¥,—D©!ŞrĞËÃ’5vË5>ZÔİÊD0f$Ô›ÁGh¨ÛJY¬æ87Z2@¤>íûíFÙIî\€œ6Í¼#Ú&Ø„%¼?äqgÒ
+3c’f\¤·<‹€‰Ê/ÆÃ&V‰!""½P½PÎğ#Ê"BBèh·dc,½c¶º2‰ìŒ Ù{>’†‹6B?CXHşÊï—Ôj§”…ÑK‰saRĞZ Â˜Vbö'l£Ğ|?M
+ Ğü¶£Ëïw·JIIÀ„•‹Xì;–Æå“±V!RGÅ«!»&aT¥§á}gà„ÍòÉ©êñŞÄµºº˜D²T%q=Y½˜ĞÏEKDp¢Ç¸’‚Š.—+‹H¶”ØĞë“q‚"øHjT¡iÜmˆ"jÓh³ub»›¡OG)ÍˆˆRRnåÓ57dK¶¶Ò{„1è|ÛîH»îÓ–Äé½ó˜vKÜE±è¶Koobô@rşN6f{'+b‘œ£ˆm`Kaì<D8»ˆäRÄ¥×û‘Iwr!fXµÒ¸ƒ"iôÔA7”¾‚RQ=ò6F5‡´´!l(l|Œ=F1¡ªE ‚;ì£LjŠàú<¾÷Ñ®İŒj˜)$"…E`ÌI¢Ñ0š ),Š˜Lú>‰L¤˜çaäå!.ŸŞL)EpÌN2BJéOa§™:»!°éŞ±L6Şã®áJvˆF	3Mˆú¦èq„J£ğG}›dA²Ô,{Õ-
+eı%²»…´d–Ö³Bİd6FPæ©ÅiÛm‚Êyá\¨ö)œ•Í¨ÜH¼`aÌ˜Û*iz"v42E¢A šµ°ãÂÙn©Då»’äÁó‘ˆäR&å»IŠWKA»JÒ¤—ı,Š…q-dad\Õ„ÍÏqHrG’"§qÂÔYP‚BÍ.1ÖÀ•¶›t^ Ö˜ì#¸¦O¾5Å#Lu`xQp‡²°‹‹–D–Hò-,˜bOq{ˆ9—¢×Jä ®ÆEJÈ¸àH‡æŸ„á¥'d`µYºB•À¿¯cdÚé?#ĞºÄİƒÌÒnšÜRsP$¤W(Ã’A6&}É2‹¦Şf8E¸ì †TÆ%ïd!D1-’&&­,1»r2¹¡6¹‰ŸÑnšú%BV*pFmL4KAÂGÂÔ’»0—f"ñ·šÉ4}	¹%I+q:öH6®LØIfjíÜED—qqœ{ÑOsìa·'Ø·¸‘å7q;Œ0’Æ¦©#u³3 A"!Tå¨ ¦CìcÂ`údğpGR:E²–&ÖH5qJâÓd7G$OÜOÜs´’b~Fò"Œ7h{PòËdş„ÉË0„b›–w@ŸìkJ$
+ÄYº–% ^Aç¡Éçá<û+(GH©¾GH+i>-
+*ìNGúĞÚ\ŠôÌ•Ôp„§ErRƒE„%§~ööLÛn]¥Š†Q/Sü DĞ•À‰†ˆÄó)‰¦B  PB4ÌÒ†¥–s1É,¹$’HÙ,“aĞÍ˜‘ì“ÑX“”;‘œl“# D´Mn}—n5äm³9*q#$ÕƒzM\«BBB¢š*]‘¢ÕiÁôÉÚ>Œií„È)ie Æì9	 L×@˜„„=‹D# @‰6²b¼v‘ÒáX›ov9Û	­Æ–¶nĞ“:në(k[,² >÷+òÿ Ğ»2?í¡Ãzxú1ÛFY-0K"²u»–šìB¨ïrš·ôZ1‘e¹aIQ.Ó‚I›(6ö ÄËqDmÿ DHw7ƒÅ
+ƒBD‡d¤@®†îh·¨‘Ë,l”JD¢Ã‰&ˆ|!ÉÌ„@òm9/aöpz(üÇ
+ÓªöÛ7¢æÁ" 8˜¨ébı´!8D&†á, ÃiPAÔâÕp}2}óÉ‘¹ñ·qíÉ`]**ˆ.K‹%©±çŒÜâ&Û#aI@W—	>ÄeÇ+JDÂ±å`Ge(âDå?Ñ ÍÃ^Çe;—öJI%\˜†.u+%¼fbî~$m'“ÄÈ†M¹ÜˆPH8ª$rLÈ”Ck“”‹âAHJ’ÆÄ:HÙ$èŸbnhÍDBCÈ ÖÁ,XÀ ¶¬zŠ hÔÈ‚“Âõƒb˜LL“^(°˜‚t­„°¨â£(ş9GOÑå÷ÅA„R)Ì’¥,”c³˜™·–D¬„7R`¡wXœ¸MaIÑ¸Â‹<=Ñ"Ë°–”*I¤S<7@ªí	ĞØ¾ì‚mÈj¼¹m©På`GÆø’”H´¾n#m¥É2j	p °Mïyq¢Û–‡èb¡¦$jjÜŸ!Ø5¡8Šö0L.`¨„›‰°Ó-Æn.QÊÃŞÿ 	÷~<I^'~å~—.Ÿ£GıÇ¢4í¶~¥¤DŒ,&‹jÂÒ"&%’lI±ë©ò+ğA±òZğDY©¤ÂdE²8îiqhj¨ñÒ“°¨¤¦;HÕG—Ñô€‚:1XÖè	„+pé¥í[w&™ä<–İÆ>IF,:YB%EàÀ­¸JÕ´¤%p4%Ç	µ‘*Oa6•††X—T¸kqNX§29¨!1Åƒ ™<RMrV +Í~‰¦’‡pĞéÈ†„Ø‚dğM
+*C¸¾Pm“ÉÕu¾¥’d-ªV±©£ØnØjG‚<µ$&çºŠ¤ÃÊâM›¬KK­f/ZÛ„AH¤R)c³q¯Ñå÷ÁÇR4ÇY¡Ò„·–_¸ıÆÃvãg¸”²Vˆ‚Ã ²ÉØå¦S;Âï£-ğË10¸I§+2@Øåf¸.ŒMŞ8›‹ˆï7[jM†$Lu[…®äZbË2/ A(‘û„Ç7Z~-#\„˜N‘÷úÖ&äXiÃÑ@ÕF†‡Pˆn³Bj¬\TXlI%EÂÇ]’1¥–±†„ ‚:‚ ‚4Åb‘HèÆ¨ì–G—ß PE"‘¢(ö ±;‘,‚(…–b>3Qm$‡#±’Í„BĞ¬!(A±-¶å‹£¬`—•¸ÒR±ëW— xpğ.ù¢öFÊØHXW	®“¶6š45‘
+!2'‘ğ.†§q1:6;r˜¸£&[ÜMsª¢!f3˜È¸¸‘îOMÕJ¶‚(¡&klH`˜—46èÇQaĞ44GR¬vqHÓğ}_{¨ëA(ÑQX ’i¦ñq
+›PÑ:bÃÈ³‚fB CX0—c”ËÜ²c†ÌŠbHÎÎ»Ya$†¦=]2\™ÑjãFOé;´r5ŞÃ†‡è–‡†°fÍ‰2N	<›ºšH,Öã!¨y q2(1ÜO'¸O"ââ”‡$y#ÉFœ–(ÕèX/z( ™"I!pˆ´1±±†9RÃÑ¡¢4AŠ`ú<¾ø Ò×àhQ2àLL›Ø‘WlìÚ+Ê¢´_’AhÊF¤1¡Óà¿ùK®„öhºèMxÖ™&Jà–´˜†Ÿæ;(±LGE(É&èaØYxBK
+”-¹„›p„V4È·-d÷“î{KY¢‡ØıÇî?cècp5æ³•;E–,PUbi4n#j°Ãd6'bô>«<%`‚)R4Gi££ƒèòû¥øh×R#DV+AA@³M²&‰EÚ•pÕ†Àt«Ğ‚™ÀPeÉeR{"K¢á ä18"bmCG(vÁ"öÒ\¤Ş™tWCØÆèr²981òˆB˜çÒLw°†%KZûh’éª@ĞôÂ5n&ä{ÜcŠar&2è4`­°Ë!Ur,–ä°LIVhOA:(ĞÄèÆÆ\J/'x!Ğ’
+/MÓ'ÜG‚ ŠAt bAb!ÉµbTht#DXBú8"ü	sP¯,œ2şÅìdëjZQ)ßrÍì9&W³â<3?nCR	{ÑrL‡2™,K#ÙBJ–µÆ5»¤ĞˆÓD[E¢X‹ƒccĞD°$JÚdUH¤y2T\¬HÔĞt h‚D‚ Kf.†úqá–G—İo¸0Ga‚:1H ‚ £zd&0"¡Ø45F!	)†"†1=¦‚ĞìL–™ì=«.a‰(ç˜cN;N§,–EÖjQÕĞ½†“{1ˆNåÂ*iÃ6ˆLìÈÓ4ÓP›ØtVVfPĞĞÖœ‚X!„n/Á`Jµ°¹\urì[ê4@ä2ËQ—\†é.Ç¦;˜ÓcLUaôy}×¿i8#£„AAAA$eÂ¡1›ĞiT5b(Š¸—¡!ˆbF‹2h2©ö:Ë½IFËà¤;´ğı–fİÈ·‡Ø•s>Çµİb×ØWÃóa"è"‹Gÿ ¡‹å±Ù‰×‘&>—w×iJ†…’âDPêä{h°º £pê´Ø¼¢‘\’ÒK¹ˆah‚BI­jì‚ïc±X}_u?AhŠÅ ‚4ÀÇ“‘ÊŠ…DŒeÉCDX‚‡ôJÂ;	XØ‚¨ƒ¸•Z°®Â>ø.˜Ío‡°ÒVXhbçq¾ep$p;<¢›¨L…ßi'mÄÄî$yBSı0Ú•É&Ye‚V·ÿ r\,ÇsÜ$#‘¨øúVòPÈ¸oÂ™9Y¤ÂÅrhæ—¤’1ìÑCŒ>œvñHê¬>/ºŸ‚"AAA@ì†½ !
+¤°•±¹		>rBU5b\7TJÛTr†ãôJÚšbaçı£'øF&Xg ’b‰Ê‡tJu³%™4w!‰Ê1±X§jE¸‹+„†UŠES†;pÈÈ27Œ{¶è½Æ$’^ljl“"’t¯NÕ%H ‚ˆ"’0Ãi¸o½qª4E"‹£Ëéy ‚4AA'£p[—D!P˜ØÙ¸ˆ ‚6LiY¯F«€Ã!•Ç!tò‡Wü\°ËlÊày
+ÃPé#½÷‚»€”¯k”Y„•kŒLHd±6I•²‰è)·2}è¡¢rd›3TÑ{É:v.;ga™Â¾ZZ jÃC¡´Ş·¦î££%‡Ñå÷ÃG^¤Fˆ ‚+Abô_˜¢¨BqZD*5F¬A9"ô!"”oEÿ €qÄŸ:*×FÛÊ ğÆLävĞØ-ŸÜÃ‡ÿ Lfæ`{16Ò˜«,c[°á4Ü§`¥b‘9äwzà‚ˆ Y ²ˆW@)±å’’,¬F†(à°¯[z"5KO}ûØÓ’ÃèòûÜG^:qHÑ#¦ÆFö[—Õ
+‰$ÀTC£Î˜/Z!·¸®¨ì.h¿ØH¤˜!Œ°Ô`hLcbE-’h^–’!âkı
+j(Dj´š»t"¹S-”9!iu,æHÓA	$CÓ²#q'$Qä›’¤˜ôiØ¼°öØy´@Ö¤Œlfj}ã +£Ëî˜ 8ÕAH£ÂäÒbq¥„î!dB«¾”/ø–hBqL1ObÈğ$7OĞD2ËDØy]ÈœÙîL¯Ê¤6ĞìSE€úÎÚ`‚ ‚"±23Î6{Ä~…­Ïe%ï4­htÖ0%µ‹èBq²X€YïA.&ã¡,(”’‘ÙGe‚ÃèòûØF¨èGB:‘®+â®Ô˜‘a2!B„mEšî!`Ğ±:H™2<ÑBİ>ªn‘D4n„ü\k‚ ‚ sG(w'´^âÈÇ¸Ç¹6ã¶Í‚Ê¯ÌXhc,=<N r'Q”öQ‘½†ÌèQD Ëa²éÁéGj°ú<¾ôã¯vqÒ‚)X ‚ã‹#BÕÉKqğŒÔB¨†1Uˆ“`‰áÀ©¸†MTğMş]dà’¡C¦s·…M«‚ ‚¤ilaÑzÜo#xÈÇ¸™ŒéÌÁ%#T$L»l8à@¬Qg0Ñ–IpkJPu.…²¬R:F¨ë,>™>õâA: ‚ÅI†,a	1	¡ˆBbbbd‹Bª‹·££7$ÚÁtïFì@ö6VÈ»Š_
+A‚ ‚5¶60Ã©&%ÄØM
+J_ÁèöÀã° ;„FÜa¤a2Ä4"ƒQÓœw+¦O½h¤A+HĞè8èŒS ‚B(ÜB$›z™"$ÊŠÌiB6è’L¤[ˆë§È”‘c6Üqµ­¹˜îëon+AÉbtŠ1fŒ¨kAiQšf$>Gêz†õF&5b÷#ÈÃô¡¡¡ŒA:ÑØE#®°údûÖ‚ÑüjŠE"E ¡P{Ñ+‰V’±qVI$Ll`Ä’&N‹	ˆÜ›P™"ØÎ›uÚ·	®ÛŠP&._£ìÎÊAF¹a†éF†-ÆÊ¡2“5ÑvˆÉ{Ubh¨Æ1ŒhAô`‚ÑàÒ(°ú<¾ùˆ¤AAT8İĞDUãVIÉ"w$Î©ÃLš3q1İÕmTŒR ‚:0ÃD„ÖóB¡sÆ°Çq«‰&@TeZr9‡!eºP‡F1†¼u–G—Ş”x¸"AAUàx ÔJâV’"¸z"I$‘^¤É&“qhèÆ&&.ıh1T„ˆ#\’0ÃD„# è„!1ˆÑ#Æ#R‰£"w	C¶­1ë£dõLn(BàÔtcè}¼Gj°_z®4Gƒ"èáAÇD¬X š¡Ñl4!2i$‰›Õ“LL’GEƒgÆk\i‚"°@«:dla†é¡ĞtB$Lº^Å²ÄZ“¸l½(å£H‰kğQ1:r!Œccí¢‘Ûàú<¾õc\x ‚) ‚A¨„¨%b Š=èv.b™‹$Õ1f°%ÄÆ&›ˆ’ñtÏR6º0E`‚:0ËÑ!#¨óET!e‹0.°¢@¢àL‘jµVõ²eS‰Ñ1@ŒHĞÃcccwğG`°ú<¾öñİÆ„´ADW ã•fÖœÆÔdè!o¢j²-BĞ‡ÇÙÿ ësĞ¤’0ÃDˆêE^t¡	ed¦4Ä6™~“hCU	iA%Œ’IbeU–ò£Ëîˆ¤y©F–‚Å•Ó††æÃ$t AçRÎ“Àò!=Eè¸ŞÉ¨#Dh’I$‘†’âBª)´¡˜Pø6¤ù"eü“WÑ"£•¨Ş©'§¤t¶è¬>/½„ácDR(ôœtJ„KV&bDZŒ‚à°ˆÆZ–t˜‚¨°n{ÿ ]ôÉ$’I40ÄÑ"‘ÓPA`d@„"…’ğ£ ‚2h‘S‰^H}½HêGQôÖG—Ş¼xHÑ‚: lÜBK¨$AÂßC$tâ‹aoÓHUAfÓ¢uHÃdÑÜ ‚)#\„Æ[É†hÛ¤ùŒé22rJà%¨•¾ò:A’Ãèòû¢+:×zN:%PXÑ-…¹DNV¬.ud-µ…Vã;(êÉÑ$ÖFÆÆ&‰G|™(–H‰÷=¦DL³FJ«Ò6`LdĞ‰=û¨è>‚ÃèòûÒŠG‘ aˆKÔ¶¶¤±7¹|jÜ¡†¬Jõwˆ¾¦^³ô[¢B¢:ğF˜Õ¡í§Ü=“:<y™&ô­dlcpH¥(G_jGR5Gf²¾/½î#½zN:%JÖ¸¢–F7Èkfd"Q¦d$i ±¥&ÂÍE“®FÆè‚^4&he¹D„††Y,//CÚ),Œ\‹E+"R:[÷Ï¨²¾/¾uàjL2©%Ó‚¤hjQp+z†3a#z"¶ÆÆôM$‘º@‚ğÑòa:d¹“q3Ú9bô!<ö±Ü½k+èòûÑ!“ˆJV5ÇZDXÄ•è›Ò4²áPQÙq±²uI$Ñ!×o ¢Ãd–l’(š2*eE‚â×C|ªÊú<¾õ#³áilqÇ¤º±ÑjÈ!VFœ1ÀPAŞƒcèšN„ñF™(´4`1#eƒ[$eè¤kKÖ?,Y_G—ß6Ìa‰zÔE#¶uQF60Ù5šMb‚]ÊíR¹‘²GP9$Œ˜!y&Y¢ä´¸loÊ¬¡å÷Ltb±Ô÷aàq‡¸èªIníô˜ØÃ}¨%¢;HîÂ†l{’I$2ÆEì+4ØØß•X]÷Ê­LaÆâÒKvÏ¢ÈÒÆ“¥*	yªbFM¨İ ‚¤Ëù]Å‡Ñåö±ÒÑvÛi0Ô:(¢‹	ÑŒ0É&Š‰PKÊR’Mª³Dô	ïŸt°ú<¿¾i0÷2¢Q-Ü=¢ÃJ¢TÑDÃYªÓ=yîwé=k£ËÕ áÕÃ4YQmàØØÃc£Ò•¨ü£¤/<°ú<¿5€ÃPóDS“î[aº=J‚B]Îıë²ğRI=ÒÃèòüZªETÃiQcÀ:1†X¨‰î·ïšÒ—€Ÿ °^§ÒŠÇzºfS^íêcƒc£ªBDí—c$“ÕAñÓÙ,¯£ËĞ¼béØÎ¥š©nçnƒctš7T„%A*=OÃO”3Ü,>/´’¢Öº+£°ã<ÑP¦—gµ–0ÃÑºª%I¦Ş&|LèíëßJÊú<½À.’é±‡¥ÑP†>±¨61¨Š%ü{iğk£Ëê.áWz®»ÀÕ•ö/¬ØÔlcĞ‘%ºo²’z3çç»Y_G—÷¨»¡v¡€ÃĞé‘•8wÌj61Š‰z	Gü.zSÔsKvË£ËûàWpÃzŒªáÛ=lj6:7D¨•»I$æ{)îçLô¤İe}_|ÕŒêZš;¶ Ãc$tJ‰PA.Ş;	îgøÃèòûæ¬g¡™™vKPa±ŒnŠ‰PA#o=	ğ2I$“ßOl°ú<¾ô×{CÓ¯xÔaŒz" —i=”“®{éî§D÷k£Ëï‚]³j|:SØ¶5«ªB%ßÉ=”÷2I:'¹„“Ù¬>/¾aàa¨tU°î›ƒêJ	ÒŞ­=”÷S×šO^zrN‰ìVG—ß
+»V°Ã\aÑPºßjİA±±½Ix’uÏ}:æ—èOŠX}_{µÜN‰qïCªcªzlO@ëJ¡Åösáç·ÒzÒX}_|ÃaÆ:’œ+=YÖô İ”ªäêŸ5İÏFtÎ¹é,>/¾vî5©t]Ñ:ƒ’Hô%PKÈO{=ìø‡Ñå÷¾åàq†¸õÑ£BU¿—Oe=ê²¾/¾{9°ã:ägBèI=67A†ÆÆÆÆê•A/%>IêÏe=yé¬>/ºçºÒhÃ1èçTÒ{	¨6667¡TòsYÓ4šÏVzàg²zVG—Şêz³Ø0ÃF}k4’u·Plll’j‘%»yğòOq>tOd°ú<¾øYÓ=9$a†è³[”“I¤“VÆ ØØØÙ4HHIt´Ÿ=Ô’I$’I,ö{%‡Ñå÷ÄÏNi#0ê«áI$¬Ô¢•Õ>f{Y/ªz7'¹Éaôy}ñÓĞc6:£#RtÉ$’N¦Æè0ØØÙ5BT’…åçµ’zsIèÏ‰X}_ß'4‘±‡¸õ„M&’I:æØn ØØÙ$’!RA*ïã'£=	ëM/®z“ªzÓ®{5‡Ñå÷ÂOBzOØqèTâM&’I52HêÆÆé5U„µON|dè”“×SáŸOÑå÷ÂOdÃ>¢’I&’I$’:±±²IªU´OZ|´“×¬ø)ê`ú<¾ù9«<ÖESRI&“¦I$n ØÙ$Õ	I4OJuO‘’‡,>/½)îg¡='¬8ô*Vİ’N‰‚A±±±²t%$èN™ò’_±Ÿ5SØ,>/¾.i==‡¸ô,™˜‹D“IÕ# ll‘²IªK¤©$“ã'«%úòOFuI$’I$öÓªI'¯:VG—ß	=‹c}(ÈÀ]¬Ğlll‘º¡*H%å§L—×:§§:$SYÑ=œë´“­aôk¾÷³Ô3­†„dZ©$’M'LĞln’N…IéÏğ©Ó/5š¬>/½´ôçL“Ğ’I$’l8ãÈÉª3Ô’I$’I Ä’66MQ5«=Iğ3Ñæ{­»yíp}_{ÉÕ:dI$’I£cG¡S‡Bk4’FÆÉĞ“I!jIñsÚÎ‰éOg¿‹k>/½äõ&“¢u60ÃÖ­¦I¡!$’6MP“I)$’I=KhŸ=	ì'¿ßÅàú<¾ø	×$“Ô0ôª0&’I$Ñ²
+HÙ:RšH-sãçÉ¯#ƒèòûŞÏNIéµ‡£ĞŒŒIÓ$ÕºÒI¤“EXK¡¶©Ñ>z3üwÑ»¾øYêM°ãN¤f,t[ Ù$Öj‹Â
+’N¹¬ôçºÚIÕ:ße¤ø‡Ñ®ûÒÎzóIÒğ8Ç¥P±Ğš’MÒ“I*I$’I5šI:§¸SÚOB|Dx…‡Ñå÷«=´ö8Ç¨„’I$“I¨MgJRé&‰'\õg¸¤÷±¢:qãGÓÿÙ
+----------------------------110496790014867076037627
+Content-Disposition: form-data; name="name"
+
+1123
+----------------------------110496790014867076037627
+Content-Disposition: form-data; name="price"
+
+9000
+----------------------------110496790014867076037627
+Content-Disposition: form-data; name="content"
+
+123123 123123 123123 123123 
+----------------------------110496790014867076037627
+Content-Disposition: form-data; name="price"
+
+333
+----------------------------110496790014867076037627--
+";s:17:"Decoded to Params";a:1:{s:90:"----------------------------110496790014867076037627
+Content-Disposition:_form-data;_name";s:127:""img"; filename="25. Ğ Ğ¾Ğ¼Ğ°ÑˆĞºĞ¸.jpg"; filename*=UTF-8''25. Ğ Ğ¾Ğ¼Ğ°ÑˆĞºĞ¸.jpg
+Content-Type: image/jpeg
+
+????ICC_PROFILE";}}s:6:"SERVER";a:42:{s:33:"REDIRECT_REDIRECT_REDIRECT_STATUS";s:3:"200";s:24:"REDIRECT_REDIRECT_STATUS";s:3:"200";s:15:"REDIRECT_STATUS";s:3:"200";s:15:"HTTP_USER_AGENT";s:21:"PostmanRuntime/7.29.2";s:11:"HTTP_ACCEPT";s:3:"*/*";s:18:"HTTP_POSTMAN_TOKEN";s:36:"457eba81-17b9-468b-8ac9-62f54cc4e355";s:9:"HTTP_HOST";s:4:"yii2";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:12:"CONTENT_TYPE";s:80:"multipart/form-data; boundary=--------------------------110496790014867076037627";s:11:"HTTP_COOKIE";s:189:"_csrf-restapi=94322c1fea0899c4480aba377f51c474aa856aabf38907f2766ed2944c04efd6a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%228h0jbHlpz53lKvHxXycxRwe7Gc7Ozta6%22%3B%7D";s:14:"CONTENT_LENGTH";s:5:"65917";s:4:"PATH";s:439:"d:\openserverdev\modules\php\PHP_8.1\ext;d:\openserverdev\modules\php\PHP_8.1\pear;d:\openserverdev\modules\php\PHP_8.1\pear\bin;d:\openserverdev\modules\php\PHP_8.1;d:\openserverdev\modules\wget\bin;d:\openserverdev\modules\database\MySQL-8.0-Win10\bin;d:\openserverdev\modules\http\Apache_2.4-PHP_8.0-8.1\bin;d:\openserverdev\modules\http\Apache_2.4-PHP_8.0-8.1;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"SERVER_NAME";s:4:"yii2";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:29:"D:/OpenServerDev/domains/yii2";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:29:"D:/OpenServerDev/domains/yii2";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:51:"D:/OpenServerDev/domains/yii2/restapi/web/index.php";s:11:"REMOTE_PORT";s:5:"54164";s:12:"REDIRECT_URL";s:19:"/restapi/index.php/";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:5:"PATCH";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:23:"/restapi/v1/products/22";s:11:"SCRIPT_NAME";s:22:"/restapi/web/index.php";s:9:"PATH_INFO";s:1:"/";s:15:"PATH_TRANSLATED";s:23:"redirect:\frontend\web\";s:8:"PHP_SELF";s:23:"/restapi/web/index.php/";s:18:"REQUEST_TIME_FLOAT";d:1665667921.680771;s:12:"REQUEST_TIME";i:1665667921;}s:3:"GET";a:1:{s:2:"id";s:2:"22";}s:4:"POST";a:0:{}s:6:"COOKIE";a:1:{s:13:"_csrf-restapi";s:139:"94322c1fea0899c4480aba377f51c474aa856aabf38907f2766ed2944c04efd6a:2:{i:0;s:13:"_csrf-restapi";i:1;s:32:"8h0jbHlpz53lKvHxXycxRwe7Gc7Ozta6";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}";s:4:"user";s:1434:"a:5:{s:2:"id";i:2;s:8:"identity";a:11:{s:2:"id";s:1:"2";s:8:"username";s:8:"'admin2'";s:8:"auth_key";s:34:"'9ruPwqBMaG3RwEorw_XNbgyAjdmM2Le5'";s:13:"password_hash";s:62:"'$2y$13$pQUajaJPqB92UnyPg/3epuf8iG41MqW3cVXgAGiS9YC7rtrYaY1bG'";s:20:"password_reset_token";s:4:"null";s:5:"email";s:18:"'axlidinov@has.sa'";s:6:"status";s:2:"10";s:10:"created_at";s:10:"1665558969";s:10:"updated_at";s:10:"1665655218";s:18:"verification_token";s:45:"'HZxeKACyxm06TlR4OLHXdVdyf21q5cXD_1665558969'";s:12:"access_token";s:34:"'uCPfJ5WIPk-OJzaxnVvrGh30Sqh77cKC'";}s:10:"attributes";a:11:{i:0;a:2:{s:9:"attribute";s:2:"id";s:5:"label";s:2:"Id";}i:1;a:2:{s:9:"attribute";s:8:"username";s:5:"label";s:8:"Username";}i:2;a:2:{s:9:"attribute";s:8:"auth_key";s:5:"label";s:8:"Auth Key";}i:3;a:2:{s:9:"attribute";s:13:"password_hash";s:5:"label";s:13:"Password Hash";}i:4;a:2:{s:9:"attribute";s:20:"password_reset_token";s:5:"label";s:20:"Password Reset Token";}i:5;a:2:{s:9:"attribute";s:5:"email";s:5:"label";s:5:"Email";}i:6;a:2:{s:9:"attribute";s:6:"status";s:5:"label";s:6:"Status";}i:7;a:2:{s:9:"attribute";s:10:"created_at";s:5:"label";s:10:"Created At";}i:8;a:2:{s:9:"attribute";s:10:"updated_at";s:5:"label";s:10:"Updated At";}i:9;a:2:{s:9:"attribute";s:18:"verification_token";s:5:"label";s:18:"Verification Token";}i:10;a:2:{s:9:"attribute";s:12:"access_token";s:5:"label";s:12:"Access Token";}}s:13:"rolesProvider";N;s:19:"permissionsProvider";N;}";s:5:"asset";s:6:"a:0:{}";s:7:"summary";a:12:{s:3:"tag";s:13:"63481351ad1c2";s:3:"url";s:34:"http://yii2/restapi/v1/products/22";s:4:"ajax";i:0;s:6:"method";s:5:"PATCH";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1665667921.680771;s:10:"statusCode";i:200;s:8:"sqlCount";i:10;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:7524056;s:14:"processingTime";d:0.07080698013305664;}s:10:"exceptions";a:0:{}}

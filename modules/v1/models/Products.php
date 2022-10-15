@@ -2,17 +2,22 @@
 
 namespace restapi\modules\v1\models;
 
-class Products extends \backend\models\Products
+use backend\models\Products as ModelsProducts;
+use yii\helpers\Url;
+
+class Products extends ModelsProducts
 {
     public function fields()
     {
         return [
             'id',
-            'category_name'=>static function(\backend\models\Products $category){
+            'category_name'=>static function(ModelsProducts $category){
                 return $category->category->name;
             },
             'name',
-            'img',
+            'img'=>static function(ModelsProducts $category){
+                return "http://".$_SERVER['SERVER_NAME']."/".Url::to("@web")."/photo/".$category->img;
+            },
             'content',
             'price',
         ];

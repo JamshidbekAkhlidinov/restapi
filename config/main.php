@@ -23,6 +23,7 @@ return [
             'csrfParam' => '_csrf-restapi',
             'parsers' => [
                 'application/json' => 'yii\web\JsonParser',
+                'multipart/form-data' => 'yii\web\MultipartFormDataParser',
             ]
         ],
         'user' => [

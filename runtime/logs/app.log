@@ -30421,3 +30421,1801 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1665646362.3092
     'REQUEST_TIME' => 1665646362
 ]
+2022-10-13 12:58:31 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#5 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Controller.php(218): yii\base\Controller->beforeAction()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2022-10-13 12:58:31 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => 'e8a7e944b8cf554a50f64abb25103528dda22d1ec0270599c6c615ee36527886a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"7sYAjMFcldDQ5bhSbIrG5KPK3yRovN7X\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '446b6ad9-a619-44ec-a167-9014da3b80ee'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-restapi=e8a7e944b8cf554a50f64abb25103528dda22d1ec0270599c6c615ee36527886a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%227sYAjMFcldDQ5bhSbIrG5KPK3yRovN7X%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '50472'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665655111.8914
+    'REQUEST_TIME' => 1665655111
+]
+2022-10-13 13:00:25 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(74): yii\filters\auth\HttpHeaderAuth->authenticate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(59): yii\filters\auth\CompositeAuth->authenticate()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#5 [internal function]: yii\base\ActionFilter->beforeFilter()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Controller.php(218): yii\base\Controller->beforeAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#10 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#11 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#12 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#13 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2022-10-13 13:00:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => 'e8a7e944b8cf554a50f64abb25103528dda22d1ec0270599c6c615ee36527886a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"7sYAjMFcldDQ5bhSbIrG5KPK3yRovN7X\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '80964fdd-ea16-4cf5-9ce0-52af77be65d8'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-restapi=e8a7e944b8cf554a50f64abb25103528dda22d1ec0270599c6c615ee36527886a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%227sYAjMFcldDQ5bhSbIrG5KPK3yRovN7X%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '50472'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665655225.6515
+    'REQUEST_TIME' => 1665655225
+]
+2022-10-13 13:01:16 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2022-10-13 13:01:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => '7ea3ab205a2a44a1dc82574c5a38658ca78c123840d821f96e195004756b7486a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"gYKRfrNBTkuacYYteUI62URKO_ffM5VD\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'f75a11ec-d7fe-45e0-8480-f76eee4d8089'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '22'
+    'HTTP_COOKIE' => '_csrf-restapi=7ea3ab205a2a44a1dc82574c5a38658ca78c123840d821f96e195004756b7486a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22gYKRfrNBTkuacYYteUI62URKO_ffM5VD%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '50472'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'REDIRECT_QUERY_STRING' => 'id=2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PUT'
+    'QUERY_STRING' => 'id=2'
+    'REQUEST_URI' => '/restapi/v1/product-category/update?id=2'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665655276.5181
+    'REQUEST_TIME' => 1665655276
+]
+2022-10-13 13:02:03 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(74): yii\filters\auth\HttpHeaderAuth->authenticate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(59): yii\filters\auth\CompositeAuth->authenticate()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#5 [internal function]: yii\base\ActionFilter->beforeFilter()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Controller.php(218): yii\base\Controller->beforeAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#10 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#11 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#12 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#13 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2022-10-13 13:02:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => 'c37cf96572cf40aba1c221b54c5c2f6bfad7533515ee9b08e6e19e74105fe4f1a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"El8eI2ssaAxobsg5di4g3cevEUD5huor\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '1474ac6a-73e2-472d-9b0a-5e6459d6e546'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-restapi=c37cf96572cf40aba1c221b54c5c2f6bfad7533515ee9b08e6e19e74105fe4f1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22El8eI2ssaAxobsg5di4g3cevEUD5huor%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '50472'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'DELETE'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/product-categories/2'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665655323.4092
+    'REQUEST_TIME' => 1665655323
+]
+2022-10-13 13:02:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2022-10-13 13:02:19 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'name' => '321'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => 'f383a0a0ff5f7f299139ee4558e1bd7080510e223c617f775d6ee9e5a1815717a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"L-PQNopsu-_BdSHJ9f1g6pXrZnzqJsRq\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '90f71271-3528-4844-a542-a28956673a35'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '8'
+    'HTTP_COOKIE' => '_csrf-restapi=f383a0a0ff5f7f299139ee4558e1bd7080510e223c617f775d6ee9e5a1815717a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22L-PQNopsu-_BdSHJ9f1g6pXrZnzqJsRq%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '50472'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/product-category/create'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665655339.592
+    'REQUEST_TIME' => 1665655339
+]
+2022-10-13 13:02:34 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(74): yii\filters\auth\HttpHeaderAuth->authenticate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(59): yii\filters\auth\CompositeAuth->authenticate()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#5 [internal function]: yii\base\ActionFilter->beforeFilter()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Controller.php(218): yii\base\Controller->beforeAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#10 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#11 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#12 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#13 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2022-10-13 13:02:34 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'name' => '321'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => 'f383a0a0ff5f7f299139ee4558e1bd7080510e223c617f775d6ee9e5a1815717a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"L-PQNopsu-_BdSHJ9f1g6pXrZnzqJsRq\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '2126b8b3-e82d-4613-b4cd-10d248fedbfb'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '8'
+    'HTTP_COOKIE' => '_csrf-restapi=f383a0a0ff5f7f299139ee4558e1bd7080510e223c617f775d6ee9e5a1815717a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22L-PQNopsu-_BdSHJ9f1g6pXrZnzqJsRq%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '50472'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/product-categories'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665655354.9376
+    'REQUEST_TIME' => 1665655354
+]
+2022-10-13 13:03:22 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(74): yii\filters\auth\HttpHeaderAuth->authenticate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(59): yii\filters\auth\CompositeAuth->authenticate()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#5 [internal function]: yii\base\ActionFilter->beforeFilter()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Controller.php(218): yii\base\Controller->beforeAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#10 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#11 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#12 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#13 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2022-10-13 13:03:21 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => '8eac687a05a22f914fe969adee8832f3413cc7980fec6f74d1abe524a381115aa:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"S5CSRtv44piwOS98W9baUI9M5GYubow1\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'e467d109-6371-4957-9ac1-73c72bb457ce'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => '_csrf-restapi=8eac687a05a22f914fe969adee8832f3413cc7980fec6f74d1abe524a381115aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22S5CSRtv44piwOS98W9baUI9M5GYubow1%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '50472'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665655401.9862
+    'REQUEST_TIME' => 1665655401
+]
+2022-10-13 13:06:25 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(74): yii\filters\auth\HttpHeaderAuth->authenticate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(59): yii\filters\auth\CompositeAuth->authenticate()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#5 [internal function]: yii\base\ActionFilter->beforeFilter()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Controller.php(218): yii\base\Controller->beforeAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#10 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#11 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#12 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#13 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2022-10-13 13:06:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => '2271b3d172e49fcad325718e6c8333213cc7056ebe844403faee0b7d680f7eb9a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"0S9D6-HZOK_PluYLZugEn_KDnvYp8bvb\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'ecf38257-cd49-4dd5-ab22-9625dbf60833'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1728'
+    'HTTP_COOKIE' => '_csrf-restapi=2271b3d172e49fcad325718e6c8333213cc7056ebe844403faee0b7d680f7eb9a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%220S9D6-HZOK_PluYLZugEn_KDnvYp8bvb%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '52585'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665655585.1665
+    'REQUEST_TIME' => 1665655585
+]
+2022-10-13 13:15:42 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/products/options in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-10-13 13:15:42 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '65421179-1054-4bdb-aa7c-b17ae3284545'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------787239313377337004574113'
+    'CONTENT_LENGTH' => '350'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '54078'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665656142.5244
+    'REQUEST_TIME' => 1665656142
+]
+2022-10-13 13:15:54 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(74): yii\filters\auth\HttpHeaderAuth->authenticate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(59): yii\filters\auth\CompositeAuth->authenticate()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#5 [internal function]: yii\base\ActionFilter->beforeFilter()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Controller.php(218): yii\base\Controller->beforeAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#10 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#11 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#12 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#13 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2022-10-13 13:15:53 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = [
+    'img' => [
+        'name' => 'Untitled1.cpp'
+        'full_path' => 'Untitled1.cpp'
+        'type' => 'text/x-c'
+        'tmp_name' => 'D:\\OpenServerDev\\userdata\\temp\\upload\\php3699.tmp'
+        'error' => 0
+        'size' => 142
+    ]
+]
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '6176df46-5e47-4ce8-be20-9f027f942bec'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------981257020477068322905526'
+    'CONTENT_LENGTH' => '350'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '54078'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665656153.9502
+    'REQUEST_TIME' => 1665656153
+]
+2022-10-13 13:17:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/products/options in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-10-13 13:17:00 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'cc460fd6-5c2f-4b23-8d6a-3404bd42b2d1'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------901356181811690979195770'
+    'CONTENT_LENGTH' => '350'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '54078'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665656220.037
+    'REQUEST_TIME' => 1665656220
+]
+2022-10-13 13:30:57 [127.0.0.1][2][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $name in D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php:40
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php(40): yii\base\ErrorHandler->handleError()
+#1 [internal function]: restapi\modules\v1\controllers\ProductsController->actionCreate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-10-13 13:30:57 [127.0.0.1][2][-][info][application] $_GET = []
+
+$_POST = [
+    'name' => '123'
+]
+
+$_FILES = [
+    'img' => [
+        'name' => '11. Закат.jpg'
+        'full_path' => '11. Закат.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'D:\\OpenServerDev\\userdata\\temp\\upload\\phpFB.tmp'
+        'error' => 0
+        'size' => 1172254
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-restapi' => 'd45ea3fd85aa3c594fa14cde0f972fd5b72e2961fd32dbdbe547d6ba65112a1ca:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"XQCD2etNNfyv_Llc878Nzi6DaTTcM6Iq\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '0173dc07-a72a-488e-8e09-9a33fdedb7e8'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------346496114867091833754588'
+    'HTTP_COOKIE' => '_csrf-restapi=d45ea3fd85aa3c594fa14cde0f972fd5b72e2961fd32dbdbe547d6ba65112a1ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22XQCD2etNNfyv_Llc878Nzi6DaTTcM6Iq%22%3B%7D'
+    'CONTENT_LENGTH' => '1172634'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '63135'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665657057.7109
+    'REQUEST_TIME' => 1665657057
+]
+2022-10-13 13:32:49 [127.0.0.1][2][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php on line 45. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Response.php:368
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Response.php(341): yii\web\Response->sendHeaders()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(390): yii\web\Response->send()
+#2 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2022-10-13 13:32:48 [127.0.0.1][2][-][info][application] $_GET = []
+
+$_POST = [
+    'name' => '123'
+]
+
+$_FILES = [
+    'img' => [
+        'name' => '11. Закат.jpg'
+        'full_path' => '11. Закат.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'D:\\OpenServerDev\\userdata\\temp\\upload\\phpB382.tmp'
+        'error' => 0
+        'size' => 1172254
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-restapi' => 'cad74ac9a1d3764b68849c0a0bdef82d02e74740d08b094ebc7bac09351c5710a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"69lpmNBFAkS3HokMHEaf3a8oZk7AYx0K\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'fc9a90ad-308e-4873-b1ef-320d8d7150dc'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------865538266197764009603270'
+    'HTTP_COOKIE' => '_csrf-restapi=cad74ac9a1d3764b68849c0a0bdef82d02e74740d08b094ebc7bac09351c5710a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%2269lpmNBFAkS3HokMHEaf3a8oZk7AYx0K%22%3B%7D'
+    'CONTENT_LENGTH' => '1172634'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '63140'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665657168.9543
+    'REQUEST_TIME' => 1665657168
+]
+2022-10-13 13:34:28 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/products/options in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-10-13 13:34:28 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => '42ffc90dce067ea4fae1aae15730e88a905029fac9445375911e7f13470d64dfa:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"Uozz021jUjjE5b_Q_L8csS8ivDoZ7ph3\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '283ef88b-2bad-4382-9864-5eef611dd248'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------715271067844721896478794'
+    'HTTP_COOKIE' => '_csrf-restapi=42ffc90dce067ea4fae1aae15730e88a905029fac9445375911e7f13470d64dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22Uozz021jUjjE5b_Q_L8csS8ivDoZ7ph3%22%3B%7D'
+    'CONTENT_LENGTH' => '1172634'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '63140'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665657268.899
+    'REQUEST_TIME' => 1665657268
+]
+2022-10-13 13:34:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/products/options in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-10-13 13:34:39 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => '42ffc90dce067ea4fae1aae15730e88a905029fac9445375911e7f13470d64dfa:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"Uozz021jUjjE5b_Q_L8csS8ivDoZ7ph3\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'bccd7abf-2778-4769-a1b1-c26c731f7c42'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------990458045075855492471212'
+    'HTTP_COOKIE' => '_csrf-restapi=42ffc90dce067ea4fae1aae15730e88a905029fac9445375911e7f13470d64dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22Uozz021jUjjE5b_Q_L8csS8ivDoZ7ph3%22%3B%7D'
+    'CONTENT_LENGTH' => '1172634'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '63140'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PUT'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665657279.5434
+    'REQUEST_TIME' => 1665657279
+]
+2022-10-13 13:34:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/products/options in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-10-13 13:34:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => '42ffc90dce067ea4fae1aae15730e88a905029fac9445375911e7f13470d64dfa:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"Uozz021jUjjE5b_Q_L8csS8ivDoZ7ph3\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'db98b554-4c94-4ae3-9cd8-7badc5895e71'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------578539196089108414624218'
+    'HTTP_COOKIE' => '_csrf-restapi=42ffc90dce067ea4fae1aae15730e88a905029fac9445375911e7f13470d64dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22Uozz021jUjjE5b_Q_L8csS8ivDoZ7ph3%22%3B%7D'
+    'CONTENT_LENGTH' => '1172634'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '63140'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665657283.4523
+    'REQUEST_TIME' => 1665657283
+]
+2022-10-13 15:17:16 [127.0.0.1][2][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\web\UploadedFile::extends in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\BaseObject.php:141
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php(39): yii\base\BaseObject->__get()
+#1 [internal function]: restapi\modules\v1\controllers\ProductsController->actionCreate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-10-13 15:17:16 [127.0.0.1][2][-][info][application] $_GET = []
+
+$_POST = [
+    'name' => '123'
+]
+
+$_FILES = [
+    'img' => [
+        'name' => '1. Черный кот с рыбкой.jpg'
+        'full_path' => '1. Черный кот с рыбкой.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'D:\\OpenServerDev\\userdata\\temp\\upload\\phpBEED.tmp'
+        'error' => 0
+        'size' => 262577
+    ]
+]
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '6a8fa2be-9294-4f51-a95a-a2d17c7f773b'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------816956435855119758661357'
+    'CONTENT_LENGTH' => '263055'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '55175'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665663436.773
+    'REQUEST_TIME' => 1665663436
+]
+2022-10-13 15:17:33 [127.0.0.1][2][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Attempt to read property "name" on null in D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php:12
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\restapi\modules\v1\models\Products.php(12): yii\base\ErrorHandler->handleError()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ArrayableTrait.php(126): restapi\modules\v1\models\Products::restapi\modules\v1\models\{closure}()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\rest\Serializer.php(268): yii\base\Model->toArray()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\rest\Serializer.php(150): yii\rest\Serializer->serializeModel()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\rest\Controller.php(99): yii\rest\Serializer->serialize()
+#5 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\rest\Controller.php(77): yii\rest\Controller->serializeData()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(180): yii\rest\Controller->afterAction()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2022-10-13 15:17:33 [127.0.0.1][2][-][info][application] $_GET = []
+
+$_POST = [
+    'name' => '123'
+]
+
+$_FILES = [
+    'img' => [
+        'name' => '1. Черный кот с рыбкой.jpg'
+        'full_path' => '1. Черный кот с рыбкой.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'D:\\OpenServerDev\\userdata\\temp\\upload\\php8B.tmp'
+        'error' => 0
+        'size' => 262577
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-restapi' => '2b5bcb4b616f7650cddfe9b88655418c0b63fae9a827d1408157bc30cbb4f545a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"i0pocs9xaVj8eWtwBZ3wBrfvBozbMBv5\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '1608f1b7-e1b2-46b2-be08-bbcb46987687'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------559201891336427917552185'
+    'HTTP_COOKIE' => '_csrf-restapi=2b5bcb4b616f7650cddfe9b88655418c0b63fae9a827d1408157bc30cbb4f545a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22i0pocs9xaVj8eWtwBZ3wBrfvBozbMBv5%22%3B%7D'
+    'CONTENT_LENGTH' => '263055'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '55179'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665663453.5691
+    'REQUEST_TIME' => 1665663453
+]
+2022-10-13 15:30:51 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Page not found. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Request.php:299
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2022-10-13 15:30:51 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'm86dd67sd5ocbsf4a4nd4nf9b8mp76j5'
+    '_csrf-frontend' => '369c07194f492b1530e6047f1c85304031d78c896ead12eca6d1a4cb5c7080c3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"R3lcJf0KD3daU8hxaV-0ccy0u3z0Qc6S\";}'
+    'advanced-backend' => '3lrthk5m06fa6bg4r15797f5r7ejriim'
+    '_identity-backend' => 'ef88a99b74b0e986a3674a8f28851bf2a4a51de81be60e3c1a351bcf66232f15a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"R5-IrOiWeVFEAFKqg-Rp5_E3ee__Frrw\",2592000]\";}'
+    '_csrf-backend' => '239c5c64fdacc76adf8b15c7302a04752bb609594f7d1b1cefb1c9da6a680042a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"I-bImInp3rkvM4Jbw6l9xFiv_RAbpJsU\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=m86dd67sd5ocbsf4a4nd4nf9b8mp76j5; _csrf-frontend=369c07194f492b1530e6047f1c85304031d78c896ead12eca6d1a4cb5c7080c3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22R3lcJf0KD3daU8hxaV-0ccy0u3z0Qc6S%22%3B%7D; advanced-backend=3lrthk5m06fa6bg4r15797f5r7ejriim; _identity-backend=ef88a99b74b0e986a3674a8f28851bf2a4a51de81be60e3c1a351bcf66232f15a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22R5-IrOiWeVFEAFKqg-Rp5_E3ee__Frrw%22%2C2592000%5D%22%3B%7D; _csrf-backend=239c5c64fdacc76adf8b15c7302a04752bb609594f7d1b1cefb1c9da6a680042a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22I-bImInp3rkvM4Jbw6l9xFiv_RAbpJsU%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '51979'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/restapi/photo/rRewFsehTkIdcBHS2wtt.jpg'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665664251.5715
+    'REQUEST_TIME' => 1665664251
+]
+2022-10-13 15:33:05 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(74): yii\filters\auth\HttpHeaderAuth->authenticate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(59): yii\filters\auth\CompositeAuth->authenticate()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#5 [internal function]: yii\base\ActionFilter->beforeFilter()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Controller.php(218): yii\base\Controller->beforeAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#10 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#11 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#12 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#13 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2022-10-13 15:33:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => 'c4854c53fdff0627ed297290093bc84efa9984189108ba626cec6885129d98c0a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"gcc6hcoXxrfL3rfK-xQlTePRoLX37H47\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '6fd928ee-5cc0-410c-9626-a8f5c294238a'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '144'
+    'HTTP_COOKIE' => '_csrf-restapi=c4854c53fdff0627ed297290093bc84efa9984189108ba626cec6885129d98c0a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22gcc6hcoXxrfL3rfK-xQlTePRoLX37H47%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '52118'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PUT'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products/2'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665664385.0951
+    'REQUEST_TIME' => 1665664385
+]
+2022-10-13 15:46:38 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\HttpHeaderAuth.php(65): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(74): yii\filters\auth\HttpHeaderAuth->authenticate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(59): yii\filters\auth\CompositeAuth->authenticate()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#5 [internal function]: yii\base\ActionFilter->beforeFilter()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#7 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(297): yii\base\Component->trigger()
+#8 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Controller.php(218): yii\base\Controller->beforeAction()
+#9 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(176): yii\web\Controller->beforeAction()
+#10 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#11 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#12 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#13 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2022-10-13 15:46:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => 'f8bd61b5240a818dfd2919d87ff8572e495b4be7ca341fcb7573791072659a10a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"1ikysCepNp1JyRwD5Eqmkv8pPU81L_yr\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '83aee663-1c2a-45b1-8a27-5df6c2a21514'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '144'
+    'HTTP_COOKIE' => '_csrf-restapi=f8bd61b5240a818dfd2919d87ff8572e495b4be7ca341fcb7573791072659a10a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%221ikysCepNp1JyRwD5Eqmkv8pPU81L_yr%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '56020'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PUT'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products/2'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665665198.2544
+    'REQUEST_TIME' => 1665665198
+]
+2022-10-13 15:46:50 [127.0.0.1][2][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Attempt to read property "img" on null in D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php:80
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php(80): yii\base\ErrorHandler->handleError()
+#1 [internal function]: restapi\modules\v1\controllers\ProductsController->actionUpdate()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#5 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-10-13 15:46:50 [127.0.0.1][2][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => 'f8bd61b5240a818dfd2919d87ff8572e495b4be7ca341fcb7573791072659a10a:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"1ikysCepNp1JyRwD5Eqmkv8pPU81L_yr\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'e7444497-4538-4ca3-bd71-28b65b430f27'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '144'
+    'HTTP_COOKIE' => '_csrf-restapi=f8bd61b5240a818dfd2919d87ff8572e495b4be7ca341fcb7573791072659a10a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%221ikysCepNp1JyRwD5Eqmkv8pPU81L_yr%22%3B%7D'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '56020'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PUT'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products/2'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665665210.6088
+    'REQUEST_TIME' => 1665665210
+]
+2022-10-13 16:23:36 [127.0.0.1][2][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php on line 81. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Response.php:368
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Response.php(341): yii\web\Response->sendHeaders()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(390): yii\web\Response->send()
+#2 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2022-10-13 16:23:36 [127.0.0.1][2][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => 'f0b15802f4dacf4c2121bde52a503cab753288ea5c4752406b41d50698a705cca:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"SQkUuUzos6flEsKNz6EJNleVo4DaZkDT\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => 'deba5542-2737-490c-9403-0493566d9d3b'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------354604620341457958201386'
+    'HTTP_COOKIE' => '_csrf-restapi=f0b15802f4dacf4c2121bde52a503cab753288ea5c4752406b41d50698a705cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22SQkUuUzos6flEsKNz6EJNleVo4DaZkDT%22%3B%7D'
+    'CONTENT_LENGTH' => '2143871'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '60431'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products/3'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665667416.521
+    'REQUEST_TIME' => 1665667416
+]
+2022-10-13 16:25:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/products/options in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2022-10-13 16:25:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = [
+    'name' => '1123'
+    'price' => '9000'
+]
+
+$_FILES = [
+    'img' => [
+        'name' => '7. Бабочка.jpg'
+        'full_path' => '7. Бабочка.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'D:\\OpenServerDev\\userdata\\temp\\upload\\php4DD5.tmp'
+        'error' => 0
+        'size' => 2143368
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-restapi' => 'c78998d001ca9fc555ce50a3b68fcf71d84af6bc72b1b04752e93a105e86e8daa:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"rvUaidCqu_s6xvRfx-31sofMFMCFOoFG\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '7d134c27-57c2-49a4-91fd-1e16d01abf9a'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------993500705061604078852564'
+    'HTTP_COOKIE' => '_csrf-restapi=c78998d001ca9fc555ce50a3b68fcf71d84af6bc72b1b04752e93a105e86e8daa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22rvUaidCqu_s6xvRfx-31sofMFMCFOoFG%22%3B%7D'
+    'CONTENT_LENGTH' => '2143871'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '60431'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products/3'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665667514.9817
+    'REQUEST_TIME' => 1665667514
+]
+2022-10-13 16:29:38 [127.0.0.1][2][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php on line 103. in D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Response.php:368
+Stack trace:
+#0 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Response.php(341): yii\web\Response->sendHeaders()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(390): yii\web\Response->send()
+#2 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2022-10-13 16:29:38 [127.0.0.1][2][-][info][application] $_GET = [
+    'id' => '22'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => '7f8592a0f7cd0c9ef5e5947177cbb9269aa61a27430713c2d48cf34c3d50f02fa:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"i-u2fCe5tN8ilAmZgw_B7i2ayFeJcH-l\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '79fa3202-2645-4f9f-8854-e2cbdea30d9a'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------770003279825446843566813'
+    'HTTP_COOKIE' => '_csrf-restapi=7f8592a0f7cd0c9ef5e5947177cbb9269aa61a27430713c2d48cf34c3d50f02fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22i-u2fCe5tN8ilAmZgw_B7i2ayFeJcH-l%22%3B%7D'
+    'CONTENT_LENGTH' => '1679678'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '60431'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products/22'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665667778.7208
+    'REQUEST_TIME' => 1665667778
+]
+2022-10-13 16:29:56 [127.0.0.1][-][-][error][ParseError] ParseError: syntax error, unexpected token ";", expecting ")" in D:\OpenServerDev\domains\yii2\restapi\modules\v1\controllers\ProductsController.php:103
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload()
+#1 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(661): class_exists()
+#2 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID()
+#3 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(612): yii\base\Module->createController()
+#4 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#5 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#6 D:\OpenServerDev\domains\yii2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#7 D:\OpenServerDev\domains\yii2\restapi\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2022-10-13 16:29:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '22'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf-restapi' => '7f8592a0f7cd0c9ef5e5947177cbb9269aa61a27430713c2d48cf34c3d50f02fa:2:{i:0;s:13:\"_csrf-restapi\";i:1;s:32:\"i-u2fCe5tN8ilAmZgw_B7i2ayFeJcH-l\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '02964b3e-6243-4bef-99a7-3c38ec5ecaa1'
+    'HTTP_HOST' => 'yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=--------------------------612475497746472419030872'
+    'HTTP_COOKIE' => '_csrf-restapi=7f8592a0f7cd0c9ef5e5947177cbb9269aa61a27430713c2d48cf34c3d50f02fa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-restapi%22%3Bi%3A1%3Bs%3A32%3A%22i-u2fCe5tN8ilAmZgw_B7i2ayFeJcH-l%22%3B%7D'
+    'CONTENT_LENGTH' => '1679678'
+    'PATH' => 'd:\\openserverdev\\modules\\php\\PHP_8.1\\ext;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear;d:\\openserverdev\\modules\\php\\PHP_8.1\\pear\\bin;d:\\openserverdev\\modules\\php\\PHP_8.1;d:\\openserverdev\\modules\\wget\\bin;d:\\openserverdev\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\openserverdev\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yii2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServerDev/domains/yii2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServerDev/domains/yii2/restapi/web/index.php'
+    'REMOTE_PORT' => '60431'
+    'REDIRECT_URL' => '/restapi/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/restapi/v1/products/22'
+    'SCRIPT_NAME' => '/restapi/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/restapi/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1665667796.1028
+    'REQUEST_TIME' => 1665667796
+]
